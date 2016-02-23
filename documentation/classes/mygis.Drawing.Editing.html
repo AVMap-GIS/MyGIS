@@ -1,0 +1,3263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>mygis.Drawing.Editing</title>
+    <link rel="stylesheet" href="http:&#x2F;&#x2F;yui.yahooapis.com&#x2F;3.5.1&#x2F;build&#x2F;cssgrids&#x2F;cssgrids-min.css">
+    <link rel="stylesheet" href="..&#x2F;assets/vendor/prettify/prettify-min.css">
+    <link rel="stylesheet" href="..&#x2F;assets/css/main.css" id="site_styles">
+    <link rel="shortcut icon" type="image/png" href="..&#x2F;assets/favicon.png">
+    <script src="http:&#x2F;&#x2F;yui.yahooapis.com&#x2F;combo?3.5.1&#x2F;build&#x2F;yui&#x2F;yui-min.js"></script>
+</head>
+<body class="yui3-skin-sam">
+
+<div id="doc">
+    <div id="hd" class="yui3-g header">
+        <div class="yui3-u-3-4">
+            
+                <h1><a href="..&#x2F;index.html"><img src="..&#x2F;assets/css/logo.png" title=""></a></h1>
+            
+        </div>
+        <div class="yui3-u-1-4 version">
+            <em>API Docs for MyGIS version 2.0.0</em>
+        </div>
+    </div>
+    <div id="bd" class="yui3-g">
+
+        <div class="yui3-u-1-4">
+            <div id="docs-sidebar" class="sidebar apidocs">
+                <div id="api-list">
+    <h2 class="off-left">APIs</h2>
+    <div id="api-tabview" class="tabview">
+        <ul class="tabs">
+            <li><a href="#api-classes">Classes</a></li>
+            <li><a href="#api-modules">Modules</a></li>
+        </ul>
+
+        <div id="api-tabview-filter">
+            <input type="search" id="api-filter" placeholder="Type to filter APIs">
+        </div>
+
+        <div id="api-tabview-panel">
+            <ul id="api-classes" class="apis classes">
+            
+                <li><a href="..&#x2F;classes/mygis.Admin.html">mygis.Admin</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Admin.AppManager.html">mygis.Admin.AppManager</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Admin.AppManager.Apps.html">mygis.Admin.AppManager.Apps</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Admin.AppManager.Maps.html">mygis.Admin.AppManager.Maps</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Admin.AppManager.Styles.html">mygis.Admin.AppManager.Styles</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Admin.AppManager.URLs.html">mygis.Admin.AppManager.URLs</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Admin.LayerManager.html">mygis.Admin.LayerManager</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Admin.LogManager.html">mygis.Admin.LogManager</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Admin.MapManager.html">mygis.Admin.MapManager</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Admin.MapManager.Layers.html">mygis.Admin.MapManager.Layers</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Admin.MapManager.Macros.html">mygis.Admin.MapManager.Macros</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Admin.MapManager.Maps.html">mygis.Admin.MapManager.Maps</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Admin.MapManager.Permissions.html">mygis.Admin.MapManager.Permissions</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Admin.MapManager.QuickSearches.html">mygis.Admin.MapManager.QuickSearches</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Admin.UI.html">mygis.Admin.UI</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Admin.UserManager.html">mygis.Admin.UserManager</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Admin.Utilities.html">mygis.Admin.Utilities</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Drawing.html">mygis.Drawing</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Drawing.Editing.html">mygis.Drawing.Editing</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Drawing.Exporting.html">mygis.Drawing.Exporting</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Drawing.Importing.html">mygis.Drawing.Importing</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Drawing.Styling.html">mygis.Drawing.Styling</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Map.html">mygis.Map</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.OLOverrides.html">mygis.OLOverrides</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.OLOverrides.mygis_Control.html">mygis.OLOverrides.mygis_Control</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.OLOverrides.mygis_Control.mygis_GetFeature.html">mygis.OLOverrides.mygis_Control.mygis_GetFeature</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Printing.html">mygis.Printing</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Query.html">mygis.Query</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Storage.html">mygis.Storage</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.UI.html">mygis.UI</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.UI.Help.html">mygis.UI.Help</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.UI.Hooks.html">mygis.UI.Hooks</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.UI.Macros.html">mygis.UI.Macros</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.UI.MediaManager.html">mygis.UI.MediaManager</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.User.html">mygis.User</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.User.Hooks.html">mygis.User.Hooks</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.User.ProfileInfo.html">mygis.User.ProfileInfo</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.User.UI.html">mygis.User.UI</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Utilities.html">mygis.Utilities</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Utilities.projections.html">mygis.Utilities.projections</a></li>
+            
+            </ul>
+
+            <ul id="api-modules" class="apis modules">
+            
+            </ul>
+        </div>
+    </div>
+</div>
+
+            </div>
+        </div>
+        <div class="yui3-u-3-4">
+                <div id="api-options">
+        Show:
+        <label for="api-show-inherited">
+            <input type="checkbox" id="api-show-inherited" checked>
+            Inherited
+        </label>
+
+        <label for="api-show-protected">
+            <input type="checkbox" id="api-show-protected">
+            Protected
+        </label>
+
+        <label for="api-show-private">
+            <input type="checkbox" id="api-show-private">
+            Private
+        </label>
+        <label for="api-show-deprecated">
+            <input type="checkbox" id="api-show-deprecated">
+            Deprecated
+        </label>
+
+    </div>
+
+
+            <div class="apidocs">
+                <div id="docs-main">
+                    <div class="content">
+                        <h1>mygis.Drawing.Editing Class</h1>
+<div class="box meta">
+    
+
+    
+
+    
+        <div class="foundat">
+            Defined in: <a href="..&#x2F;files&#x2F;Scripts_digitizer.js.html#l236"><code>Scripts\digitizer.js:236</code></a>
+        </div>
+    
+
+    
+
+    
+</div>
+
+
+
+<div class="box intro">
+    <p>Editing existing features functions</p>
+</div>
+
+
+
+<div id="classdocs" class="tabview">
+    <ul class="api-class-tabs">
+        <li class="api-class-tab index"><a href="#index">Index</a></li>
+
+        
+            <li class="api-class-tab methods"><a href="#methods">Methods</a></li>
+        
+        
+        
+        
+    </ul>
+
+    <div>
+        <div id="index" class="api-class-tabpanel index">
+            <h2 class="off-left">Item Index</h2>
+
+            
+                <div class="index-section methods">
+                    <h3>Methods</h3>
+
+                    <ul class="index-list methods">
+                        
+                            <li class="index-item method">
+                                <a href="#method_addDigiDefaults">addDigiDefaults</a>
+
+                                
+                                
+                            </li>
+                        
+                            <li class="index-item method">
+                                <a href="#method_attachFieldsToFeature">attachFieldsToFeature</a>
+
+                                
+                                
+                            </li>
+                        
+                            <li class="index-item method">
+                                <a href="#method_checkValidInfo">checkValidInfo</a>
+
+                                
+                                
+                            </li>
+                        
+                            <li class="index-item method">
+                                <a href="#method_clearDigiPopup">clearDigiPopup</a>
+
+                                
+                                
+                            </li>
+                        
+                            <li class="index-item method">
+                                <a href="#method_createFieldDiv">createFieldDiv</a>
+
+                                
+                                
+                            </li>
+                        
+                            <li class="index-item method">
+                                <a href="#method_createFileGrid">createFileGrid</a>
+
+                                
+                                
+                            </li>
+                        
+                            <li class="index-item method">
+                                <a href="#method_createImageGrid">createImageGrid</a>
+
+                                
+                                
+                            </li>
+                        
+                            <li class="index-item method">
+                                <a href="#method_digiPopupResult">digiPopupResult</a>
+
+                                
+                                
+                            </li>
+                        
+                            <li class="index-item method">
+                                <a href="#method_editLayer">editLayer</a>
+
+                                
+                                
+                            </li>
+                        
+                            <li class="index-item method">
+                                <a href="#method_fileAttached">fileAttached</a>
+
+                                
+                                
+                            </li>
+                        
+                            <li class="index-item method">
+                                <a href="#method_fileDetach">fileDetach</a>
+
+                                
+                                
+                            </li>
+                        
+                            <li class="index-item method">
+                                <a href="#method_fileDownload">fileDownload</a>
+
+                                
+                                
+                            </li>
+                        
+                            <li class="index-item method">
+                                <a href="#method_fileGridCheckAll">fileGridCheckAll</a>
+
+                                
+                                
+                            </li>
+                        
+                            <li class="index-item method">
+                                <a href="#method_fileGridCheckClicked">fileGridCheckClicked</a>
+
+                                
+                                
+                            </li>
+                        
+                            <li class="index-item method">
+                                <a href="#method_fileGridSelected">fileGridSelected</a>
+
+                                
+                                
+                            </li>
+                        
+                            <li class="index-item method">
+                                <a href="#method_fileGridUnselected">fileGridUnselected</a>
+
+                                
+                                
+                            </li>
+                        
+                            <li class="index-item method">
+                                <a href="#method_fillDigiPopup">fillDigiPopup</a>
+
+                                
+                                
+                            </li>
+                        
+                            <li class="index-item method">
+                                <a href="#method_getFinalChanges">getFinalChanges</a>
+
+                                
+                                
+                            </li>
+                        
+                            <li class="index-item method">
+                                <a href="#method_getInputType">getInputType</a>
+
+                                
+                                
+                            </li>
+                        
+                            <li class="index-item method">
+                                <a href="#method_handlerAttachFile">handlerAttachFile</a>
+
+                                
+                                
+                            </li>
+                        
+                            <li class="index-item method">
+                                <a href="#method_handlerAttachImage">handlerAttachImage</a>
+
+                                
+                                
+                            </li>
+                        
+                            <li class="index-item method">
+                                <a href="#method_imageAttached">imageAttached</a>
+
+                                
+                                
+                            </li>
+                        
+                            <li class="index-item method">
+                                <a href="#method_imageDetach">imageDetach</a>
+
+                                
+                                
+                            </li>
+                        
+                            <li class="index-item method">
+                                <a href="#method_imageDownload">imageDownload</a>
+
+                                
+                                
+                            </li>
+                        
+                            <li class="index-item method">
+                                <a href="#method_imageGridCheckAll">imageGridCheckAll</a>
+
+                                
+                                
+                            </li>
+                        
+                            <li class="index-item method">
+                                <a href="#method_imageGridCheckClicked">imageGridCheckClicked</a>
+
+                                
+                                
+                            </li>
+                        
+                            <li class="index-item method">
+                                <a href="#method_imageGridUnselected">imageGridUnselected</a>
+
+                                
+                                
+                            </li>
+                        
+                            <li class="index-item method">
+                                <a href="#method_imageGridUnselected">imageGridUnselected</a>
+
+                                
+                                
+                            </li>
+                        
+                            <li class="index-item method">
+                                <a href="#method_imageZoom">imageZoom</a>
+
+                                
+                                
+                            </li>
+                        
+                            <li class="index-item method">
+                                <a href="#method_isFilledIn">isFilledIn</a>
+
+                                
+                                
+                            </li>
+                        
+                            <li class="index-item method">
+                                <a href="#method_isValidOutput">isValidOutput</a>
+
+                                
+                                
+                            </li>
+                        
+                            <li class="index-item method">
+                                <a href="#method_mg_removeFeature">mg_removeFeature</a>
+
+                                
+                                
+                            </li>
+                        
+                            <li class="index-item method">
+                                <a href="#method_refreshFileGrid">refreshFileGrid</a>
+
+                                
+                                
+                            </li>
+                        
+                            <li class="index-item method">
+                                <a href="#method_refreshImageGrid">refreshImageGrid</a>
+
+                                
+                                
+                            </li>
+                        
+                            <li class="index-item method deprecated">
+                                <a href="#method_refreshImageSlider">refreshImageSlider</a>
+
+                                
+                                
+                                    <span class="flag deprecated">deprecated</span>
+                                
+                            </li>
+                        
+                            <li class="index-item method">
+                                <a href="#method_removeFeatureFromChange">removeFeatureFromChange</a>
+
+                                
+                                
+                            </li>
+                        
+                            <li class="index-item method">
+                                <a href="#method_switchToTab">switchToTab</a>
+
+                                
+                                
+                            </li>
+                        
+                    </ul>
+                </div>
+            
+
+            
+
+            
+
+            
+        </div>
+
+        
+            <div id="methods" class="api-class-tabpanel">
+                <h2 class="off-left">Methods</h2>
+
+                
+                    <div id="method_addDigiDefaults" class="method item">
+    <h3 class="name"><code>addDigiDefaults</code></h3>
+
+    
+        <span class="paren">()</span>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <div class="meta">
+        
+            
+                
+                <p>
+                
+                Defined in
+                
+            
+        
+        
+        <a href="..&#x2F;files&#x2F;Scripts_digitizer.js.html#l511"><code>Scripts\digitizer.js:511</code></a>
+        
+        </p>
+
+
+        
+
+        
+    </div>
+
+    <div class="description">
+        <p>Adds default UI to editDigitize popup. Used after clearing.</p>
+    </div>
+
+    
+
+    
+
+    
+</div>
+
+                
+                    <div id="method_attachFieldsToFeature" class="method item">
+    <h3 class="name"><code>attachFieldsToFeature</code></h3>
+
+    
+        <span class="paren">()</span>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <div class="meta">
+        
+            
+                
+                <p>
+                
+                Defined in
+                
+            
+        
+        
+        <a href="..&#x2F;files&#x2F;Scripts_digitizer.js.html#l1363"><code>Scripts\digitizer.js:1363</code></a>
+        
+        </p>
+
+
+        
+
+        
+    </div>
+
+    <div class="description">
+        <p>Attaches fields to last created feature</p>
+    </div>
+
+    
+
+    
+
+    
+</div>
+
+                
+                    <div id="method_checkValidInfo" class="method item">
+    <h3 class="name"><code>checkValidInfo</code></h3>
+
+    
+        <span class="paren">()</span>
+    
+
+    
+        <span class="returns-inline">
+            <span class="type">Boolean</span>
+        </span>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <div class="meta">
+        
+            
+                
+                <p>
+                
+                Defined in
+                
+            
+        
+        
+        <a href="..&#x2F;files&#x2F;Scripts_digitizer.js.html#l1338"><code>Scripts\digitizer.js:1338</code></a>
+        
+        </p>
+
+
+        
+
+        
+    </div>
+
+    <div class="description">
+        <p>Checks if the input in the editDigitize popup is valid</p>
+    </div>
+
+    
+
+    
+        <div class="returns">
+            <h4>Returns:</h4>
+
+            <div class="returns-description">
+                
+                    
+                        <span class="type">Boolean</span>:
+                    
+                
+            </div>
+        </div>
+    
+
+    
+</div>
+
+                
+                    <div id="method_clearDigiPopup" class="method item">
+    <h3 class="name"><code>clearDigiPopup</code></h3>
+
+    
+        <span class="paren">()</span>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <div class="meta">
+        
+            
+                
+                <p>
+                
+                Defined in
+                
+            
+        
+        
+        <a href="..&#x2F;files&#x2F;Scripts_digitizer.js.html#l500"><code>Scripts\digitizer.js:500</code></a>
+        
+        </p>
+
+
+        
+
+        
+    </div>
+
+    <div class="description">
+        <p>Clears the contents of the editDigitize popup</p>
+    </div>
+
+    
+
+    
+
+    
+</div>
+
+                
+                    <div id="method_createFieldDiv" class="method item">
+    <h3 class="name"><code>createFieldDiv</code></h3>
+
+    
+        <div class="args">
+            <span class="paren">(</span><ul class="args-list inline commas">
+            
+                <li class="arg">
+                    
+                        <code>field</code>
+                    
+                </li>
+            
+                <li class="arg">
+                    
+                        <code>type</code>
+                    
+                </li>
+            
+                <li class="arg">
+                    
+                        <code>Reserved</code>
+                    
+                </li>
+            
+            </ul><span class="paren">)</span>
+        </div>
+    
+
+    
+        <span class="returns-inline">
+            <span class="type">Element</span>
+        </span>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <div class="meta">
+        
+            
+                
+                <p>
+                
+                Defined in
+                
+            
+        
+        
+        <a href="..&#x2F;files&#x2F;Scripts_digitizer.js.html#l1189"><code>Scripts\digitizer.js:1189</code></a>
+        
+        </p>
+
+
+        
+
+        
+    </div>
+
+    <div class="description">
+        <p>Creates an input for a field of the editDigitize popup</p>
+    </div>
+
+    
+        <div class="params">
+            <h4>Parameters:</h4>
+
+            <ul class="params-list">
+            
+                <li class="param">
+                    
+                        <code class="param-name">field</code>
+                        <span class="type">Object</span>
+                    
+
+                    
+
+                    <div class="param-description">
+                        <p>The field object</p>
+                    </div>
+
+                    
+                </li>
+            
+                <li class="param">
+                    
+                        <code class="param-name">type</code>
+                        <span class="type">String</span>
+                    
+
+                    
+
+                    <div class="param-description">
+                        <p>The field type. One of text,dropdown,datetime</p>
+                    </div>
+
+                    
+                </li>
+            
+                <li class="param">
+                    
+                        <code class="param-name">Reserved</code>
+                        <span class="type">Object</span>
+                    
+
+                    
+
+                    <div class="param-description">
+                        <p>for future use</p>
+                    </div>
+
+                    
+                </li>
+            
+            </ul>
+        </div>
+    
+
+    
+        <div class="returns">
+            <h4>Returns:</h4>
+
+            <div class="returns-description">
+                
+                    
+                        <span class="type">Element</span>:
+                    
+                    The result element.
+                
+            </div>
+        </div>
+    
+
+    
+</div>
+
+                
+                    <div id="method_createFileGrid" class="method item">
+    <h3 class="name"><code>createFileGrid</code></h3>
+
+    
+        <span class="paren">()</span>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <div class="meta">
+        
+            
+                
+                <p>
+                
+                Defined in
+                
+            
+        
+        
+        <a href="..&#x2F;files&#x2F;Scripts_digitizer.js.html#l925"><code>Scripts\digitizer.js:925</code></a>
+        
+        </p>
+
+
+        
+
+        
+    </div>
+
+    <div class="description">
+        <p>Creates the file grid for editDigitize</p>
+    </div>
+
+    
+
+    
+
+    
+</div>
+
+                
+                    <div id="method_createImageGrid" class="method item">
+    <h3 class="name"><code>createImageGrid</code></h3>
+
+    
+        <span class="paren">()</span>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <div class="meta">
+        
+            
+                
+                <p>
+                
+                Defined in
+                
+            
+        
+        
+        <a href="..&#x2F;files&#x2F;Scripts_digitizer.js.html#l856"><code>Scripts\digitizer.js:856</code></a>
+        
+        </p>
+
+
+        
+
+        
+    </div>
+
+    <div class="description">
+        <p>Creates the image grid for editDigitize</p>
+    </div>
+
+    
+
+    
+
+    
+</div>
+
+                
+                    <div id="method_digiPopupResult" class="method item">
+    <h3 class="name"><code>digiPopupResult</code></h3>
+
+    
+        <span class="paren">()</span>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <div class="meta">
+        
+            
+                
+                <p>
+                
+                Defined in
+                
+            
+        
+        
+        <a href="..&#x2F;files&#x2F;Scripts_digitizer.js.html#l1351"><code>Scripts\digitizer.js:1351</code></a>
+        
+        </p>
+
+
+        
+
+        
+    </div>
+
+    <div class="description">
+        <p>Called when the user presses save/cancel at the editDigitize popup</p>
+    </div>
+
+    
+
+    
+
+    
+</div>
+
+                
+                    <div id="method_editLayer" class="method item">
+    <h3 class="name"><code>editLayer</code></h3>
+
+    
+        <div class="args">
+            <span class="paren">(</span><ul class="args-list inline commas">
+            
+                <li class="arg">
+                    
+                        <code>layername</code>
+                    
+                </li>
+            
+            </ul><span class="paren">)</span>
+        </div>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <div class="meta">
+        
+            
+                
+                <p>
+                
+                Defined in
+                
+            
+        
+        
+        <a href="..&#x2F;files&#x2F;Scripts_digitizer.js.html#l1477"><code>Scripts\digitizer.js:1477</code></a>
+        
+        </p>
+
+
+        
+
+        
+    </div>
+
+    <div class="description">
+        <p>Edits the given layer. Retrieves features via WFS.</p>
+    </div>
+
+    
+        <div class="params">
+            <h4>Parameters:</h4>
+
+            <ul class="params-list">
+            
+                <li class="param">
+                    
+                        <code class="param-name">layername</code>
+                        <span class="type">String</span>
+                    
+
+                    
+
+                    <div class="param-description">
+                        <p>The layer name to search for</p>
+                    </div>
+
+                    
+                </li>
+            
+            </ul>
+        </div>
+    
+
+    
+
+    
+</div>
+
+                
+                    <div id="method_fileAttached" class="method item">
+    <h3 class="name"><code>fileAttached</code></h3>
+
+    
+        <div class="args">
+            <span class="paren">(</span><ul class="args-list inline commas">
+            
+                <li class="arg">
+                    
+                        <code>result</code>
+                    
+                </li>
+            
+            </ul><span class="paren">)</span>
+        </div>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <div class="meta">
+        
+            
+                
+                <p>
+                
+                Defined in
+                
+            
+        
+        
+        <a href="..&#x2F;files&#x2F;Scripts_digitizer.js.html#l631"><code>Scripts\digitizer.js:631</code></a>
+        
+        </p>
+
+
+        
+
+        
+    </div>
+
+    <div class="description">
+        <p>"Remembers" the files attached to the feature and displays a list</p>
+    </div>
+
+    
+        <div class="params">
+            <h4>Parameters:</h4>
+
+            <ul class="params-list">
+            
+                <li class="param">
+                    
+                        <code class="param-name">result</code>
+                        <span class="type">String</span>
+                    
+
+                    
+
+                    <div class="param-description">
+                         
+                    </div>
+
+                    
+                </li>
+            
+            </ul>
+        </div>
+    
+
+    
+
+    
+</div>
+
+                
+                    <div id="method_fileDetach" class="method item">
+    <h3 class="name"><code>fileDetach</code></h3>
+
+    
+        <span class="paren">()</span>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <div class="meta">
+        
+            
+                
+                <p>
+                
+                Defined in
+                
+            
+        
+        
+        <a href="..&#x2F;files&#x2F;Scripts_digitizer.js.html#l718"><code>Scripts\digitizer.js:718</code></a>
+        
+        </p>
+
+
+        
+
+        
+    </div>
+
+    <div class="description">
+        <p>Used to remove a file from the "to be attached" array</p>
+    </div>
+
+    
+
+    
+
+    
+</div>
+
+                
+                    <div id="method_fileDownload" class="method item">
+    <h3 class="name"><code>fileDownload</code></h3>
+
+    
+        <div class="args">
+            <span class="paren">(</span><ul class="args-list inline commas">
+            
+                <li class="arg">
+                    
+                        <code>The</code>
+                    
+                </li>
+            
+            </ul><span class="paren">)</span>
+        </div>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <div class="meta">
+        
+            
+                
+                <p>
+                
+                Defined in
+                
+            
+        
+        
+        <a href="..&#x2F;files&#x2F;Scripts_digitizer.js.html#l790"><code>Scripts\digitizer.js:790</code></a>
+        
+        </p>
+
+
+        
+
+        
+    </div>
+
+    <div class="description">
+        <p>Used to download a file</p>
+    </div>
+
+    
+        <div class="params">
+            <h4>Parameters:</h4>
+
+            <ul class="params-list">
+            
+                <li class="param">
+                    
+                        <code class="param-name">The</code>
+                        <span class="type">Element</span>
+                    
+
+                    
+
+                    <div class="param-description">
+                        <p>calling element</p>
+                    </div>
+
+                    
+                </li>
+            
+            </ul>
+        </div>
+    
+
+    
+
+    
+</div>
+
+                
+                    <div id="method_fileGridCheckAll" class="method item">
+    <h3 class="name"><code>fileGridCheckAll</code></h3>
+
+    
+        <div class="args">
+            <span class="paren">(</span><ul class="args-list inline commas">
+            
+                <li class="arg">
+                    
+                        <code>elem</code>
+                    
+                </li>
+            
+            </ul><span class="paren">)</span>
+        </div>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <div class="meta">
+        
+            
+                
+                <p>
+                
+                Defined in
+                
+            
+        
+        
+        <a href="..&#x2F;files&#x2F;Scripts_digitizer.js.html#l1163"><code>Scripts\digitizer.js:1163</code></a>
+        
+        </p>
+
+
+        
+
+        
+    </div>
+
+    <div class="description">
+        <p>Handles the check all button for the fileGrid in editDigitize</p>
+    </div>
+
+    
+        <div class="params">
+            <h4>Parameters:</h4>
+
+            <ul class="params-list">
+            
+                <li class="param">
+                    
+                        <code class="param-name">elem</code>
+                        <span class="type">Element</span>
+                    
+
+                    
+
+                    <div class="param-description">
+                        <p>The firing checkbox</p>
+                    </div>
+
+                    
+                </li>
+            
+            </ul>
+        </div>
+    
+
+    
+
+    
+</div>
+
+                
+                    <div id="method_fileGridCheckClicked" class="method item">
+    <h3 class="name"><code>fileGridCheckClicked</code></h3>
+
+    
+        <div class="args">
+            <span class="paren">(</span><ul class="args-list inline commas">
+            
+                <li class="arg">
+                    
+                        <code>elem</code>
+                    
+                </li>
+            
+            </ul><span class="paren">)</span>
+        </div>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <div class="meta">
+        
+            
+                
+                <p>
+                
+                Defined in
+                
+            
+        
+        
+        <a href="..&#x2F;files&#x2F;Scripts_digitizer.js.html#l1148"><code>Scripts\digitizer.js:1148</code></a>
+        
+        </p>
+
+
+        
+
+        
+    </div>
+
+    <div class="description">
+        <p>Handles the checking of the fileGrid row in editDigitize</p>
+    </div>
+
+    
+        <div class="params">
+            <h4>Parameters:</h4>
+
+            <ul class="params-list">
+            
+                <li class="param">
+                    
+                        <code class="param-name">elem</code>
+                        <span class="type">Element</span>
+                    
+
+                    
+
+                    <div class="param-description">
+                        <p>The firing element</p>
+                    </div>
+
+                    
+                </li>
+            
+            </ul>
+        </div>
+    
+
+    
+
+    
+</div>
+
+                
+                    <div id="method_fileGridSelected" class="method item">
+    <h3 class="name"><code>fileGridSelected</code></h3>
+
+    
+        <span class="paren">()</span>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <div class="meta">
+        
+            
+                
+                <p>
+                
+                Defined in
+                
+            
+        
+        
+        <a href="..&#x2F;files&#x2F;Scripts_digitizer.js.html#l1110"><code>Scripts\digitizer.js:1110</code></a>
+        
+        </p>
+
+
+        
+
+        
+    </div>
+
+    <div class="description">
+        <p>Activates/deactivates some buttons when a file is selected in the editDigitize popup</p>
+    </div>
+
+    
+
+    
+
+    
+</div>
+
+                
+                    <div id="method_fileGridUnselected" class="method item">
+    <h3 class="name"><code>fileGridUnselected</code></h3>
+
+    
+        <span class="paren">()</span>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <div class="meta">
+        
+            
+                
+                <p>
+                
+                Defined in
+                
+            
+        
+        
+        <a href="..&#x2F;files&#x2F;Scripts_digitizer.js.html#l1129"><code>Scripts\digitizer.js:1129</code></a>
+        
+        </p>
+
+
+        
+
+        
+    </div>
+
+    <div class="description">
+        <p>Activates/deactivates some buttons when a file is unselected in the editDigitize popup</p>
+    </div>
+
+    
+
+    
+
+    
+</div>
+
+                
+                    <div id="method_fillDigiPopup" class="method item">
+    <h3 class="name"><code>fillDigiPopup</code></h3>
+
+    
+        <div class="args">
+            <span class="paren">(</span><ul class="args-list inline commas">
+            
+                <li class="arg">
+                    
+                        <code>dataColumns</code>
+                    
+                </li>
+            
+                <li class="arg">
+                    
+                        <code>layername</code>
+                    
+                </li>
+            
+            </ul><span class="paren">)</span>
+        </div>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <div class="meta">
+        
+            
+                
+                <p>
+                
+                Defined in
+                
+            
+        
+        
+        <a href="..&#x2F;files&#x2F;Scripts_digitizer.js.html#l1317"><code>Scripts\digitizer.js:1317</code></a>
+        
+        </p>
+
+
+        
+
+        
+    </div>
+
+    <div class="description">
+        <p>Fills in the editDigitize popup</p>
+    </div>
+
+    
+        <div class="params">
+            <h4>Parameters:</h4>
+
+            <ul class="params-list">
+            
+                <li class="param">
+                    
+                        <code class="param-name">dataColumns</code>
+                        <span class="type">Array</span>
+                    
+
+                    
+
+                    <div class="param-description">
+                         
+                    </div>
+
+                    
+                </li>
+            
+                <li class="param">
+                    
+                        <code class="param-name">layername</code>
+                        <span class="type">String</span>
+                    
+
+                    
+
+                    <div class="param-description">
+                         
+                    </div>
+
+                    
+                </li>
+            
+            </ul>
+        </div>
+    
+
+    
+
+    
+</div>
+
+                
+                    <div id="method_getFinalChanges" class="method item">
+    <h3 class="name"><code>getFinalChanges</code></h3>
+
+    
+        <span class="paren">()</span>
+    
+
+    
+        <span class="returns-inline">
+            <span class="type">Object</span>
+        </span>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <div class="meta">
+        
+            
+                
+                <p>
+                
+                Defined in
+                
+            
+        
+        
+        <a href="..&#x2F;files&#x2F;Scripts_digitizer.js.html#l1601"><code>Scripts\digitizer.js:1601</code></a>
+        
+        </p>
+
+
+        
+
+        
+    </div>
+
+    <div class="description">
+        <p>Gathers the features to modify/delete/insert</p>
+    </div>
+
+    
+
+    
+        <div class="returns">
+            <h4>Returns:</h4>
+
+            <div class="returns-description">
+                
+                    
+                        <span class="type">Object</span>:
+                    
+                    Object with features to modify/delete/insert
+                
+            </div>
+        </div>
+    
+
+    
+</div>
+
+                
+                    <div id="method_getInputType" class="method item">
+    <h3 class="name"><code>getInputType</code></h3>
+
+    
+        <div class="args">
+            <span class="paren">(</span><ul class="args-list inline commas">
+            
+                <li class="arg">
+                    
+                        <code>field</code>
+                    
+                </li>
+            
+            </ul><span class="paren">)</span>
+        </div>
+    
+
+    
+        <span class="returns-inline">
+            <span class="type">String</span>
+        </span>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <div class="meta">
+        
+            
+                
+                <p>
+                
+                Defined in
+                
+            
+        
+        
+        <a href="..&#x2F;files&#x2F;Scripts_digitizer.js.html#l1291"><code>Scripts\digitizer.js:1291</code></a>
+        
+        </p>
+
+
+        
+
+        
+    </div>
+
+    <div class="description">
+        <p>Returns the type of input box to create based on field type</p>
+    </div>
+
+    
+        <div class="params">
+            <h4>Parameters:</h4>
+
+            <ul class="params-list">
+            
+                <li class="param">
+                    
+                        <code class="param-name">field</code>
+                        <span class="type">Object</span>
+                    
+
+                    
+
+                    <div class="param-description">
+                         
+                    </div>
+
+                    
+                </li>
+            
+            </ul>
+        </div>
+    
+
+    
+        <div class="returns">
+            <h4>Returns:</h4>
+
+            <div class="returns-description">
+                
+                    
+                        <span class="type">String</span>:
+                    
+                    One of "text","datetime","dropdown"
+                
+            </div>
+        </div>
+    
+
+    
+</div>
+
+                
+                    <div id="method_handlerAttachFile" class="method item">
+    <h3 class="name"><code>handlerAttachFile</code></h3>
+
+    
+        <span class="paren">()</span>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <div class="meta">
+        
+            
+                
+                <p>
+                
+                Defined in
+                
+            
+        
+        
+        <a href="..&#x2F;files&#x2F;Scripts_digitizer.js.html#l553"><code>Scripts\digitizer.js:553</code></a>
+        
+        </p>
+
+
+        
+
+        
+    </div>
+
+    <div class="description">
+        <p>Handles the "Attach File" button click</p>
+    </div>
+
+    
+
+    
+
+    
+</div>
+
+                
+                    <div id="method_handlerAttachImage" class="method item">
+    <h3 class="name"><code>handlerAttachImage</code></h3>
+
+    
+        <span class="paren">()</span>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <div class="meta">
+        
+            
+                
+                <p>
+                
+                Defined in
+                
+            
+        
+        
+        <a href="..&#x2F;files&#x2F;Scripts_digitizer.js.html#l540"><code>Scripts\digitizer.js:540</code></a>
+        
+        </p>
+
+
+        
+
+        
+    </div>
+
+    <div class="description">
+        <p>Handles the "Attach Image" button click</p>
+    </div>
+
+    
+
+    
+
+    
+</div>
+
+                
+                    <div id="method_imageAttached" class="method item">
+    <h3 class="name"><code>imageAttached</code></h3>
+
+    
+        <div class="args">
+            <span class="paren">(</span><ul class="args-list inline commas">
+            
+                <li class="arg">
+                    
+                        <code>result</code>
+                    
+                </li>
+            
+            </ul><span class="paren">)</span>
+        </div>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <div class="meta">
+        
+            
+                
+                <p>
+                
+                Defined in
+                
+            
+        
+        
+        <a href="..&#x2F;files&#x2F;Scripts_digitizer.js.html#l566"><code>Scripts\digitizer.js:566</code></a>
+        
+        </p>
+
+
+        
+
+        
+    </div>
+
+    <div class="description">
+        <p>"Remembers" the images attached to the feature and displays a gallery</p>
+    </div>
+
+    
+        <div class="params">
+            <h4>Parameters:</h4>
+
+            <ul class="params-list">
+            
+                <li class="param">
+                    
+                        <code class="param-name">result</code>
+                        <span class="type">String</span>
+                    
+
+                    
+
+                    <div class="param-description">
+                         
+                    </div>
+
+                    
+                </li>
+            
+            </ul>
+        </div>
+    
+
+    
+
+    
+</div>
+
+                
+                    <div id="method_imageDetach" class="method item">
+    <h3 class="name"><code>imageDetach</code></h3>
+
+    
+        <span class="paren">()</span>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <div class="meta">
+        
+            
+                
+                <p>
+                
+                Defined in
+                
+            
+        
+        
+        <a href="..&#x2F;files&#x2F;Scripts_digitizer.js.html#l687"><code>Scripts\digitizer.js:687</code></a>
+        
+        </p>
+
+
+        
+
+        
+    </div>
+
+    <div class="description">
+        <p>Used to remove an image from the "to be attached" array</p>
+    </div>
+
+    
+
+    
+
+    
+</div>
+
+                
+                    <div id="method_imageDownload" class="method item">
+    <h3 class="name"><code>imageDownload</code></h3>
+
+    
+        <div class="args">
+            <span class="paren">(</span><ul class="args-list inline commas">
+            
+                <li class="arg">
+                    
+                        <code>The</code>
+                    
+                </li>
+            
+            </ul><span class="paren">)</span>
+        </div>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <div class="meta">
+        
+            
+                
+                <p>
+                
+                Defined in
+                
+            
+        
+        
+        <a href="..&#x2F;files&#x2F;Scripts_digitizer.js.html#l749"><code>Scripts\digitizer.js:749</code></a>
+        
+        </p>
+
+
+        
+
+        
+    </div>
+
+    <div class="description">
+        <p>Used to download an image</p>
+    </div>
+
+    
+        <div class="params">
+            <h4>Parameters:</h4>
+
+            <ul class="params-list">
+            
+                <li class="param">
+                    
+                        <code class="param-name">The</code>
+                        <span class="type">Element</span>
+                    
+
+                    
+
+                    <div class="param-description">
+                        <p>calling element</p>
+                    </div>
+
+                    
+                </li>
+            
+            </ul>
+        </div>
+    
+
+    
+
+    
+</div>
+
+                
+                    <div id="method_imageGridCheckAll" class="method item">
+    <h3 class="name"><code>imageGridCheckAll</code></h3>
+
+    
+        <div class="args">
+            <span class="paren">(</span><ul class="args-list inline commas">
+            
+                <li class="arg">
+                    
+                        <code>elem</code>
+                    
+                </li>
+            
+            </ul><span class="paren">)</span>
+        </div>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <div class="meta">
+        
+            
+                
+                <p>
+                
+                Defined in
+                
+            
+        
+        
+        <a href="..&#x2F;files&#x2F;Scripts_digitizer.js.html#l1084"><code>Scripts\digitizer.js:1084</code></a>
+        
+        </p>
+
+
+        
+
+        
+    </div>
+
+    <div class="description">
+        <p>Handles the check all button for the imageGrid in editDigitize</p>
+    </div>
+
+    
+        <div class="params">
+            <h4>Parameters:</h4>
+
+            <ul class="params-list">
+            
+                <li class="param">
+                    
+                        <code class="param-name">elem</code>
+                        <span class="type">Element</span>
+                    
+
+                    
+
+                    <div class="param-description">
+                        <p>The firing checkbox</p>
+                    </div>
+
+                    
+                </li>
+            
+            </ul>
+        </div>
+    
+
+    
+
+    
+</div>
+
+                
+                    <div id="method_imageGridCheckClicked" class="method item">
+    <h3 class="name"><code>imageGridCheckClicked</code></h3>
+
+    
+        <div class="args">
+            <span class="paren">(</span><ul class="args-list inline commas">
+            
+                <li class="arg">
+                    
+                        <code>elem</code>
+                    
+                </li>
+            
+            </ul><span class="paren">)</span>
+        </div>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <div class="meta">
+        
+            
+                
+                <p>
+                
+                Defined in
+                
+            
+        
+        
+        <a href="..&#x2F;files&#x2F;Scripts_digitizer.js.html#l1069"><code>Scripts\digitizer.js:1069</code></a>
+        
+        </p>
+
+
+        
+
+        
+    </div>
+
+    <div class="description">
+        <p>Handles the checking of the imageGrid row in editDigitize</p>
+    </div>
+
+    
+        <div class="params">
+            <h4>Parameters:</h4>
+
+            <ul class="params-list">
+            
+                <li class="param">
+                    
+                        <code class="param-name">elem</code>
+                        <span class="type">Element</span>
+                    
+
+                    
+
+                    <div class="param-description">
+                        <p>The firing element</p>
+                    </div>
+
+                    
+                </li>
+            
+            </ul>
+        </div>
+    
+
+    
+
+    
+</div>
+
+                
+                    <div id="method_imageGridUnselected" class="method item">
+    <h3 class="name"><code>imageGridUnselected</code></h3>
+
+    
+        <span class="paren">()</span>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <div class="meta">
+        
+            
+                
+                <p>
+                
+                Defined in
+                
+            
+        
+        
+        <a href="..&#x2F;files&#x2F;Scripts_digitizer.js.html#l1031"><code>Scripts\digitizer.js:1031</code></a>
+        
+        </p>
+
+
+        
+
+        
+    </div>
+
+    <div class="description">
+        <p>Activates/deactivates some buttons when an image is selected in the editDigitize popup</p>
+    </div>
+
+    
+
+    
+
+    
+</div>
+
+                
+                    <div id="method_imageGridUnselected" class="method item">
+    <h3 class="name"><code>imageGridUnselected</code></h3>
+
+    
+        <span class="paren">()</span>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <div class="meta">
+        
+            
+                
+                <p>
+                
+                Defined in
+                
+            
+        
+        
+        <a href="..&#x2F;files&#x2F;Scripts_digitizer.js.html#l1050"><code>Scripts\digitizer.js:1050</code></a>
+        
+        </p>
+
+
+        
+
+        
+    </div>
+
+    <div class="description">
+        <p>Activates/deactivates some buttons when an image is unselected in the editDigitize popup</p>
+    </div>
+
+    
+
+    
+
+    
+</div>
+
+                
+                    <div id="method_imageZoom" class="method item">
+    <h3 class="name"><code>imageZoom</code></h3>
+
+    
+        <div class="args">
+            <span class="paren">(</span><ul class="args-list inline commas">
+            
+                <li class="arg">
+                    
+                        <code>The</code>
+                    
+                </li>
+            
+            </ul><span class="paren">)</span>
+        </div>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <div class="meta">
+        
+            
+                
+                <p>
+                
+                Defined in
+                
+            
+        
+        
+        <a href="..&#x2F;files&#x2F;Scripts_digitizer.js.html#l759"><code>Scripts\digitizer.js:759</code></a>
+        
+        </p>
+
+
+        
+
+        
+    </div>
+
+    <div class="description">
+        <p>Used to view fully an image</p>
+    </div>
+
+    
+        <div class="params">
+            <h4>Parameters:</h4>
+
+            <ul class="params-list">
+            
+                <li class="param">
+                    
+                        <code class="param-name">The</code>
+                        <span class="type">Element</span>
+                    
+
+                    
+
+                    <div class="param-description">
+                        <p>calling element</p>
+                    </div>
+
+                    
+                </li>
+            
+            </ul>
+        </div>
+    
+
+    
+
+    
+</div>
+
+                
+                    <div id="method_isFilledIn" class="method item">
+    <h3 class="name"><code>isFilledIn</code></h3>
+
+    
+        <div class="args">
+            <span class="paren">(</span><ul class="args-list inline commas">
+            
+                <li class="arg">
+                    
+                        <code>data</code>
+                    
+                </li>
+            
+            </ul><span class="paren">)</span>
+        </div>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <div class="meta">
+        
+            
+                
+                <p>
+                
+                Defined in
+                
+            
+        
+        
+        <a href="..&#x2F;files&#x2F;Scripts_digitizer.js.html#l244"><code>Scripts\digitizer.js:244</code></a>
+        
+        </p>
+
+
+        
+
+        
+    </div>
+
+    <div class="description">
+        <p>Returns true if at least one data property is not empty</p>
+    </div>
+
+    
+        <div class="params">
+            <h4>Parameters:</h4>
+
+            <ul class="params-list">
+            
+                <li class="param">
+                    
+                        <code class="param-name">data</code>
+                        <span class="type">Object</span>
+                    
+
+                    
+
+                    <div class="param-description">
+                         
+                    </div>
+
+                    
+                </li>
+            
+            </ul>
+        </div>
+    
+
+    
+
+    
+</div>
+
+                
+                    <div id="method_isValidOutput" class="method item">
+    <h3 class="name"><code>isValidOutput</code></h3>
+
+    
+        <div class="args">
+            <span class="paren">(</span><ul class="args-list inline commas">
+            
+                <li class="arg">
+                    
+                        <code>field</code>
+                    
+                </li>
+            
+                <li class="arg">
+                    
+                        <code>destination</code>
+                    
+                </li>
+            
+            </ul><span class="paren">)</span>
+        </div>
+    
+
+    
+        <span class="returns-inline">
+            <span class="type">Boolean</span>
+        </span>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <div class="meta">
+        
+            
+                
+                <p>
+                
+                Defined in
+                
+            
+        
+        
+        <a href="..&#x2F;files&#x2F;Scripts_digitizer.js.html#l1247"><code>Scripts\digitizer.js:1247</code></a>
+        
+        </p>
+
+
+        
+
+        
+    </div>
+
+    <div class="description">
+        <p>Checks if the field should be output to the UI.
+Example of fields that are excluded: OID, Geometry</p>
+    </div>
+
+    
+        <div class="params">
+            <h4>Parameters:</h4>
+
+            <ul class="params-list">
+            
+                <li class="param">
+                    
+                        <code class="param-name">field</code>
+                        <span class="type">Object</span>
+                    
+
+                    
+
+                    <div class="param-description">
+                         
+                    </div>
+
+                    
+                </li>
+            
+                <li class="param">
+                    
+                        <code class="param-name">destination</code>
+                        <span class="type">String</span>
+                    
+
+                    
+
+                    <div class="param-description">
+                        <p>One of "fields","images","files","links"</p>
+                    </div>
+
+                    
+                </li>
+            
+            </ul>
+        </div>
+    
+
+    
+        <div class="returns">
+            <h4>Returns:</h4>
+
+            <div class="returns-description">
+                
+                    
+                        <span class="type">Boolean</span>:
+                    
+                
+            </div>
+        </div>
+    
+
+    
+</div>
+
+                
+                    <div id="method_mg_removeFeature" class="method item">
+    <h3 class="name"><code>mg_removeFeature</code></h3>
+
+    
+        <span class="paren">()</span>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <div class="meta">
+        
+            
+                
+                <p>
+                
+                Defined in
+                
+            
+        
+        
+        <a href="..&#x2F;files&#x2F;Scripts_digitizer.js.html#l1437"><code>Scripts\digitizer.js:1437</code></a>
+        
+        </p>
+
+
+        
+
+        
+    </div>
+
+    <div class="description">
+        <p>Removes a selected feature from the map</p>
+    </div>
+
+    
+
+    
+
+    
+</div>
+
+                
+                    <div id="method_refreshFileGrid" class="method item">
+    <h3 class="name"><code>refreshFileGrid</code></h3>
+
+    
+        <span class="paren">()</span>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <div class="meta">
+        
+            
+                
+                <p>
+                
+                Defined in
+                
+            
+        
+        
+        <a href="..&#x2F;files&#x2F;Scripts_digitizer.js.html#l844"><code>Scripts\digitizer.js:844</code></a>
+        
+        </p>
+
+
+        
+
+        
+    </div>
+
+    <div class="description">
+        <p>Creates/refreshes a file grid for editDigitize popup</p>
+    </div>
+
+    
+
+    
+
+    
+</div>
+
+                
+                    <div id="method_refreshImageGrid" class="method item">
+    <h3 class="name"><code>refreshImageGrid</code></h3>
+
+    
+        <span class="paren">()</span>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <div class="meta">
+        
+            
+                
+                <p>
+                
+                Defined in
+                
+            
+        
+        
+        <a href="..&#x2F;files&#x2F;Scripts_digitizer.js.html#l832"><code>Scripts\digitizer.js:832</code></a>
+        
+        </p>
+
+
+        
+
+        
+    </div>
+
+    <div class="description">
+        <p>Creates/refreshes an image grid for editDigitize popup</p>
+    </div>
+
+    
+
+    
+
+    
+</div>
+
+                
+                    <div id="method_refreshImageSlider" class="method item deprecated">
+    <h3 class="name"><code>refreshImageSlider</code></h3>
+
+    
+        <span class="paren">()</span>
+    
+
+    
+
+    
+        <span class="flag deprecated">deprecated</span>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <div class="meta">
+        
+            
+                
+                <p>
+                
+                Defined in
+                
+            
+        
+        
+        <a href="..&#x2F;files&#x2F;Scripts_digitizer.js.html#l800"><code>Scripts\digitizer.js:800</code></a>
+        
+        </p>
+
+
+        
+
+        
+    </div>
+
+    <div class="description">
+        <p>Creates/refreshes an image slider for editDigitize popup</p>
+    </div>
+
+    
+
+    
+
+    
+</div>
+
+                
+                    <div id="method_removeFeatureFromChange" class="method item">
+    <h3 class="name"><code>removeFeatureFromChange</code></h3>
+
+    
+        <div class="args">
+            <span class="paren">(</span><ul class="args-list inline commas">
+            
+                <li class="arg">
+                    
+                        <code>feature</code>
+                    
+                </li>
+            
+                <li class="arg">
+                    
+                        <code>featureArray</code>
+                    
+                </li>
+            
+            </ul><span class="paren">)</span>
+        </div>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <div class="meta">
+        
+            
+                
+                <p>
+                
+                Defined in
+                
+            
+        
+        
+        <a href="..&#x2F;files&#x2F;Scripts_digitizer.js.html#l1624"><code>Scripts\digitizer.js:1624</code></a>
+        
+        </p>
+
+
+        
+
+        
+    </div>
+
+    <div class="description">
+        <p>Removes a given feature from the given 'change' array</p>
+    </div>
+
+    
+        <div class="params">
+            <h4>Parameters:</h4>
+
+            <ul class="params-list">
+            
+                <li class="param">
+                    
+                        <code class="param-name">feature</code>
+                        <span class="type">Object</span>
+                    
+
+                    
+
+                    <div class="param-description">
+                        <p>The feature to remove</p>
+                    </div>
+
+                    
+                </li>
+            
+                <li class="param">
+                    
+                        <code class="param-name">featureArray</code>
+                        <span class="type">Object</span>
+                    
+
+                    
+
+                    <div class="param-description">
+                        <p>The array to remove it from</p>
+                    </div>
+
+                    
+                </li>
+            
+            </ul>
+        </div>
+    
+
+    
+
+    
+</div>
+
+                
+                    <div id="method_switchToTab" class="method item">
+    <h3 class="name"><code>switchToTab</code></h3>
+
+    
+        <div class="args">
+            <span class="paren">(</span><ul class="args-list inline commas">
+            
+                <li class="arg">
+                    
+                        <code>index</code>
+                    
+                </li>
+            
+            </ul><span class="paren">)</span>
+        </div>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <div class="meta">
+        
+            
+                
+                <p>
+                
+                Defined in
+                
+            
+        
+        
+        <a href="..&#x2F;files&#x2F;Scripts_digitizer.js.html#l1407"><code>Scripts\digitizer.js:1407</code></a>
+        
+        </p>
+
+
+        
+
+        
+    </div>
+
+    <div class="description">
+        <p>Switches the active tab to the given index.</p>
+    </div>
+
+    
+        <div class="params">
+            <h4>Parameters:</h4>
+
+            <ul class="params-list">
+            
+                <li class="param">
+                    
+                        <code class="param-name">index</code>
+                        <span class="type">Integer</span>
+                    
+
+                    
+
+                    <div class="param-description">
+                         
+                    </div>
+
+                    
+                </li>
+            
+            </ul>
+        </div>
+    
+
+    
+
+    
+</div>
+
+                
+            </div>
+        
+
+        
+
+        
+
+        
+    </div>
+</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="..&#x2F;assets/vendor/prettify/prettify-min.js"></script>
+<script>prettyPrint();</script>
+<script src="..&#x2F;assets/js/yui-prettify.js"></script>
+<script src="..&#x2F;assets/../api.js"></script>
+<script src="..&#x2F;assets/js/api-filter.js"></script>
+<script src="..&#x2F;assets/js/api-list.js"></script>
+<script src="..&#x2F;assets/js/api-search.js"></script>
+<script src="..&#x2F;assets/js/apidocs.js"></script>
+</body>
+</html>
