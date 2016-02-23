@@ -1,0 +1,4547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Scripts\digi_ui.js</title>
+    <link rel="stylesheet" href="http:&#x2F;&#x2F;yui.yahooapis.com&#x2F;3.5.1&#x2F;build&#x2F;cssgrids&#x2F;cssgrids-min.css">
+    <link rel="stylesheet" href="..&#x2F;assets/vendor/prettify/prettify-min.css">
+    <link rel="stylesheet" href="..&#x2F;assets/css/main.css" id="site_styles">
+    <link rel="shortcut icon" type="image/png" href="..&#x2F;assets/favicon.png">
+    <script src="http:&#x2F;&#x2F;yui.yahooapis.com&#x2F;combo?3.5.1&#x2F;build&#x2F;yui&#x2F;yui-min.js"></script>
+</head>
+<body class="yui3-skin-sam">
+
+<div id="doc">
+    <div id="hd" class="yui3-g header">
+        <div class="yui3-u-3-4">
+            
+                <h1><a href="..&#x2F;index.html"><img src="..&#x2F;assets/css/logo.png" title=""></a></h1>
+            
+        </div>
+        <div class="yui3-u-1-4 version">
+            <em>API Docs for MyGIS version 2.0.0</em>
+        </div>
+    </div>
+    <div id="bd" class="yui3-g">
+
+        <div class="yui3-u-1-4">
+            <div id="docs-sidebar" class="sidebar apidocs">
+                <div id="api-list">
+    <h2 class="off-left">APIs</h2>
+    <div id="api-tabview" class="tabview">
+        <ul class="tabs">
+            <li><a href="#api-classes">Classes</a></li>
+            <li><a href="#api-modules">Modules</a></li>
+        </ul>
+
+        <div id="api-tabview-filter">
+            <input type="search" id="api-filter" placeholder="Type to filter APIs">
+        </div>
+
+        <div id="api-tabview-panel">
+            <ul id="api-classes" class="apis classes">
+            
+                <li><a href="..&#x2F;classes/mygis.Admin.html">mygis.Admin</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Admin.AppManager.html">mygis.Admin.AppManager</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Admin.AppManager.Apps.html">mygis.Admin.AppManager.Apps</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Admin.AppManager.Maps.html">mygis.Admin.AppManager.Maps</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Admin.AppManager.Styles.html">mygis.Admin.AppManager.Styles</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Admin.AppManager.URLs.html">mygis.Admin.AppManager.URLs</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Admin.LayerManager.html">mygis.Admin.LayerManager</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Admin.LogManager.html">mygis.Admin.LogManager</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Admin.MapManager.html">mygis.Admin.MapManager</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Admin.MapManager.Layers.html">mygis.Admin.MapManager.Layers</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Admin.MapManager.Macros.html">mygis.Admin.MapManager.Macros</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Admin.MapManager.Maps.html">mygis.Admin.MapManager.Maps</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Admin.MapManager.Permissions.html">mygis.Admin.MapManager.Permissions</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Admin.MapManager.QuickSearches.html">mygis.Admin.MapManager.QuickSearches</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Admin.UI.html">mygis.Admin.UI</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Admin.UserManager.html">mygis.Admin.UserManager</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Admin.Utilities.html">mygis.Admin.Utilities</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Drawing.html">mygis.Drawing</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Drawing.Editing.html">mygis.Drawing.Editing</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Drawing.Exporting.html">mygis.Drawing.Exporting</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Drawing.Importing.html">mygis.Drawing.Importing</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Drawing.Styling.html">mygis.Drawing.Styling</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Map.html">mygis.Map</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.OLOverrides.html">mygis.OLOverrides</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.OLOverrides.mygis_Control.html">mygis.OLOverrides.mygis_Control</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.OLOverrides.mygis_Control.mygis_GetFeature.html">mygis.OLOverrides.mygis_Control.mygis_GetFeature</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Printing.html">mygis.Printing</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Query.html">mygis.Query</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Storage.html">mygis.Storage</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.UI.html">mygis.UI</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.UI.Help.html">mygis.UI.Help</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.UI.Hooks.html">mygis.UI.Hooks</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.UI.Macros.html">mygis.UI.Macros</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.UI.MediaManager.html">mygis.UI.MediaManager</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.User.html">mygis.User</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.User.Hooks.html">mygis.User.Hooks</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.User.ProfileInfo.html">mygis.User.ProfileInfo</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.User.UI.html">mygis.User.UI</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Utilities.html">mygis.Utilities</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Utilities.projections.html">mygis.Utilities.projections</a></li>
+            
+            </ul>
+
+            <ul id="api-modules" class="apis modules">
+            
+            </ul>
+        </div>
+    </div>
+</div>
+
+            </div>
+        </div>
+        <div class="yui3-u-3-4">
+                <div id="api-options">
+        Show:
+        <label for="api-show-inherited">
+            <input type="checkbox" id="api-show-inherited" checked>
+            Inherited
+        </label>
+
+        <label for="api-show-protected">
+            <input type="checkbox" id="api-show-protected">
+            Protected
+        </label>
+
+        <label for="api-show-private">
+            <input type="checkbox" id="api-show-private">
+            Private
+        </label>
+        <label for="api-show-deprecated">
+            <input type="checkbox" id="api-show-deprecated">
+            Deprecated
+        </label>
+
+    </div>
+
+
+            <div class="apidocs">
+                <div id="docs-main">
+                    <div class="content">
+                        <h1 class="file-heading">File: Scripts\digi_ui.js</h1>
+
+<div class="file">
+    <pre class="code prettyprint linenums">
+﻿var layout;
+
+var mypageSplitter;
+var midzone;
+var rightzone;
+var layoutControl;
+var maplistControl;
+var wizard;
+var stepWizard;
+var currentWizard;
+
+var layerOpacityText;
+var markerStyleList;
+var markerSizeText;
+var pointBorderText;
+var pointOpacityText;
+var lineColorText;
+var lineOpacityText;
+var lineWeightText;
+var polygonStrokeOpacityText;
+var polygonFillOpacityText;
+var polygonStrokeWeightText;
+
+
+var rsideSplitter;
+var wrapSplitter;
+var lsideExpanded;
+
+var reg_firstname;
+var reg_lastname;
+var reg_displayname;
+var reg_username;
+var reg_password;
+var reg_email;
+
+var login_username;
+var login_password;
+
+var slideMenuToggling = false;
+var slideMenuVisible = false;
+var impendingSlideClose;
+
+var tabsInitialized=false;
+var infoWindowInitialized=false;
+var gridInitialized=false;
+var mapsBound = false;
+
+var currentMapID;
+var currentMapMaxExtent;
+var currentAppName;
+var mapSource;
+var layerSource;
+var layerRemovedSource=[];
+var layerStyles={};
+var layerToReset,layerCurrentEditing;
+var layerTreeSource;
+var layergridSource;
+var layerImages;
+var layersLoaded;
+var layersToLoad;
+var querySource;
+var QSSource;
+
+var layerTimeWindow;
+var infoDetachStruct;
+var resultGridButtons;
+
+var showInfoOnEdit=true;
+var finishApplicationLoad = false;
+
+var customStyleApplied = false;
+var unsavedChanges=false;
+var featureEditMode=0;
+var customFiltered = false;
+
+var memory = {
+	LayerControl: {
+		selectableBeforeEdit: []
+	}
+};
+
+function setRegName(textbox) {
+    reg_firstname = textbox;
+}
+
+function setRegLastName(textbox) {
+    reg_lastname = textbox;
+}
+
+function setRegDisplayName(textbox) {
+    reg_displayname = textbox;
+}
+
+function setRegUserName(textbox) {
+    reg_username = textbox;
+}
+
+function setRegPassword(textbox) {
+    reg_password = textbox;
+}
+
+function setRegEmail(textbox) {
+    reg_email = textbox;
+    document.getElementById(&quot;extraMsg&quot;).innerHTML = msg_reg_step1;
+}
+
+function setLoginUsername(textbox) {
+    login_username = textbox;
+}
+
+function setLoginPassword(textbox) {
+    login_password = textbox;
+}
+
+function setMarkerStyleList(listBox){
+	var listItem, imageurl, filename,finalurl;
+	markerStyleList = listBox;
+	setMarkerStyleTree();
+}
+
+function setpointBorderText(textBox){
+	pointBorderText=textBox;
+}
+
+function setpointOpacityText(textBox){
+	pointOpacityText=textBox;
+}
+
+function setlayerOpacityText(textBox){
+	layerOpacityText = textBox;
+}
+
+function setMarkerSizeText(textBox){
+	markerSizeText = textBox;
+}
+
+function setLineOpacityText(textBox){
+	lineOpacityText = textBox;
+}
+
+function setLineWeightText(textBox){
+	lineWeightText = textBox;
+}
+
+function setPolyStrokeOpacityText(textBox){
+	polygonStrokeOpacityText=textBox;
+}
+
+function setPolyFillOpacityText(textBox){
+	polygonFillOpacityText = textBox;
+}
+
+function setPolyStrokeWeightText(textBox){
+	polygonStrokeWeightText = textBox;
+}
+
+function router(cmd,params){
+	switch (cmd){
+		case &#x27;cmdLogin2&#x27;:
+				show_Login();
+				break;
+		case &#x27;cmdRegister2&#x27;:
+				show_Registration();
+				break;
+		case &#x27;cmdAdministration&#x27;:
+				show_Administration();
+				break;
+		case &#x27;mapAction_Maps&#x27;:
+				showMapDialog();
+				break;
+		case &#x27;mapAction_buildQuery&#x27;:
+				showQueryDialog();
+				break;
+		case &#x27;mapAction_QuerySettings&#x27;:
+				toggleQuerySettings();
+			break;
+		case &#x27;mapAction_Export&#x27;:
+				showMapExport();
+				break;
+		case &#x27;mapAction_Save&#x27;:
+				mygis.Drawing.Exporting.saveDigitizing();
+				break;
+		case &#x27;zoomOutBtn&#x27;:
+				mygis.Map.ZoomOut();
+				break;
+		case &#x27;zoomBoxBtn&#x27;:
+				mygis.UI.activateControl(&#x27;zoomBox&#x27;);
+				break;
+		case &#x27;dragPanBtn&#x27;:
+				mygis.UI.activateControl(&#x27;drag&#x27;);
+				break;
+		case &#x27;toggleInfoBtn&#x27;:
+				&#x2F;&#x2F;mygis.UI.toggleInfoBtn();
+				mygis.UI.toggleInfoBtn_V2(params);
+				break;
+		case &quot;toggleOverviewBtn&quot;:
+				mygis.UI.toggleOverview();
+				break;
+		case &#x27;infoPoint&#x27;:
+				mygis.UI.toggleSelectBtn(&#x27;point&#x27;);
+				break;
+		case &#x27;infoRect&#x27;:
+				mygis.UI.toggleSelectBtn(&#x27;rectangle&#x27;);
+				break;
+		case &#x27;markerButton&#x27;:
+				mygis.UI.setTool(&#x27;marker&#x27;, params);
+				break;
+		case &#x27;polylineButton&#x27;:
+				mygis.UI.setTool(&#x27;polyline&#x27;, params);
+				break;
+		case &#x27;polygonButton&#x27;:
+				mygis.UI.setTool(&#x27;polygon&#x27;, params);
+				break;
+		case &#x27;rectangleButton&#x27;:
+				mygis.UI.setTool(&#x27;rectangle&#x27;, params);
+				break;
+		case &#x27;showInfoOnEdit&#x27;:
+				mygis.UI.toggleEditableInfo();
+				break;
+		case &#x27;tlvm&#x27;:
+				mygis.UI.preToggleLayerVisible(null,params);	
+				&#x2F;&#x2F;mygis.UI.toggleLayerVisible(null,params);
+				break;
+		case &#x27;tlvp&#x27;:
+				mygis.UI.toggleLayerVisibleProperty(params);
+				break;
+		case &#x27;tle&#x27;:
+				mygis.UI.toggleLayerEditable();
+				break;
+		case &#x27;tls&#x27;:
+				mygis.UI.toggleLayerSelectable();
+				break;
+		case &#x27;tlz&#x27;:
+				mygis.UI.zoomToLayer(0);
+				break;
+		case &#x27;tlr&#x27;:
+				mygis.UI.mg_removeLayer(0);
+				break;
+		case &#x27;tlmu&#x27;:
+				mygis.UI.moveLayerUp(0);
+				break;
+		case &#x27;tlmd&#x27;:
+				mygis.UI.moveLayerDown(0);
+				break;
+		case &#x27;tlcf&#x27;:
+				mygis.UI.toggleLayerConstraint(&#x27;From&#x27;);
+				break;
+		case &#x27;tlct&#x27;:
+				mygis.UI.toggleLayerConstraint(&#x27;To&#x27;);
+				break;
+		case &#x27;tlgv&#x27;:
+				mygis.UI.toggleLayerGroup(params);
+				break;
+		case &#x27;popScaleFrom&#x27;:
+				mygis.UI.getMgScale(params);
+				break;
+		case &#x27;popScaleTo&#x27;:
+				mygis.UI.getMgScale(params);
+				break;
+		case &#x27;pointMode&#x27;:
+				mygis.UI.togglePointMode(params);
+				break;
+		case &#x27;scaleTo&#x27;:
+				mygis.UI.scaleTo($(&quot;#olScale_wrapper&quot;).find(&quot;:selected&quot;).val());
+				break;
+		case &#x27;lcg&#x27;:
+				mygis.UI.layerGrouping(params);
+				break;
+		case &#x27;resultSelectOn&#x27;:
+				mygis.UI.dbResultsSelect(params);
+				break;
+		case &#x27;mapResults&#x27;:
+				mygis.UI.dbResultsOnMap(params);
+				break;
+		case &#x27;critClick&#x27;:
+				mygis.UI.dbCriteriaClick(params);
+				break;
+		case &#x27;critMap&#x27;:
+				mygis.UI.updateCriteriaMap(params);
+				break;
+		case &#x27;critPop&#x27;:
+				mygis.UI.dbFieldPopulate(params);
+				break;
+		case &#x27;critDescrip&#x27;:
+				mygis.UI.dbCriteriaUpdateDescription();
+				break;
+		case &#x27;critSelect&#x27;:
+				mygis.UI.dbSelectChanged(params);
+				break;
+		case &#x27;critGetDisc&#x27;:
+				mygis.UI.dbGetFromDistinct(params);
+				break;
+		case &#x27;critPopDisc&#x27;:
+				mygis.UI.dbPopulateDistinct(params);
+				break;
+		case &#x27;critReset&#x27;:
+				mygis.UI.dbCriteriaReset();
+				break;
+		case &#x27;showQR&#x27;:
+				showQueryResetConfirm();
+				break;
+		case &#x27;lmap&#x27;:
+			showConfirmationDialog(strings.MapControl.loadMapConfirm,function(){router(&#x27;dragPanBtn&#x27;);loadMap(false);},function(){return false});
+			break;
+		case &#x27;codingTLD&#x27;:
+			toggleLayerDetails(params,this);
+			break;
+		case &#x27;codingTLE&#x27;:
+			mygis.UI.toggleLayerEditable(params);
+			break;
+		case &#x27;codingTLS&#x27;:
+			mygis.UI.toggleLayerSelectable(params);
+			break;
+		case &#x27;codingSaveLayer&#x27;:
+			mygis.UI.startSaving(params);
+			break;
+		case &#x27;styleUpdate&#x27;:
+			mygis.UI.previewLayerStyle();
+			break;
+		case &#x27;styleApply&#x27;:
+			mygis.UI.applyLocalStyle();
+			break;
+		case &#x27;styleSave&#x27;:
+			mygis.UI.saveLayerStyle();
+			break;
+		case &#x27;styleCancel&#x27;:
+			mygis.UI.cancelApplyLocalStyle();
+			break;
+		case &#x27;editModeBtn&#x27;:
+			mygis.UI.switchEditMode(params);
+			break;
+		case &#x27;selectCtrl&#x27;:
+			mygis.UI.activateSelectCtrl(params);
+			break;
+		case &#x27;expandSelect&#x27;:
+			if (params.isMapSelect){
+				var data = mygis.Query.breakupMapData(params.results,params.layername,params.fid);
+				mygis.Query.popupInfo(data,params.layername);
+			}else{
+				var data=mygis.Query.breakupQueryData(params.results);
+				mygis.Query.popupInfo(data,params.layername);
+			}
+			break;
+		case &#x27;markHoverResult&#x27;:
+			mygis.Map.markFeatures(params.feature);
+			break;
+		case &#x27;infopopup_previewImg&#x27;:
+			mygis.Query.infoImgPreview(params);
+			break;
+		case &#x27;infopopup_previewFile&#x27;:
+			mygis.Query.infoFilePreview(params);
+		case &#x27;tlSM&#x27;:
+			mygis.UI.toggleDrawerButton(params);
+			break;
+		case &#x27;exportMap&#x27;:
+			var mode = params.id.split(&quot;_&quot;)[1];
+			mygis.Drawing.Exporting.exportMapAs(mode);
+			break;
+		case &#x27;mapDL&#x27;:
+			mygis.UI.showExportMap();
+			break;
+		case &#x27;tHotSearch&#x27;:
+			mygis.UI.toggleHotSearchItem(params);
+			break;
+		case &#x27;tFieldEditU&#x27;:
+			mygis.UI.updateObjectField();
+			break;
+		case &#x27;tFieldEditC&#x27;:
+			mygis.UI.clearObjectField();
+			break;
+		case &#x27;tFieldEditE&#x27;:
+			mygis.UI.cancelObjectEditing();
+			break;
+		case &#x27;mm_imgclick&#x27;:
+			mygis.UI.MediaManager.fullImgPreview(params);
+			break;
+		case &quot;cmdMediaManager&quot;:
+			showMediaManager();
+			break;
+		case &quot;attachNew_I&quot;:
+			mygis.UI.attachFileToRecord(params);
+			break;
+		case &quot;attachNew_F&quot;:
+			mygis.UI.attachFileToRecord(params);
+			break;
+		case &quot;cycleBG&quot;:
+			mygis.Map.cycleBackground(params);
+			break;
+		case &quot;switchBG_0&quot;:
+			&#x2F;&#x2F;mygis.Map.switchBackground($(&quot;#bgSelect&quot;).linkselect(&quot;val&quot;),0);
+			break;
+		case &quot;switchBG_1&quot;:
+			mygis.Map.switchBackground($(params).find(&quot;option:selected&quot;)[0].value,1);
+			break;
+		case &quot;mm_toggleSelection&quot;:
+			mygis.UI.MediaManager.toggleSelection(params);
+			break;
+		case &quot;cmdAdminPanel&quot;:
+			mygis.Admin.UI.switchToAdmin();
+			break;
+		case &quot;cmdUserPanel&quot;:
+			mygis.User.UI.switchToUserPage();
+			break;
+		case &quot;cmdSwitchLayout&quot;:
+			displayNotify(msg_errFeatureNotImplemented);
+			break;
+		case &quot;backToApp&quot;:
+			mygis.User.UI.switchToApp();
+			break;
+		case &quot;adminAppLogo&quot;:
+			mygis.Admin.AppManager.logoBtnClick(params);
+			break;
+		case &quot;adminAppLogoRemove&quot;:
+			mygis.Admin.AppManager.logoRemoveBtnClick(params);
+			break;
+		case &quot;amenu_Apps_Manager&quot;:
+			switch(params){
+				case &quot;new&quot;:
+					mygis.Admin.AppManager.Apps.showAddNewApp();
+					break;
+				case &quot;edit&quot;:
+					mygis.Admin.UI.menuClick(null,&quot;amenu_Apps_Config&quot;);
+					break;
+			}
+			break;
+		case &quot;amenu_Maps_Manager&quot;:
+			switch(params){
+				case &quot;new&quot;:
+					mygis.Admin.MapManager.Maps.showAddNewMap();
+					break;
+			}
+			break;
+		case &quot;amenu_Apps_Config&quot;:
+			switch(params){
+					case &quot;save&quot;:
+							mygis.Admin.AppManager.saveChanges();
+							break;
+					case &quot;cancel&quot;:
+							mygis.Admin.AppManager.revertChanges();
+							break;
+			}
+			break;
+		case &quot;amenu_Maps_Config&quot;:
+			switch(params){
+					case &quot;save&quot;:
+							mygis.Admin.MapManager.saveChanges();
+							break;
+					case &quot;cancel&quot;:
+							mygis.Admin.MapManager.revertChanges();
+							break;
+			}
+			break;
+		case &quot;amenu_Help_Manual&quot;:
+			mygis.Admin.UI.showManual();
+			break;
+		case &quot;adminAppClick&quot;:
+			mygis.Admin.AppManager.Apps.singleCheckClicked(params);
+			break;
+		case &quot;adminAllClick&quot;:
+			mygis.Admin.AppManager.Apps.allCheckClicked(params);
+			break;
+		case &quot;appNameClick&quot;:
+			mygis.Admin.AppManager.Apps.appClicked(params);
+			break;
+		case &quot;adminMapClick&quot;:
+			mygis.Admin.AppManager.Maps.mapCheckClicked(params);
+			break;
+		case &quot;adminMapAllClick&quot;:
+			mygis.Admin.AppManager.Maps.mapAllCheck(params);
+			break;
+		case &quot;adminURlAllClick&quot;:
+			mygis.Admin.AppManager.URLs.urlAllCheck(params);
+			break;
+		case &quot;adminStyleAllClick&quot;:
+			mygis.Admin.AppManager.Styles.allCheckClicked(params);
+			break;
+		case &quot;adminMacroAllClick&quot;:
+			mygis.Admin.MapManager.Macros.allCheckClicked(params);
+			break;
+		case &quot;appAddAlias&quot;:
+			mygis.Admin.AppManager.URLs.showAddAlias();
+			break;
+		case &quot;appRemoveAlias&quot;:
+			mygis.Admin.AppManager.URLs.urlDelete();
+			break;
+		case &quot;appAddMap&quot;:
+			mygis.Admin.AppManager.Maps.addAppMap();
+			break;
+		case &quot;appDefaultMap&quot;:
+			mygis.Admin.AppManager.Maps.mapMakeDefault();
+			break;
+		case &quot;appUnpublishMap&quot;:
+			mygis.Admin.AppManager.Maps.mapUnpublish();
+			break;
+		case &quot;appDeleteMap&quot;:
+			mygis.Admin.AppManager.Maps.mapDelete();
+			break;
+		case &quot;amenu_Apps_Config_Tab&quot;:
+			var event = {};
+			event.item=params;
+			mygis.Admin.AppManager.expandDetails(event);
+			break;
+		case &quot;accountInfo_Config_Tab&quot;:
+			var event = {};
+			event.item=params;
+			mygis.User.ProfileInfo.switchToTab(event);
+			break;
+			break;
+		case &quot;amenu_Maps_Config_Tab&quot;:
+			var event = {};
+			event.item=params;
+			mygis.Admin.MapManager.expandDetails(event);
+			break;
+		case &quot;adminOK&quot;:
+			mygis.Admin.UI.acceptWindow();
+			break;
+		case &quot;adminCancel&quot;:
+			mygis.Admin.UI.closeWindow();
+			break;
+		case &quot;mapManager_filterMe&quot;:
+			mygis.Admin.MapManager.filterPotentialMaps();
+			break;
+		case &quot;mapManager_toggleAll&quot;:
+			mygis.Admin.MapManager.allMapToggle(params);
+			break;
+		case &quot;adminStylePreview&quot;:
+			
+			var time = $(mygis.Utilities.format(&quot;#stylePreviewTimer_{0}&quot;,params)).val();
+			mygis.Admin.AppManager.Styles.stylePreview(params,time);
+			break;
+		case &quot;app_addNewStyle&quot;:
+			mygis.Admin.AppManager.Styles.showEditStyle(true);
+			break;
+		case &quot;app_editStyle&quot;:
+			mygis.Admin.AppManager.Styles.showEditStyle(false);
+			break;
+		case &quot;app_directEditStyle&quot;:
+			mygis.Admin.AppManager.Styles.directStyleEdit(params);
+			break;
+		case &quot;app_copyStyle&quot;:
+			mygis.Admin.AppManager.Styles.saveAsCopy();
+			break;
+		case &quot;app_copyStyleTo&quot;:
+			
+			break;
+		case &quot;app_makeActiveStyle&quot;:
+			mygis.Admin.AppManager.Styles.makeDefault();
+			break;
+		case &quot;app_publishStyle&quot;:
+			mygis.Admin.AppManager.Styles.publishStyles();
+			break;
+		case &quot;app_unpublishStyle&quot;:
+			mygis.Admin.AppManager.Styles.unpublishStyles();
+			break;
+		case &quot;app_deleteStyle&quot;:
+			mygis.Admin.AppManager.Styles.deleteStyles();
+			break;
+		case &quot;styleMenu_ConfigTab&quot;:
+			&#x2F;&#x2F;doSomethingWith params
+			mygis.Admin.AppManager.Styles.switchToTab(params);
+			break;
+		case &quot;macroMenu_ConfigTab&quot;:
+			mygis.Admin.MapManager.Macros.switchToTab(params);
+			break;
+		case &quot;digitizeMenu_ConfigTab&quot;:
+			mygis.Drawing.Editing.switchToTab(params);
+			break;
+		case &quot;mapnameClicked&quot;:
+			mygis.Admin.MapManager.Maps.mapClicked(params);
+			break;
+		case &quot;admin_Maps_allClick&quot;:
+			mygis.Admin.MapManager.Maps.allCheckClicked(params);
+			break;
+		case &quot;map_addNewQS&quot;:
+			mygis.Admin.MapManager.QuickSearches.showEditQS(true);
+			break;
+		case &quot;map_editQS&quot;:
+			mygis.Admin.MapManager.QuickSearches.showEditQS(false);
+			break;
+		case &quot;map_directEditQS&quot;:
+			mygis.Admin.MapManager.QuickSearches.directQSEdit(params);
+			break;
+		case &quot;map_deleteQS&quot;:
+			mygis.Admin.MapManager.QuickSearches.deleteQS();
+			break;
+		case &quot;map_getExtent&quot;:
+			mygis.Admin.MapManager.Maps.getCurrentExtent();
+			break;
+		case &quot;map_getCenter&quot;:
+			mygis.Admin.MapManager.Maps.getCurrentCenter();
+			break;
+		case &quot;map_getZoom&quot;:
+			mygis.Admin.MapManager.Maps.getCurrentZoom();
+			break;
+		case &quot;map_customThumb&quot;:
+			mygis.Admin.MapManager.Maps.replaceMapThumbDialog();
+			break;
+		case &quot;map_generateThumb&quot;:
+			mygis.Admin.MapManager.Maps.replaceMapThumbAuto();
+			break;
+		case &quot;mapQSAllClick&quot;:
+			mygis.Admin.MapManager.QuickSearches.qsAllCheckClicked(params);
+			break;
+		case &quot;qsTitleClick&quot;:
+			mygis.Admin.MapManager.QuickSearches.directQSEdit(params);
+			break;
+		case &quot;mapLayerAllClick&quot;:
+			mygis.Admin.MapManager.Layers.layerAllCheckClicked(params);
+			break;
+		case &quot;mapAddLayer&quot;:
+			mygis.Admin.MapManager.Layers.addMapLayer();
+			break;
+		case &quot;mapDeleteLayer&quot;:
+			mygis.Admin.MapManager.Layers.deleteLayer();
+			break;
+		case &quot;mapLayermoveUp&quot;:
+			mygis.Admin.MapManager.Layers.moveUp();
+			break;
+		case &quot;mapLayermoveDown&quot;:
+			mygis.Admin.MapManager.Layers.moveDown();
+			break;
+		case &quot;map_addNewMacro&quot;:
+			mygis.Admin.MapManager.Macros.showEditMacro(true);
+			break;
+		case &quot;map_editMacro&quot;:
+			mygis.Admin.MapManager.Macros.showEditMacro(false);
+			break;
+		case &quot;map_deleteMacro&quot;:
+			mygis.Admin.MapManager.Macros.deleteMacros();
+			break;
+		case &quot;editPopup_addImage&quot;:
+			mygis.Drawing.Editing.handlerAttachImage();
+			break;
+		case &quot;editPopup_detachImage&quot;:
+			mygis.Drawing.Editing.imageDetach();
+			break;
+		case &quot;editPopup_imageSelectAll&quot;:
+			mygis.Drawing.Editing.imageGridCheckAll(params);
+			break;
+		case &quot;editPopup_addFile&quot;:
+			mygis.Drawing.Editing.handlerAttachFile();
+			break;
+		case &quot;editPopup_detachFile&quot;:
+			mygis.Drawing.Editing.fileDetach();
+			break;
+		case &quot;editPopup_fileSelectAll&quot;:
+			mygis.Drawing.Editing.fileGridCheckAll(params);
+			break;
+		case &quot;editDigi_btnImageDownload&quot;:
+			mygis.Drawing.Editing.imageDownload(params);
+			break;
+		case &quot;editDigi_btnFileDownload&quot;:
+			mygis.Drawing.Editing.fileDownload(params);
+			break;
+		case &quot;editDigi_btnImageZoom&quot;:
+			mygis.Drawing.Editing.imageZoom(params);
+			break;
+		case &quot;appManual&quot;:
+			mygis.UI.Help.shortcutStart();
+			&#x2F;&#x2F;mygis.UI.Help.showManual();
+			break;
+		case &quot;appManual2&quot;:
+			mygis.UI.Help.showManual(true);
+			break;
+		case &quot;shortcutMaps&quot;:
+			mygis.UI.Help.shortcutMaps();
+			break;
+		case &quot;shortcutSearches&quot;:
+			mygis.UI.Help.shortcutSearch();
+			break;
+		case &quot;buildPopup&quot;:
+			mygis.Admin.MapManager.Macros.showPopupWizard();
+			break;
+		case &quot;popupWiz_copyToMacro&quot;:
+			mygis.Admin.MapManager.Macros.copyPopupOutput();
+			break;
+		case &quot;popupWiz_testIt&quot;:
+			mygis.Admin.MapManager.Macros.testPopupOutput();
+			break;
+		case &quot;wizard_ChangeBG&quot;:
+			mygis.UI.Help.tutorial(&#x27;changeBG&#x27;,params);
+			break;
+		case &quot;infoPopup_download&quot;:
+			mygis.UI.MediaManager.downloadFile(params);
+			break;
+		case &quot;infoPopup_replace&quot;:
+			mygis.UI.replaceFileInRecord(params[0],params[1],params[2]);
+			break;
+		case &quot;infoPopup_detach&quot;:
+			mygis.UI.MediaManager.detachFile(params[0],params[1],params[2]);
+			break;
+		case &quot;searchDelete&quot;:
+			mygis.UI.removeSavedQuery();
+			break;
+		case &quot;styleManager_ConfigTab&quot;:
+			mygis.Drawing.Styling.styleManager_switchTab(params);
+			break;
+		case &quot;up_menuAccount_Info&quot;:
+			switch (params){
+				case &quot;save&quot;:
+					mygis.User.ProfileInfo.updateProfile();
+					break;
+				case &quot;cancel&quot;:
+					mygis.User.ProfileInfo.getProfileDetails();
+					break;
+			}
+			
+			break;
+		case &quot;qstatsBtn&quot;:
+			mygis.Query.queryStatsWindow();
+			break;
+		case &quot;withinBtn&quot;:
+			mygis.Query.queryWithinWindow();
+			break;
+		case &quot;qstatsExecute&quot;:
+			mygis.Query.statsCalculate();
+			break;
+		case &quot;layerSelectionToggle&quot;:
+			mygis.Map.switchSelectionToggleBtn(params);
+			break;
+		case &quot;withinSearchGo&quot;:
+			mygis.Query.queryWithinExecute();
+			break;
+		case &quot;qstatsBack&quot;:
+			mygis.Query.statsBackToSelection();
+			break;
+		case &quot;qstatsPrint&quot;:
+			mygis.Query.queryStatsPrint();
+			break;
+		case &quot;mapResultsToggle&quot;:
+			if ($(&quot;#mapFeaturesCont&quot;).is(&quot;:visible&quot;)){
+				$(&quot;#mapFeaturesCont&quot;).hide();
+				$(&quot;#mapResultsToggleBtn&quot;).attr(&quot;class&quot;,&quot;&quot;);
+			}else{
+				$(&quot;#mapFeaturesCont&quot;).show();
+				$(&quot;#mapResultsToggleBtn&quot;).attr(&quot;class&quot;,&quot;pressed&quot;);
+				mygis.Map.moveEnd();
+			}
+			break;
+		case &quot;mapFeatureSearchToggle&quot;:
+			if ($(&quot;#mapFeatureSearchBar&quot;).is(&quot;:visible&quot;)){
+				mygis.Map.hideSearchPanel();
+			}else{
+				mygis.Map.showSearchPanel();
+			}
+			break;
+		case &quot;mapFeatureSearchClose&quot;:
+			mygis.Map.hideSearchPanel();
+			break;
+		case &quot;mapFeatureSearchOpen&quot;:
+			mygis.Map.showSearchPanel();
+			break;
+		case &quot;mapFeatureSearchNext&quot;:
+			mygis.Map.gotoNextFeatureResult();
+			break;
+		case &quot;mapFeatureSearchPrevious&quot;:
+			mygis.Map.gotoPreviousFeatureResult();
+			break;
+		case &#x27;togglePreviousSearch&#x27;:
+			if ($(&quot;#pageHelpSearchMap&quot;).attr(&quot;class&quot;)==&quot;active&quot;){
+				mygis.UI.Help.shortcutStart();
+				$(&quot;#btnSearchList&quot;).html(strings.MapTools.showSearchesBtn);
+			}else{
+				mygis.UI.Help.shortcutSearch();
+				$(&quot;#btnSearchList&quot;).html(strings.MapTools.hideSearchesBtn);
+			}
+			break;
+		case &#x27;toggleGoogle&#x27;:
+			if ($(&quot;.googleSearchContainer&quot;).is(&quot;:visible&quot;)){
+				$(&quot;.googleSearchContainer&quot;).hide(&#x27;slide&#x27;, {direction: &#x27;right&#x27;}, 1000);
+				mygis.Map.clearFeedback();
+			}else{
+				$(&quot;.googleSearchContainer&quot;).show(&#x27;slide&#x27;, {direction: &#x27;right&#x27;}, 1000);
+			}
+			break;
+		case &#x27;applyLayerChanges&#x27;:
+			mygis.UI.applyLayerChanges();
+			break;
+		case &#x27;cancelLayerChanges&#x27;:
+			mygis.UI.cancelLayerChanges();
+			break;
+	}
+}
+
+
+function locateObjectlist(listbox, event) {
+    var mouseoverItem,counter;
+	mouseoverItem = event.get_item();
+    counter = mouseoverItem.get_index();
+    mygis.Map.selectObject(counter);
+}
+
+function unlocateObjectlist(listbox, event) {
+	var mouseoverItem,counter;
+    mouseoverItem = event.get_item();
+    counter = mouseoverItem.get_index();
+    mygis.Map.deselectObject(counter);
+}
+
+function show_Registration() {
+	var part2 = function(){
+		$(&quot;#registrationDialog&quot;).dialog({
+			width: 525,
+			modal: true,
+			resizable: false, 
+			open: mygis.Utilities.unbindGlobalHandlers,
+			close: mygis.Utilities.rebindGlobalHandlers,
+			title: strings.Registration.infoTitle
+		});
+	};
+	if ($(&quot;#registrationDialog&quot;).children().length==0){
+		loadFragment(&quot;registrationDialog&quot;,part2)
+	}else{
+		part2();
+	}
+	
+}
+
+function show_Login() {
+	&#x2F;*
+	var div = $(&quot;#loginDialog&quot;);
+	if (div.is(&quot;:visible&quot;)){
+		div.slideUp(&quot;slow&quot;);
+	}else{
+		div.slideDown(&quot;slow&quot;);
+	}
+	*&#x2F;
+	
+	$(&quot;#loginDialogCont&quot;).dialog({
+		width: 440,
+		height: 217,
+		modal: true,
+		resizable: false, 
+		title: strings.Login.welcomeTo+$(&quot;.domainStaticTextBackground&quot;).attr(&quot;title&quot;)
+	});
+	
+	
+}
+
+function show_Forgot(){
+	var url = &quot;&#x2F;default.aspx?returnurl=&amp;ctl=SendPassword&amp;popUp=true&quot;;
+	$(&quot;#forgotCont&quot;).load(url,function(){
+		$(&quot;#forgotCont&quot;).dialog({
+		width: 440,
+		height: 300,
+		modal: true,
+		resizable: false, 
+		title: &quot;Forgot password?&quot;
+		});
+	});
+}
+
+function nextStep_Registration() {
+    var max_step = 2;
+    var currentStep = parseInt(document.getElementById(&quot;currentStep&quot;).value);
+    if (Page_ClientValidate(&quot;step&quot;+currentStep)) {
+
+        if (currentStep &lt; max_step) {
+            document.getElementById(&quot;reg_back&quot;).style.display = &quot;&quot;;
+            document.getElementById(&quot;reg_step&quot; + currentStep).style.display = &quot;none&quot;;
+            currentStep += 1;
+            document.getElementById(&quot;reg_step&quot; + currentStep).style.display = &quot;&quot;;
+            document.getElementById(&quot;currentStep&quot;).value = currentStep;
+            switch (currentStep) {
+                case 1:
+                    document.getElementById(&quot;extraMsg&quot;).innerHTML = msg_reg_step1;
+                    break;
+                case 2:
+                    document.getElementById(&quot;extraMsg&quot;).innerHTML = msg_reg_step2;
+                    break;
+            }
+        } else {
+            registerUser();
+        }
+    }
+}
+
+function prevStep_Registration() {
+    var currentStep = parseInt(document.getElementById(&quot;currentStep&quot;).value);
+    document.getElementById(&quot;reg_results&quot;).style.display = &quot;none&quot;;
+    document.getElementById(&quot;reg_forward&quot;).style.display = &quot;&quot;;
+    if (currentStep &gt; 1) {
+        document.getElementById(&quot;reg_step&quot; + currentStep).style.display = &quot;none&quot;;
+        currentStep -= 1;
+        document.getElementById(&quot;reg_step&quot; + currentStep).style.display = &quot;&quot;;
+        document.getElementById(&quot;currentStep&quot;).value = currentStep;
+        if (currentStep == 1) {
+            document.getElementById(&quot;reg_back&quot;).style.display = &quot;none&quot;;
+        }
+        switch (currentStep) {
+            case 1:
+                document.getElementById(&quot;extraMsg&quot;).innerHTML = msg_reg_step1;
+                break;
+            case 2:
+                document.getElementById(&quot;extraMsg&quot;).innerHTML = msg_reg_step2;
+                break;
+        }
+    }
+}
+
+function login(controlID){
+    if (Page_ClientValidate(&quot;login_dialog&quot;)) {
+        loginUser(controlID);
+    }
+}
+
+function show_Administration(){
+
+}
+
+function playVideo(){
+    var params = {allowScriptAccess: &quot;always&quot;, allowFullScreen: &quot;true&quot;};
+    var atts = { id: &quot;myytplayer&quot;, color2: &quot;#FFFFFF&quot; };
+    swfobject.embedSWF(&quot;http:&#x2F;&#x2F;youtube.com&#x2F;v&#x2F;tPPcahQb7aQ?version=3&amp;playerapiid=ytapiplayer&quot;,
+                        &quot;ytapiplayer&quot;,&quot;500&quot;,&quot;384&quot;,&quot;8&quot;,null,null,params,atts);
+}
+
+function displayNotify(message, permanent,cb) {
+    $(&#x27;#Notification&#x27;).jnotifyAddMessage({
+        text: message,
+        permanent: permanent,
+		disappearTime: 5000,
+		callbackClose: cb,
+		oneAtTime: true
+    });
+}
+
+function displayError(message,permanent){
+	$(&#x27;#Notification&#x27;).jnotifyAddMessage({
+		text:message,
+		type: &quot;error&quot;,
+		permanent: permanent,
+		disappearTime: 10000
+	});
+}
+
+function displaySuccess(message,permanent){
+	$(&#x27;#Notification&#x27;).jnotifyAddMessage({
+		text:message,
+		type: &quot;success&quot;,
+		permanent: permanent,
+		disappearTime: 5000
+	});
+}
+
+function menuHandler(clicked_id){
+    var cut_id = clicked_id.substring(clicked_id.lastIndexOf(&#x27;_&#x27;)+1);
+    var cut_subid = &quot;lm_&quot;+ cut_id.replace(&quot;img&quot;,&quot;&quot;);
+    switch (cut_id) {
+        case &quot;imgTables&quot;:
+        case &quot;imgShared&quot;:
+        case &quot;imgProfile&quot;:
+        case &quot;imgSupport&quot;:
+            displayNotify(msg_errFeatureNotImplemented);
+            break;
+        case &quot;imgMap&quot;:
+            document.getElementById(&quot;middlePane&quot;).style.left = &quot;15px&quot;;
+            document.getElementById(&quot;leftPane&quot;).style.display=&#x27;none&#x27;;
+            &#x2F;&#x2F;google.maps.event.trigger(digimap, &#x27;resize&#x27;);
+            break;
+        default:
+            document.getElementById(&quot;middlePane&quot;).style.left = &quot;800px&quot;;
+            document.getElementById(&quot;leftPane&quot;).style.display=&#x27;block&#x27;;
+            initLeftMenu(cut_subid);
+            &#x2F;&#x2F;google.maps.event.trigger(digimap, &#x27;resize&#x27;);
+            break;
+    }
+	mygis.Map.elementPosition(&quot;mapContainer&quot;);
+}
+
+function leftmenuHandler(clicked_id){
+    var list,selected,child,counter,parentMenu,rightDiv,rightChildren,parentMenuItem;
+    
+    parentMenu = clicked_id.substring(0,clicked_id.indexOf(&#x27;_&#x27;));
+    selected = document.getElementById(clicked_id);
+    list = selected.parentNode.parentNode;
+    document.getElementById(&quot;infoTitle&quot;).innerHTML = selected.innerHTML;
+    for (var i=0;i&lt;$(list).find(&#x27;li&#x27;).length;i++){
+        child = $($(list).find(&#x27;li&#x27;)[i]).find(&#x27;a&#x27;).get(0);
+        if (child!=selected){
+            $(child).removeClass(&quot;selected&quot;);
+        }else{
+            $(child).addClass(&quot;selected&quot;);
+            counter = i;
+        }
+    }
+    
+	parentMenuItem = clicked_id.substring(clicked_id.indexOf(&quot;_&quot;)+1);
+    switch (parentMenu){
+        case &quot;menuStart&quot;:
+			mygis.UI.stopDigitize();
+            rightDiv = document.getElementById(&quot;startDialog&quot;);
+			
+            rightChildren = $(rightDiv).find(&#x27;&gt;div&#x27;);
+			var checkCondition;
+			if (counter==0 &amp;&amp; parentMenuItem==&quot;Welcome&quot;){
+				checkCondition = counter+1;
+			}else{
+				checkCondition = counter;
+			}
+            for (var i = 0; i &lt; rightChildren.length; i++) {
+                if (i != checkCondition) {
+                    $(rightChildren[i]).hide();
+                } else {
+					
+                    $(rightChildren[i]).clone().show().dialog({
+						modal: true,
+						resizable: false, 
+						width: 800,
+						title: selected.innerHTML,
+						close: function(event, ui){
+							$(this).remove();
+						}
+					});
+					
+					
+					
+                    document.getElementById(&quot;startDialog&quot;).style.display = &quot;&quot;;
+                    document.getElementById(&quot;registrationDialog&quot;).style.display = &quot;none&quot;;
+                    document.getElementById(&quot;loginDialog&quot;).style.display = &quot;none&quot;;
+                }
+            }
+			
+			
+            break;
+            
+    }
+}
+
+function initLeftMenu(toWhat){
+    var left = document.getElementById(&quot;wizardPane&quot;);
+    var right = document.getElementById(&quot;wizardOutputPane&quot;);
+    var listDivs = $(left).find(&#x27;div&#x27;);
+    var childDiv;
+    for (var i=0;i&lt;listDivs.length;i++){
+        childDiv = listDivs[i];
+        if ($(childDiv).attr(&quot;id&quot;)!=toWhat){
+            $(childDiv).hide();
+        }else{
+            $(childDiv).show();
+        }
+    }
+    switch(toWhat){
+        case &#x27;lm_Welcome&#x27;:
+            document.getElementById(&quot;startDialog&quot;).style.display=&quot;&quot;;
+            document.getElementById(&quot;saveAskDialog&quot;).style.display=&quot;none&quot;;
+            document.getElementById(&quot;supportDialog&quot;).style.display=&quot;none&quot;;
+            break;
+        case &#x27;lm_Save&#x27;:
+            document.getElementById(&quot;startDialog&quot;).style.display=&quot;none&quot;;
+            document.getElementById(&quot;saveAskDialog&quot;).style.display=&quot;&quot;;
+            document.getElementById(&quot;supportDialog&quot;).style.display=&quot;none&quot;;
+            break;
+        case &#x27;lm_Support&#x27;:
+            document.getElementById(&quot;startDialog&quot;).style.display=&quot;none&quot;;
+            document.getElementById(&quot;saveAskDialog&quot;).style.display=&quot;none&quot;;
+            document.getElementById(&quot;supportDialog&quot;).style.display=&quot;&quot;;
+            break;
+    }
+
+}
+
+function ffclose(){
+    try{
+        netscape.security.PrivilegeManager.enablePrivilege(&#x27;UniversalBrowserWrite&#x27;);
+    }catch(err){}
+    window.open(&#x27;&#x27;,&#x27;_self&#x27;);
+    window.close();
+}
+
+&#x2F;**
+ * Sets the Title in the map Dock
+ * @param descr
+ *&#x2F;
+function setMapDescription(descr){
+	var addDescr = document.createElement(&quot;span&quot;);
+	addDescr.innerHTML = &quot; - &quot;+descr;
+    document.getElementById(&quot;mapDescription&quot;).appendChild(addDescr);
+}
+
+function registerUser() {
+    var postbackform = document.createElement(&quot;FORM&quot;);
+    postbackform.id = &quot;gisRegistrationForm&quot;;
+    postbackform.name = postbackform.id;
+    postbackform.method = &quot;POST&quot;;
+    postbackform.action = &quot;&quot;;
+    postbackform.target = &quot;self&quot;;
+    var inp_firstname = createDummyPostbackControl(&quot;reg_firstname&quot;);
+    var inp_lastname = createDummyPostbackControl(&quot;reg_lastname&quot;);
+    var inp_displayname = createDummyPostbackControl(&quot;reg_displayname&quot;);
+    var inp_username = createDummyPostbackControl(&quot;reg_username&quot;);
+    var inp_password = createDummyPostbackControl(&quot;reg_password&quot;);
+    var inp_email = createDummyPostbackControl(&quot;reg_email&quot;);
+    var post_action = createDummyPostbackControl(&quot;postbackAction&quot;);
+    postbackform.appendChild(inp_firstname);
+    postbackform.appendChild(inp_lastname);
+    postbackform.appendChild(inp_displayname);
+    postbackform.appendChild(inp_username);
+    postbackform.appendChild(inp_password);
+    postbackform.appendChild(inp_email);
+    post_action.value = &quot;registerUser&quot;;
+    postbackform.appendChild(post_action);
+    $.ajax({
+        data: $(postbackform).serialize(),
+        success: function(data) {
+            switch (data) {
+                case &quot;Success&quot;:
+                default:
+                    document.getElementById(&quot;reg_results_msg&quot;).innerHTML = data;
+                    if (data == &quot;Success&quot;) {
+                        document.getElementById(&quot;reg_results_img&quot;).className = &quot;successful&quot;;
+                        document.getElementById(&quot;extraMsg&quot;).innerHTML = msg_reg_successful;
+                    }else{
+                        document.getElementById(&quot;reg_results_img&quot;).className = &quot;error&quot;;
+                        document.getElementById(&quot;extraMsg&quot;).innerHTML = msg_reg_error;
+                    }
+                    var currentStep = parseInt(document.getElementById(&quot;currentStep&quot;).value);
+                    document.getElementById(&quot;reg_step&quot;+currentStep).style.display=&quot;none&quot;;
+                    document.getElementById(&quot;reg_results&quot;).style.display=&quot;&quot;;
+                    document.getElementById(&quot;reg_forward&quot;).style.display=&quot;none&quot;;
+                    &#x2F;&#x2F;alert(data);
+                    break;
+            }
+        },
+        type: &quot;POST&quot;,
+		url: config.mgreq+&quot;?qtype=register&quot;
+    });
+}
+
+function loginUser(controlID) {
+    var postbackform = document.createElement(&quot;FORM&quot;);
+    postbackform.id = &quot;gisLoginForm&quot;;
+    postbackform.name = postbackform.id;
+    postbackform.method = &quot;POST&quot;;
+    postbackform.action = config.mgreq;	&#x2F;&#x2F;&quot;&quot;;
+    postbackform.target = &quot;_self&quot;;
+    postbackform.style.display = &quot;none&quot;;
+    var inp_username = createDummyPostbackControl(&quot;login_username&quot;);
+    var inp_password = createDummyPostbackControl(&quot;login_password&quot;);
+    var inp_rememberme = createDummyPostbackControl(&quot;login_remember&quot;);
+    var post_action = createDummyPostbackControl(&quot;postbackAction&quot;);
+    postbackform.appendChild(inp_username);
+    postbackform.appendChild(inp_password);
+    postbackform.appendChild(inp_rememberme);
+    post_action.value = &quot;loginUser&quot;;
+    postbackform.appendChild(post_action);
+	$(&quot;#loginDialog&quot;).css(&#x27;cursor&#x27;,&#x27;wait&#x27;);
+    $.ajax({
+        data: $(postbackform).serialize(),
+        success: function(data) {
+			$(&quot;#loginDialog&quot;).css(&#x27;cursor&#x27;,&#x27;default&#x27;);
+            switch (data) {
+                case &quot;Invalid username&#x2F;password&quot;:
+                    alert(data);
+                    break;
+                default:
+					mygis.UI.gatherUnsaved();
+                    location.reload();	&#x2F;&#x2F;__doPostBack(&quot;loginDialog&quot;, null);
+                    break;
+            }
+        },
+        type: &quot;POST&quot;,
+		url: postbackform.action+&quot;?qtype=login&quot;
+    });
+    
+    
+}
+
+function checkKeys(sender, eventArgs) {
+    var c = eventArgs.get_keyCode();
+    if (sender == login_password) {
+        if (c == 13) {
+            login();
+            eventArgs.set_cancel(true);
+        }
+    }
+    
+}
+
+function createDummyPostbackControl(name){
+    var retControl = document.createElement(&quot;input&quot;);
+    var retValue;
+    retControl.id = name;
+    retControl.name = name;
+    retControl.type = &quot;hidden&quot;;
+    switch (name){
+        case &quot;reg_firstname&quot;:
+            retValue = reg_firstname.get_textBoxValue();
+            break;
+        case &quot;reg_lastname&quot;:
+            retValue = reg_lastname.get_textBoxValue();
+            break;
+        case &quot;reg_email&quot;:
+            retValue = reg_email.get_textBoxValue();
+            break;
+        case &quot;reg_displayname&quot;:
+            retValue = reg_displayname.get_textBoxValue();
+            break;
+        case &quot;reg_username&quot;:
+            retValue = reg_username.get_textBoxValue();
+            break;
+        case &quot;reg_password&quot;:
+            retValue = reg_password.get_textBoxValue();
+            break;
+        case &quot;login_username&quot;:
+            retValue = login_username.get_textBoxValue();
+            break;
+        case &quot;login_password&quot;:
+            retValue = login_password.get_textBoxValue();
+            break;
+        case &quot;login_remember&quot;:
+            retValue = document.getElementById(&quot;RememberMe&quot;).checked;
+            break;
+		case &quot;mapID&quot;:
+			retValue = $(&quot;#mapsList&quot;).jqxListBox(&#x27;getSelectedItem&#x27;).value;
+			break;
+    }
+    retControl.value = retValue;
+    return retControl;
+}
+
+function showSave() {
+	mygis.UI.stopDigitize();
+    var ctrl = rsideSplitter;
+    var visible = $(&quot;#saveAskDialog&quot;).is(&quot;:visible&quot;); 
+    if (!visible) {
+		document.getElementById(&quot;saveMarkers&quot;).innerHTML = countMarkers;
+		document.getElementById(&quot;savePolygons&quot;).innerHTML = countPolygons;
+		document.getElementById(&quot;savePolylines&quot;).innerHTML = countPolylines;
+		$(&quot;#saveAskDialog&quot;).dialog({modal: true,resizable: false, title: tip_btnSave});
+    } else {
+		$(&quot;#saveAskDialog&quot;).dialog(&quot;close&quot;);
+    } 
+}
+
+function showCosmetic(forceon) {
+	mygis.UI.stopDigitize();
+    var visible = $(&quot;#cosmeticPanel&quot;).is(&quot;:visible&quot;); 
+    if (!visible &amp;&amp; forceon) {
+        showSingleRightPane(&quot;cosmeticPanel&quot;);
+		$(&quot;#rsideSplitter&quot;).jqxSplitter(&#x27;expandAt&#x27;,1);
+		$(&quot;#rsideSplitter&quot;).jqxSplitter(&#x27;panels&#x27;)[1].collapsed=false;	&#x2F;&#x2F;duh...
+		$(&quot;#rsideSplitter&quot;).jqxSplitter(&#x27;enable&#x27;);
+    } else {
+        $(&quot;#cosmeticPanel&quot;).hide();
+		$(&quot;#rsideSplitter&quot;).jqxSplitter(&#x27;collapseAt&#x27;,1);
+		$(&quot;#rsideSplitter&quot;).jqxSplitter(&#x27;panels&#x27;)[1].collapsed=true;	&#x2F;&#x2F;duh...
+		$(&quot;#rsideSplitter&quot;).jqxSplitter(&#x27;disable&#x27;);
+    } 
+}
+
+function showMapDialog(event){
+	&#x2F;&#x2F;$(&quot;#mapsAnalysis&quot;).jqxSplitter(&#x27;_refreshWidgetLayout&#x27;);
+	&#x2F;*$(&quot;#mapsAnalysis&quot;).dialog({width: 660, height: 420, modal: true, resizable: false, title: tip_btnMaps});
+	var titleBar = $(&quot;#ui-dialog-title-mapsAnalysis&quot;).parent();
+	titleBar.css({
+		&quot;background&quot;:&quot;url(&#x27;&quot;+config.folderPath+&quot;Images&#x2F;map_mini.png&#x27;) #F6A828 no-repeat 12px 2px&quot;,
+		&quot;background-size&quot;:&quot;auto 25px&quot;
+		});
+	setTimeout(createMapListTips,100);
+	*&#x2F;
+	if (event){
+		
+		var mapIndex = event.data.mapIndex;
+		if (mapIndex!=undefined){
+			&#x2F;&#x2F;$(&quot;#bottomTabContainer&quot;).jqxTabs(&#x27;select&#x27;,internalConfig.mapTabIndex);
+			$(&quot;#mapsList&quot;).jqxListBox(&#x27;selectIndex&#x27;,mapIndex);
+			
+			expandMapProperties();
+		}
+	}
+}
+
+function showQueryDialog(){	
+	if ($(&quot;#databaseAnalysis&quot;).children().length==0){
+		loadFragment(&quot;databaseAnalysis&quot;,showQueryExecute);
+	}else{
+		showQueryExecute(true);
+	}
+}
+
+function QuerySettingsVisibility(on){
+	if (on){
+		$(&quot;#searchSettings&quot;).show();
+		$(&quot;#btnSearchSettings&quot;).attr(&quot;class&quot;,&quot;active&quot;);
+	}else{
+		$(&quot;#searchSettings&quot;).hide();
+		$(&quot;#btnSearchSettings&quot;).attr(&quot;class&quot;,&quot;&quot;);
+	}
+}
+
+function toggleQuerySettings(){
+	var visible=$(&quot;#searchSettings&quot;).is(&quot;:visible&quot;);
+	QuerySettingsVisibility(!visible);
+}
+
+function showNewLayerDialog(){
+	if ($(&quot;#newLayerDialog&quot;).children().length==0){
+		loadFragment(&quot;newLayerDialog&quot;,showNewLayer);
+	}else{
+		showNewLayer();
+	}
+}
+
+function showMediaManager(onlyImages){
+	if ($(&quot;#userFiles&quot;).children().length==0){
+		loadFragment(&quot;userFiles&quot;,function(){showUserFiles(false,onlyImages);});
+	}else{
+		showUserFiles(true,onlyImages);
+	}
+}
+
+function showMapManager(filterList){
+	var closure = function(filter){
+		return function(){
+			mygis.Admin.MapManager.showMapManagerMaps(false,filter);
+		}
+		
+	};
+	var callme = closure(filterList);
+	if ($(&quot;#mapManager&quot;).children().length==0){
+		loadFragment(&quot;mapManager&quot;,callme);
+	}else{
+		mygis.Admin.MapManager.showMapManagerMaps(true,filterList);
+	}
+}
+
+function showLayerManager(filterList){
+	var closure = function(filter){
+		return function(){
+			mygis.Admin.MapManager.Layers.showAddLayer(false,filter);
+		}
+	};
+	var callme = closure(filterList);
+	if ($(&quot;#layerManager&quot;).children().length==0){
+		loadFragment(&quot;layerManager&quot;,callme);
+	}else{
+		mygis.Admin.MapManager.Layers.showAddLayer(true,filterList);
+	}
+}
+
+function showNewLayer(){
+	$(&quot;#newLayerDialog&quot;).dialog({modal: true,resizable: false,width: 900,height: 510, title: strings.LayerControl.newLayerWindowTitle});
+	var titleBar = $(&quot;#ui-dialog-title-newLayerDialog&quot;).parent();
+	titleBar.css({
+		&quot;background&quot;:&quot;url(&#x27;&quot;+config.folderPath+&quot;Images&#x2F;layerlist&#x2F;Color_layers_original.png&#x27;) #F6A828 no-repeat 12px 2px&quot;,
+		&quot;background-size&quot;:&quot;auto 25px&quot;
+		});
+}
+
+function showQueryExecute(secondRun){
+	if (currentAppName==&quot;ToBeParks&quot;){
+		&#x2F;&#x2F;$(&#x27;#criteriaPanels .dbFieldOperator option[value=&quot;LIKE&quot;]&#x27;).remove();
+		$(&#x27;#criteriaPanels .dbFieldOperator option[value=&quot;NEQ&quot;]&#x27;).remove();
+		$(&#x27;#criteriaPanels .dbFieldOperator option[value=&quot;GEQ&quot;]&#x27;).remove();
+		$(&#x27;#criteriaPanels .dbFieldOperator option[value=&quot;LEQ&quot;]&#x27;).remove();
+		
+	}
+	var myDate = new Date().toString(Date.CultureInfo.formatPatterns.fullDateTime);	&#x2F;&#x2F;needs datejs to play
+	var myDate = new Date().toString(&quot;hh:mm:ss&quot;);
+	if (!secondRun){buildDBSearchSource(layerSource);}
+	document.getElementById(&quot;critFriendlyName&quot;).value = strings.QBuilder.friendlyNameDef+myDate;
+	$(&quot;#databaseAnalysis&quot;).dialog({modal: true,resizable: false,width: 900,height: 510, title: strings.QBuilder.windowTitle});
+	var titleBar = $(&quot;#ui-dialog-title-databaseAnalysis&quot;).parent();
+	titleBar.css({
+		&quot;background&quot;:&quot;url(&#x27;&quot;+config.folderPath+&quot;Images&#x2F;queryBuilder&#x2F;database_search.png&#x27;) #F6A828 no-repeat 12px 2px&quot;,
+		&quot;background-size&quot;:&quot;auto 25px&quot;
+		});
+		&#x2F;&#x2F;.find(&quot;.ui-dialog-titlebar-close&quot;).css({&quot;visibility&quot;:&quot;hidden&quot;});
+	&#x2F;&#x2F;&lt;a href=&quot;#&quot; class=&quot;movingHideBtn&quot; onclick=&quot;$(&#x27;#databaseAnalysis&#x27;).dialog(&#x27;close&#x27;);&quot;&gt;HIDE&lt;&#x2F;a&gt;
+	if (titleBar.find(&quot;.movingHideBtn&quot;).length==0){
+		var movingBtn = document.createElement(&quot;a&quot;);
+		movingBtn.onclick = function(){$(&#x27;#databaseAnalysis&#x27;).dialog(&#x27;close&#x27;);};
+		movingBtn.className = &quot;movingHideBtn&quot;;
+		movingBtn.innerHTML=strings.QBuilder.windowClose;
+		titleBar.append(movingBtn);
+	}
+	mygis.UI.dbCriteriaReset();
+	&#x2F;*mygis.UI.createCriteriaMap();*&#x2F;
+}
+
+function showQueryResetConfirm(){
+	&#x2F;*
+	$(&#x27;#critReset&#x27;).css({&#x27;display&#x27;:&#x27;block&#x27;});
+	document.getElementById(&quot;criteriaGo&quot;).ex_RemoveClassName(&quot;defaultAction&quot;);
+	$(&quot;#criteriaResetCont&quot;).unbind(&#x27;mouseleave&#x27;);
+	$(&quot;#criteriaResetCont&quot;).bind(&#x27;mouseleave&#x27;, function(){
+		hideQueryResetConfirm();
+		return false;
+	});
+	*&#x2F;
+	showConfirmationDialog(strings.ConfirmBox.msg_qb_resetcrit,mygis.UI.dbCriteriaReset);
+}
+
+function hideQueryResetConfirm(){
+	$(&#x27;#critReset&#x27;).css({&#x27;display&#x27;:&#x27;none&#x27;});
+	document.getElementById(&quot;criteriaGo&quot;).ex_AddClassName(&quot;defaultAction&quot;);
+}
+
+function showMapExport(){
+	var layers = mygis.Utilities.getVisibleLayerString(currentAppName,false);
+	document.getElementById(&quot;saveAsLink&quot;).href = document.getElementById(&quot;permaElem&quot;).href;
+	document.getElementById(&quot;saveAsLink&quot;).innerHTML=document.getElementById(&quot;saveAsLink&quot;).href;
+	
+	document.getElementById(&quot;saveAsLegendImg&quot;).src = &quot;http:&#x2F;&#x2F;mgmapserver.avmap.gr:8081&#x2F;geoserver&#x2F;wms&quot;+
+		&quot;?layer=&quot;+layers+
+		&quot;&amp;REQUEST=GetLegendGraphic&amp;VERSION=1.0.0&amp;FORMAT=image&#x2F;png&quot;;
+	$(&quot;#saveAs&quot;).show().dialog({resizable: false,title: strings.Export.saveAsWindowTitle});
+	
+}
+
+function showUserFiles(secondRun,onlyImages){
+	if (!secondRun){
+		mygis.UI.MediaManager.bindManagerHandlers();
+		$(&quot;#userFiles&quot;).dialog({
+			autoOpen: false,
+			modal: true,
+			resizable: false,
+			width: 780,
+			height: 510, 
+			title: strings.MediaManager.windowTitle,
+			closeOnEscape: false
+			});
+		var titleBar = $(&quot;#ui-dialog-title-userFiles&quot;).parent();
+		titleBar.css({
+			&quot;background&quot;:&quot;url(&#x27;&quot;+config.folderPath+&quot;Images&#x2F;pictures_folder.png&#x27;) #F6A828 no-repeat 12px 2px&quot;,
+			&quot;background-size&quot;:&quot;auto 25px&quot;
+			});
+	}
+	$(&quot;#userFiles&quot;).dialog(&#x27;open&#x27;);
+	
+	
+	var fileContainer = $(&quot;#userFilesList&quot;);
+	if (secondRun){
+		fileContainer.jqxGrid(&#x27;clearselection&#x27;);
+		fileContainer.jqxGrid(&#x27;clearfilters&#x27;);
+		fileContainer.jqxGrid(&#x27;clear&#x27;);
+		
+	}
+	var cellrenderer = function (row, datafield, value) {
+		var retobject = &quot;&quot;;
+		switch (datafield){
+			case &#x27;fileID&#x27;:
+				var action =&quot;&quot;;
+				var fileType = this.owner.getrowdata(row).fileTYPE.toLowerCase();
+				switch (fileType){
+					case &quot;.png&quot;:
+					case &quot;.jpg&quot;:
+					case &quot;.jpeg&quot;:
+					case &quot;.gif&quot;:
+						action = &quot;router(&#x27;mm_imgclick&#x27;,this);&quot;;
+						retobject = mygis.Utilities.format(&#x27;&lt;img onclick=&quot;{0}&quot; style=&quot;margin: 4px;&quot; src=&quot;{1}GetImage.ashx?qType=userFile&amp;qContents={2}&amp;qSize=28&quot; &#x2F;&gt;&#x27;,
+									&quot;return false;&quot;, &#x2F;&#x2F;action,
+									config.folderPath,
+									value);
+						break;
+					case &quot;.doc&quot;:
+					case &quot;.docx&quot;:
+						var cname = &quot;doc&quot;;
+						retobject=mygis.Utilities.format(&#x27;&lt;div class=&quot;MMFile {0}&quot; &#x2F;&gt;&#x27;,cname);
+						break;
+					case &quot;.xls&quot;:
+					case &quot;.xlsx&quot;:
+						var cname = &quot;xls&quot;;
+						retobject=mygis.Utilities.format(&#x27;&lt;div class=&quot;MMFile {0}&quot; &#x2F;&gt;&#x27;,cname);
+						break;
+					case &quot;.ppt&quot;:
+					case &quot;.pptx&quot;:
+						var cname = &quot;ppt&quot;;
+						retobject=mygis.Utilities.format(&#x27;&lt;div class=&quot;MMFile {0}&quot; &#x2F;&gt;&#x27;,cname);
+						break;
+					case &quot;.pdf&quot;:
+						var cname = &quot;pdf&quot;;
+						retobject=mygis.Utilities.format(&#x27;&lt;div class=&quot;MMFile {0}&quot; &#x2F;&gt;&#x27;,cname);
+						break;
+					default:
+						var cname = &quot;unknown&quot;;
+						retobject=mygis.Utilities.format(&#x27;&lt;div class=&quot;MMFile {0}&quot; &#x2F;&gt;&#x27;,cname);
+						break;
+				}
+				
+				break;
+			case &#x27;fileTYPE&#x27;:
+				var genericName;
+				switch(value.toLowerCase()){
+					case &quot;.png&quot;:
+					case &quot;.jpg&quot;:
+					case &quot;.jpeg&quot;:
+					case &quot;.gif&quot;:
+						genericName=strings.MediaManager.filetype_Image;
+						break;
+					case &quot;.txt&quot;:
+					case &quot;.doc&quot;:
+					case &quot;.docx&quot;:
+					case &quot;.rtf&quot;:
+					case &quot;.pdf&quot;:
+						genericName=strings.MediaManager.filetype_Document;
+						break;
+					default:
+						genericName=strings.MediaManager.filetype_Other;
+						break;
+				}
+				retobject = mygis.Utilities.format(&quot;&lt;span class=&#x27;primaryFileType&#x27; style=&#x27;margin: 9px 4px; float: left;&#x27;&gt;{0}&lt;span class=&#x27;secondaryFileType&#x27;&gt;{1}&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&quot;,genericName,value);
+				break;
+			case &#x27;fileSIZE&#x27;:
+				retobject = mygis.Utilities.format(&quot;&lt;span style=&#x27;margin:9px 4px; float: right;&#x27;&gt;{0}&lt;&#x2F;span&gt;&quot;,value.toFixed(2));
+				break;
+			case &#x27;fileINSERT&#x27;:
+				retobject = mygis.Utilities.format(&quot;&lt;span style=&#x27;margin:9px 10px 9px 4px; float: right;&#x27;&gt;{0}&lt;&#x2F;span&gt;&quot;,value);
+				break;
+			default:
+				retobject = mygis.Utilities.format(&quot;&lt;span style=&#x27;margin:9px 4px; float: left;&#x27;&gt;{0}&lt;&#x2F;span&gt;&quot;,value);
+				break;
+		}
+		return retobject;
+	}
+	if (!secondRun){
+		mygis.UI.MediaManager.setupGaugeFeedback();
+		var fileSource = createFileList();
+		fileContainer.jqxGrid({
+			source:fileSource,
+			width: 760,
+			height: 224,
+			autoheight: false,
+			theme: &#x27;pk_mg&#x27;,
+			enabletooltips: true,
+			columns: [
+				{text: &#x27;&#x27;,datafield:&#x27;fileID&#x27;, width: 36,cellsrenderer: cellrenderer},
+				{text: &#x27;really really really long name&#x27;,datafield:&#x27;fileNAME&#x27;,cellsrenderer: cellrenderer},
+				{text: &#x27;&#x27;,datafield:&#x27;fileTYPE&#x27;, width: 100,cellsrenderer: cellrenderer},
+				{text: &#x27;&#x27;, datafield:&#x27;fileSIZE&#x27;, width: 95,cellsrenderer: cellrenderer},
+				{text: &#x27;&#x27;,datafield:&#x27;fileINUSE&#x27;, width: 55,columntype: &#x27;checkbox&#x27;,type: &#x27;boolean&#x27;},
+				{text: &#x27;&#x27;,datafield:&#x27;fileINSERT&#x27;, width: 115,cellsrenderer: cellrenderer}
+			],
+			enableanimations: false,
+			showheader: false,
+			selectionmode: &#x27;singlerow&#x27;,
+			rowsheight:35
+		});
+		fileContainer.bind(&#x27;rowselect&#x27;,mygis.UI.MediaManager.fileSelected);
+		&#x2F;&#x2F;fileContainer.bind(&#x27;rowunselect&#x27;,mygis.UI.MediaManager.fileUnselected);
+		
+		var myurl = config.mgreq+&quot;?qtype=GetUserSpace&quot;;
+		$.ajax({
+			url: myurl,
+			type: &#x27;GET&#x27;,
+			success: function(data){
+				mygis.UI.MediaManager.setupGaugeValue(parseFloat(data));
+			}
+		});
+	}else{
+		mygis.UI.MediaManager.refreshFileList();
+		
+	}
+	if (internalConfig.mmCallback.fn==null){
+		$(&quot;#userFilesDialogButtons&quot;).hide();
+	}else{
+		$(&quot;#userFilesDialogButtons&quot;).show();
+	}
+	if (onlyImages){
+		mygis.UI.MediaManager.filterImages();
+	}else{
+		mygis.UI.MediaManager.clearFilterImages();
+	}
+}
+
+function fileUploaded(sender,eventArgs){
+	var info = eventArgs.get_fileInfo();
+	var row = eventArgs.get_row();
+}
+
+function fileUploading(){
+	$(&quot;#userFiles_uploadNew&quot;).addClass(&quot;disabled&quot;);
+}
+
+function fileUploadFinished(sender){
+	$(&quot;#userFiles_uploadNew&quot;).removeClass(&quot;disabled&quot;);
+	mygis.UI.MediaManager.refreshFileList();
+}
+
+function loadMap(initialLoad){
+	&#x2F;* TODO PROPER FIX
+	if (layerCurrentEditing&gt;-1){
+		showConfirmationDialog(strings.Editing.loseChanges,function(){
+			mygis.UI.clearUnsavedLayer(layerCurrentEditing);
+			&#x2F;&#x2F;loadMap(initialLoad);
+		});
+		return false;
+	}
+	*&#x2F;
+	mygis.Utilities.blockUI();
+	try{mygis.UI.queryResultsReset();}catch(err){}
+	try{$(&quot;#infoLeftList&quot;).jqxListBox(&#x27;clear&#x27;);}catch(err){}
+	if ($(&quot;#mapsPanel&quot;).is(&quot;:visible&quot;)){
+				$(&quot;#mapsPanel&quot;).slideUp(&#x27;fast&#x27;);
+				$(&quot;#mapsPanelOverlay&quot;).hide().unbind(&#x27;click&#x27;);
+			}
+	if (!$(&quot;#mapsList&quot;).jqxListBox(&#x27;getSelectedItem&#x27;)){
+		mygis.UI.feedback(strings.Coding.loadingStep4,true);
+		mygis.UI.feedback(strings.Coding.loadingStep5,true);
+		if (initialLoad){
+			ui_setup_2();
+		}
+	}else{
+		var mapItem = $(&quot;#mapsList&quot;).jqxListBox(&#x27;getSelectedItem&#x27;).originalItem;
+		var mapID = mapItem.id;
+		
+		currentMapID = mapID;
+		currentMapMaxExtent = mapItem.maxExtent;
+		currentAppName = mapItem.appName;
+		createLayerList(mapID);
+		&#x2F;&#x2F;mygis.UI.resetLoadFeedback();
+		&#x2F;&#x2F;mygis.Map.switchBackground(mapItem.mapDefaultBG,0);
+		mygis.UI.feedback(strings.Coding.loadingStep4);
+		
+		mygis.UI.Macros.init();
+		setTimeout(function(){
+			
+			loadMapSequence(mapItem,true);
+			$(&quot;#filterContents&quot;).empty();
+			mygis.UI.feedback(strings.Coding.loadingStep5);
+			mygis.UI.Help.shortcutStart();
+			setTimeout(function(){
+				createQSList(mapID);
+				if (QSSource.records.length==0){
+					&#x2F;&#x2F;$(&quot;#fDock1&quot;).jqxNavigationBar(&#x27;disableAt&#x27;,internalConfig.filteringToolbarIndex);	&#x2F;&#x2F;TODO FIX
+				}else{
+					&#x2F;&#x2F;$(&quot;#fDock1&quot;).jqxNavigationBar(&#x27;enableAt&#x27;,internalConfig.filteringToolbarIndex);	&#x2F;&#x2F;TODO FIX
+				}
+				mygis.UI.initHotSearches();
+				if (initialLoad){
+					ui_setup_2();
+				}else{
+					try{
+						$(&quot;#databaseAnalysis&quot;).dialog(&#x27;destroy&#x27;);
+						$(&quot;#databaseAnalysis&quot;).empty();
+						mygis.Map.switchBackground(mapItem.mapDefaultBG,0);
+					}catch(err){}
+					
+					
+				}
+				&#x2F;&#x2F;console.log(&#x27;beforeTrigger&#x27;);
+				$(document).trigger(&#x27;finishedLoading&#x27;);
+			},4);
+		},4);
+		
+	}
+	
+	
+}
+
+function loadMapSequence(mapItem,initialLoad)
+{
+	if (!mapItem){
+		mapItem = $(&quot;#mapsList&quot;).jqxListBox(&#x27;getSelectedItem&#x27;).originalItem;
+	}
+	var recs = layerSource.records;
+	var layername;
+	var layer;
+	var pushMaps= new Array();
+	layersToLoad=recs.length;
+	layersLoaded=0;
+	
+	mygis.Map.clearMap(initialLoad);
+	&#x2F;&#x2F;mygis.Utilities.blockUI(initialLoad);
+	
+	
+	var mapPath = mapItem.filePath;
+	var mapExtent = mapItem.maxExtent;
+	var appName = mapItem.appName;
+	var mapCenter = mapItem.mapCenter.split(&quot;,&quot;);;
+	var mapZoomLevel = mapItem.mapZoom;
+	
+	$(&quot;#mapDescription&quot;).html(mapItem.mapName);
+	
+	var fullLayerString = mygis.Utilities.getVisibleLayerString(appName);
+	if (fullLayerString){
+	
+		
+		layer = mygis.Map.getMapServerLayer(fullLayerString,mapPath,mapExtent);
+		&#x2F;&#x2F;layer.projection = new OpenLayers.Projection(&quot;EPSG:4326&quot;);
+		layer.events.register(&quot;loadend&quot;, layer, finishLoad);
+		pushMaps.push(layer);
+				
+		digimap.addLayers(pushMaps);
+		digimap.setLayerIndex(cosmeticLayer,99);
+		digimap.setLayerIndex(selectionLayer,100);
+		digimap.setLayerIndex(feedbackLayer,101);
+		
+		if (initialLoad){
+			mygis.Map.buildSLDArray();
+			if (mapCenter.length&gt;1){
+				&#x2F;&#x2F;digimap.setCenter(new OpenLayers.LonLat([mapCenter[0],mapCenter[1]]),mapZoomLevel);
+				digimap.setCenter(new OpenLayers.LonLat([mapCenter[0],mapCenter[1]]).transform(
+					new OpenLayers.Projection(mygis.Utilities.projections.wgs84),
+					digimap.getProjectionObject()
+				), mapZoomLevel);
+				internalMemory.lastZoom=digimap.getExtent();
+			}else{
+				digimap.zoomToExtent(layer.getMaxExtent());
+				internalMemory.lastZoom=digimap.getExtent();
+			}
+			&#x2F;&#x2F;showLayers(true);
+			
+		}
+	}else{
+		mygis.Utilities.unblockUI();
+	}
+}
+
+function finishLoad(){
+	this.events.unregister(&quot;loadend&quot;,this,finishLoad);
+	if (finishApplicationLoad){mygis.Utilities.unblockUI()};
+}
+
+function initializeTabs()
+{
+	if (!tabsInitialized){
+		$(&quot;#bottomTabContainer&quot;).jqxTabs({
+			width: &#x27;100%&#x27;,
+			height: &#x27;auto&#x27;,
+			theme: &#x27;classic&#x27;,	&#x2F;&#x2F;&#x27;pk_mg_white&#x27;,
+			scrollable: false,
+			selectionTracker: false,
+			selectedIndex: 0&#x2F;&#x2F;internalConfig.layerTabIndex
+		});
+		$(&quot;#bottomTabContainer&quot;).jqxTabs(&#x27;disableAt&#x27;,internalConfig.editTabIndex);
+		$(&quot;#bottomTabContainer&quot;).bind(&#x27;selecting&#x27;,function(event){
+			&#x2F;&#x2F;$(&#x27;#layersList&#x27;).jqxGrid(&#x27;beginupdate&#x27;);
+			
+			if (event.args.item==$(&quot;#bottomTabContainer&quot;).jqxTabs(&#x27;length&#x27;)-1){
+				var elem = $(&quot;#appTabs&quot;).parent()[0];
+				if (elem.ex_HasClassName(&quot;collapsed&quot;)){
+					elem.ex_RemoveClassName(&quot;collapsed&quot;);
+					document.getElementById(&quot;tabsCloseButton&quot;).ex_RemoveClassName(&quot;collapsed&quot;);
+					var selIndex = $(&quot;#bottomTabContainer&quot;).jqxTabs(&#x27;selectedItem&#x27;);
+					var manualTab = $(&quot;#bottomTabsRow li&quot;)[selIndex];
+					manualTab.ex_AddClassName(&quot;jqx-tabs-title-selected-top&quot;);
+					manualTab.ex_AddClassName(&quot;jqx-tabs-title-selected-top-classic&quot;);
+					manualTab.ex_AddClassName(&quot;jqx-fill-state-pressed&quot;);
+					manualTab.ex_AddClassName(&quot;jqx-fill-state-pressed-classic&quot;);
+				}else{
+					elem.ex_AddClassName(&quot;collapsed&quot;);
+					document.getElementById(&quot;tabsCloseButton&quot;).ex_AddClassName(&quot;collapsed&quot;);
+					var selIndex = $(&quot;#bottomTabContainer&quot;).jqxTabs(&#x27;selectedItem&#x27;);
+					var manualTab = $(&quot;#bottomTabsRow li&quot;)[selIndex];
+					manualTab.ex_RemoveClassName(&quot;jqx-tabs-title-selected-top&quot;);
+					manualTab.ex_RemoveClassName(&quot;jqx-tabs-title-selected-top-classic&quot;);
+					manualTab.ex_RemoveClassName(&quot;jqx-fill-state-pressed&quot;);
+					manualTab.ex_RemoveClassName(&quot;jqx-fill-state-pressed-classic&quot;);
+					&#x2F;&#x2F;$(&#x27;#bottomTabContainer&#x27;).jqxTabs(&#x27;collapse&#x27;);
+				}
+				event.cancel=true;
+			}else if (event.args.item==internalConfig.editTabIndex){
+				&#x2F;&#x2F;event.cancel=true;	
+			}else{
+				mygis.UI.toggleActiveList(event.args.item);
+				var elem = $(&quot;#appTabs&quot;).parent()[0];
+				if (elem.ex_HasClassName(&quot;collapsed&quot;)){
+					elem.ex_RemoveClassName(&quot;collapsed&quot;);
+					document.getElementById(&quot;tabsCloseButton&quot;).ex_RemoveClassName(&quot;collapsed&quot;);
+					var selIndex = $(&quot;#bottomTabContainer&quot;).jqxTabs(&#x27;selectedItem&#x27;);
+					var manualTab = $(&quot;#bottomTabsRow li&quot;)[selIndex];
+					manualTab.ex_AddClassName(&quot;jqx-tabs-title-selected-top&quot;);
+					manualTab.ex_AddClassName(&quot;jqx-tabs-title-selected-top-classic&quot;);
+					manualTab.ex_AddClassName(&quot;jqx-fill-state-pressed&quot;);
+					manualTab.ex_AddClassName(&quot;jqx-fill-state-pressed-classic&quot;);
+				}
+			}
+			
+		});
+				
+		tabsInitialized=true;
+	}
+}
+
+function initializeInfoWindow(){
+	querySource = new Array();
+	mygis.UI.updateQueryList();
+	$(&quot;#infoLeftList&quot;).show();
+	infoWindowInitialized=true;
+}
+
+function queryResultsMouseOver(event)
+{
+	var target = $(event.target);
+	var resultList = $(&quot;#infoLeftList&quot;);
+	var items = resultList.jqxListBox(&#x27;getItems&#x27;);
+	var found=false;
+	var i=0;
+	var centerPoint;
+	if (mygis.UI.isActiveSelectMode(&quot;mode_ResultsOnHover&quot;)){
+		while (i&lt;items.length &amp;&amp; !found)
+		{
+			var x = $(items[i].element);
+			if (x.is(&#x27;:hover&#x27;)){
+				found=true;
+			}
+			i++;
+		}
+		if (found){		
+			var features = resultList.jqxListBox(&#x27;source&#x27;)[i-1].linkedResults.features;
+			if (features){
+				mygis.Map.markFeatures(features);
+			}
+		}
+	}
+}
+
+
+function queryResultsMouseOut()
+{
+	var resultList = $(&quot;#infoLeftList&quot;);
+	var item = resultList.jqxListBox(&#x27;getSelectedItem&#x27;);
+	if (item){
+		&#x2F;*
+		var centerPoint = resultList.jqxListBox(&#x27;source&#x27;)._source.localdata[item.index].centerPoint;
+		mygis.Map.markSelectionPoint(centerPoint,true);	&#x2F;&#x2F;if centerPoint is null, it&#x27;ll clear the layer
+		*&#x2F;
+		if (mygis.UI.isActiveSelectMode(&quot;mode_ResultsOnHover&quot;)){
+			mygis.Map.markFeatures();
+		}
+		
+	}
+}
+
+function queryResultsClick(event)
+{
+	var item = $(&quot;#infoLeftList&quot;).jqxListBox(&#x27;getSelectedItem&#x27;).element;
+	if (event.target==item){
+		queryResultsSelect();
+	}
+}
+
+function queryResultsSelect(){
+	mygis.UI.toggleSearchAvailableActions();
+}
+
+
+function populateQueryLayerList(resultdata,queryname)
+{
+	showInfoDialog(&#x27;query&#x27;,queryname);
+	var newdata = {};
+	var rightList = $(&quot;#infoRightCol&quot;);
+	var rightTabs = $(&quot;&lt;ul &#x2F;&gt;&quot;);
+	rightTabs.attr(&quot;id&quot;,&quot;infoRightTabsQ&quot;);
+	rightList.removeData().empty();
+	rightList.die();
+	rightList.append(rightTabs);
+	var windowTitle;
+	if (rightList.children().length&gt;1){
+		rightList.children().slice(1).remove();
+	}
+	&#x2F;&#x2F;showInfoDialog(&#x27;query&#x27;,queryname);
+	$.each(resultdata,function(i,result){
+		var newdiv = $(&quot;&lt;div &#x2F;&gt;&quot;);
+		var newdivHeader = $(&quot;&lt;li &#x2F;&gt;&quot;);
+		
+		var newdivContent = $(&quot;&lt;div &#x2F;&gt;&quot;);
+		newdivContent.attr(&quot;class&quot;,&quot;resultGridButtons&quot;);
+		&#x2F;&#x2F;loadFragment(&quot;resultGridButtons&quot;,null,newdivContent);
+		newdivContent.html(resultGridButtons.html());
+		
+		var clickMe = false;
+		
+		rightTabs.append(newdivHeader);
+		newdiv.attr(&quot;id&quot;,&quot;queryTab_&quot;+i);
+		newdiv.append(newdivContent);
+		&#x2F;&#x2F;----window title
+		
+		&#x2F;&#x2F;windowTitle = result.TableName.split(&quot;_&quot;).slice(1).join(&quot; &quot;);
+		&#x2F;&#x2F;windowTitle += mygis.Utilities.format(&quot; ({0})&quot;,result.Rows.length);
+		windowTitle = result.TableName;
+		newdivHeader.html(windowTitle);
+		
+		
+		if (i==0){clickMe=true;}
+		newdiv.data(&#x27;clickMe&#x27;,clickMe);
+		newdiv.data(&#x27;result&#x27;,result);
+		newdiv.data(&#x27;queryname&#x27;,queryname);
+		newdiv.data(&#x27;windowTitle&#x27;,windowTitle);
+		
+		rightList.append(newdiv);
+		
+	});
+	
+	rightList.jqxTabs({
+		width: &#x27;100%&#x27;,
+		height: &#x27;100%&#x27;,	&#x2F;&#x2F;TODO: FIX this size
+		theme: &#x27;classic&#x27;,	&#x2F;&#x2F;&#x27;pk_mg_white&#x27;,
+		scrollable: true,
+		scrollPosition:&#x27;right&#x27;,
+		selectionTracker: true
+	});
+	rightList.live(&#x27;selected&#x27;, infoTabClicked);
+	&#x2F;&#x2F;console.log(&quot;binding infoTabClicked&quot;);
+	infoTabClicked(null,0);
+}
+
+
+
+function infoTabClicked(event,manual,isInfo,isMap)
+{
+	var clickedIndex;
+	if (event){
+		clickedIndex = event.args.item;
+	}else{
+		clickedIndex = manual;
+	}
+	var getDiv = $(&quot;#queryTab_&quot;+clickedIndex);
+	if (isMap){
+		populateMapFeatureList(getDiv.data(&#x27;result&#x27;),getDiv,getDiv.data(&#x27;windowTitle&#x27;));	&#x2F;&#x2F;WhatToSend
+	}else{
+		if (isInfo){
+			&#x2F;&#x2F;populateInfoFeatureList(getDiv.data(&#x27;url&#x27;),getDiv.data(&#x27;name&#x27;),getDiv,getDiv.data(&#x27;clickMe&#x27;),getDiv.data(&#x27;tableNAME&#x27;));
+		}else{
+			populateQueryFeatureList(getDiv.data(&#x27;result&#x27;),getDiv,getDiv.data(&#x27;queryname&#x27;),getDiv.data(&#x27;clickMe&#x27;),getDiv.data(&#x27;tableNAME&#x27;));
+		}
+	}
+}
+
+function infoTabClickedM(event,manual)
+{
+	infoTabClicked(event,manual,false,true);
+}
+
+function showInfoDialog(mode,infoTitle)
+{
+	var mytitle = infoTitle;
+	var titlePrefix;
+	var resultTitle;
+	var myicon;
+	switch (mode)
+	{
+		case &#x27;query&#x27;:
+			myicon=&quot;queryBuilder&#x2F;database_search.png&quot;;
+			titlePrefix = strings.Info.windowTitleQuery;
+			break;
+		case &#x27;info&#x27;:
+			myicon=&quot;info2.png&quot;;
+			titlePrefix = &quot;&quot;;	&#x2F;&#x2F;strings.Info.windowTitle;
+			break;
+	}
+	resultTitle = titlePrefix;
+	if (infoTitle){
+		resultTitle += mygis.Utilities.format(&quot;{0}&quot;,infoTitle);
+	}
+	expandResultDetails();
+	var titleBar = $(&quot;#ui-dialog-title-infoAnalysis&quot;).parent();
+	titleBar.css({
+		&quot;background&quot;:&quot;url(&#x27;&quot;+config.folderPath+&quot;Images&#x2F;&quot;+myicon+&quot;&#x27;) #F6A828 no-repeat 12px 2px&quot;,
+		&quot;background-size&quot;:&quot;auto 25px&quot;
+	});
+	
+}
+
+&#x2F;**
+	* Build a dataAdapter from existing data, in order to call actualInfoGridPop
+	* The existing data is from a map select tool.
+	* @method populateMapFeatureList
+	*&#x2F;
+function populateMapFeatureList(features,container,windowTitle){
+	var data = new Array();
+	var row;
+	var datacolumns = new Array();
+	$.each(features[0].data,function(prop,value){
+		var colObject = new Object();
+		colObject.text=prop;
+		colObject.dataField=prop;
+		colObject.width=100;
+		datacolumns.push(colObject);
+	});
+	$.each(features,function(index,f){
+		var row = {};
+		row = f.data;
+		data.push(row);
+	});
+	var source =
+	{
+		localdata: data,
+		datatype: &quot;local&quot;
+	};
+	var dataAdapter = new $.jqx.dataAdapter(source,{
+		async: false
+	});
+	dataAdapter.dataBind();	
+	dataAdapter.mydatacolumns=datacolumns;
+	infoWindows[windowTitle]=dataAdapter;
+	
+	actualInfoGridPop(windowTitle,container);
+}
+
+
+
+
+&#x2F;**
+ * Creates the returning form, posts it back and closes the window
+ *&#x2F;
+function saveAndClose(){
+    var postbackform = document.createElement(&quot;FORM&quot;);
+    postbackform.id = &quot;digiForm&quot;;
+    postbackform.name = &quot;digiForm&quot;;
+    postbackform.method = &quot;POST&quot;;
+    postbackform.action = &quot;&quot;;
+    postbackform.target = &quot;self&quot;;
+    
+    var inp_output = document.createElement(&quot;input&quot;);
+    inp_output.id = &quot;_output&quot;;
+    inp_output.name = &quot;_output&quot;;
+    inp_output.value = getKML();
+    postbackform.appendChild(inp_output);
+    
+    var inp_extra = document.createElement(&quot;input&quot;);
+    inp_extra.id = &quot;_extra&quot;;
+    inp_extra.name = &quot;_extra&quot;;
+    inp_extra.value = getExtra();
+    postbackform.appendChild(inp_extra);
+    
+    
+    var inp_guid = document.createElement(&quot;input&quot;);
+    inp_guid.id = &quot;guid&quot;;
+    inp_guid.name = &quot;guid&quot;;
+    inp_guid.value = getGUID();
+    postbackform.appendChild(inp_guid);
+    &#x2F;&#x2F;document.body.appendChild(postbackform);
+    &#x2F;&#x2F;postbackform.submit();
+    
+    var inp_pback = document.createElement(&quot;input&quot;);
+    inp_pback.id = &quot;postbackurl&quot;;
+    inp_pback.name = &quot;postbackurl&quot;;
+    inp_pback.value = postbackurl;
+    postbackform.appendChild(inp_pback);
+    
+    if (postbackurl){
+    $.ajax({
+        data: $(postbackform).serialize(),
+        success: function(data){
+            self.close();
+        },
+        type: &quot;POST&quot;
+    });
+    }else{
+		$(&quot;#Body&quot;).append(postbackform);
+		postbackform.submit();
+	}
+    
+    
+    return false;
+}
+
+
+function toggleRadControl(which,callerID){
+	mygis.UI.stopDigitize();
+    var ctrl;
+    var caller = document.getElementById(callerID);
+    switch (which) {
+        case &quot;layers&quot;:
+        case &quot;tables&quot;:
+            ctrl = rsideSplitter;
+            break;
+        case &quot;info&quot;:
+            ctrl = wrapSplitter;
+            break;
+    }
+	var previouslyHidden=ctrl.getEndPane().get_collapsed();
+	if (which==&quot;layers&quot; &amp;&amp; previouslyHidden){
+		showSingleRightPane(&quot;cosmeticPanel&quot;);
+	}else{
+		$(&quot;#cosmeticPanel&quot;).hide();
+	}
+    expandRightPane(!ctrl.getEndPane().get_collapsed(),ctrl);
+	
+    ToggleSplitBar(previouslyHidden,ctrl);
+	
+}
+
+function forwardRightPane()
+{
+	var divs= $(&quot;#bottomTopPane&quot;).find(&quot;&gt;div&quot;);
+	var current=-1;
+	var loopDone = false;
+	var i=0;
+	while (i&lt;divs.length &amp;&amp; !loopDone)
+	{
+		var item = $(divs[i]);
+		if (item.is(&quot;:visible&quot;)){
+			current=i;
+			loopDone = true;
+		}else{
+			i++;
+		}
+	}
+	if (current&gt;-1){
+		if (current+1&lt;=divs.length-1){
+			$(divs[current]).hide();
+			$(divs[current+1]).show();
+			if (current==1){
+				$(&quot;#rotateBackBtn&quot;).show();
+			}
+			if (current+1==divs.length-1){
+				$(&quot;#rotateForwardBtn&quot;).hide();
+			}
+		}
+	}
+	
+}
+
+function backRightPane()
+{
+	var divs= $(&quot;#bottomTopPane&quot;).find(&quot;&gt;div&quot;);
+	var current=-1;
+	var loopDone = false;
+	var i=0;
+	while (i&lt;divs.length &amp;&amp; !loopDone)
+	{
+		var item = $(divs[i]);
+		if (item.is(&quot;:visible&quot;)){
+			current=i;
+			loopDone = true;
+		}else{
+			i++;
+		}
+	}
+	if (current&gt;-1){
+		if (current-1&gt;=0){
+			$(divs[current]).hide();
+			$(divs[current-1]).show();
+			if (current-1==0){
+				$(&quot;#rotateBackBtn&quot;).hide();
+			}
+			if (current==divs.length-1){
+				$(&quot;#rotateForwardBtn&quot;).show();
+			}
+		}
+	}
+	
+}
+
+function createMapList()
+{
+	&#x2F;&#x2F;var url = config.mgreq+&quot;?qtype=GetMapList&quot;;
+	var url = config.folderPath+&quot;mgreq.ashx?qtype=GetMapList&quot;;
+	var source;
+	var rowheight = 52;
+	if (internalConfig.changeDefaultMap != null){
+		url += &quot;&amp;oDef=&quot;+internalConfig.changeDefaultMap;
+	}
+	var localMaps = mygis.Storage.getItem(&#x27;mapRecords_&#x27;+url);
+	if (localMaps &amp;&amp; !Sys.Services.AuthenticationService.get_isLoggedIn()){
+		var restore = eval(localMaps);
+		source = {
+			datatype: &quot;local&quot;,
+			localdata: restore
+		};
+	}else{
+		source =
+		{
+			datatype: &quot;json&quot;,
+			datafields: [
+				{ name: &quot;mapName&quot; },
+				{ name: &quot;mapDescription&quot; },
+				{ name: &quot;mapLayerCount&quot; },
+				{ name: &quot;id&quot; },
+				{ name: &quot;defaultLoad&quot; },
+				{ name: &quot;filePath&quot;},
+				{ name: &quot;maxExtent&quot;},
+				{ name: &quot;appName&quot;},
+				{ name: &quot;mapCenter&quot;},
+				{ name: &quot;mapZoom&quot;},
+				{ name: &quot;mapCreateDate&quot;},
+				{ name: &quot;mapUpdateDate&quot;},
+				{ name: &quot;mapDevelopedBy&quot;},
+				{ name: &quot;mapOwner&quot;},
+				{ name: &quot;mapDefaultBG&quot;},
+				{ name: &quot;appDisabledBGs&quot;}
+			],
+			id: &#x27;id&#x27;,
+			url: url
+		};
+	}
+	
+	mapSource = new $.jqx.dataAdapter(source,{
+		
+		async: false
+	});
+	mapSource.dataBind();
+	if (!Sys.Services.AuthenticationService.get_isLoggedIn())mygis.Storage.storeItem(&#x27;mapRecords_&#x27;+url,JSON.stringify(mapSource.records));
+	var defaultLoad;
+	var deletedBGs=false;
+	$.each(mapSource.records,function(i,v){
+		if (v.defaultLoad==&quot;true&quot;){
+			defaultLoad = i;
+		}
+		if (v.appDisabledBGs &amp;&amp; (!deletedBGs)){
+			deletedBGs=true;
+			var bgs = v.appDisabledBGs.split(&quot;,&quot;);
+			for (var i=0;i&lt;bgs.length;i++){
+				delete backgrounds[bgs[i]];
+			}
+		}
+	});
+	var itemRenderer = function(index, label, value){
+		var src = config.folderPath+&quot;GetImage.ashx?qType=mapThumb&amp;qSize=50&amp;qContents=&quot;+value;
+		retobject = mygis.Utilities.format(&quot;&lt;div class=&#x27;mapListRowContainer&#x27; style=&#x27;height: {1}px;&#x27;&gt;&lt;a class=&#x27;loadMapBtn&#x27; href=&#x27;#&#x27; title=&#x27;{3}&#x27;&gt;&lt;img style=&#x27;margin-right: 5px;&#x27; src=&#x27;{0}&#x27;&#x2F;&gt;&lt;span&gt;{2}&lt;&#x2F;span&gt;&lt;&#x2F;a&gt;&lt;&#x2F;div&gt;&quot;,src,rowheight,label,strings.MapControl.loadMapTooltip);
+		return retobject;
+	};
+	$(&quot;#mapsList&quot;).jqxListBox({
+		source: mapSource,
+		displayMember: &quot;mapName&quot;,
+		valueMember: &quot;id&quot;,
+		width: 232,
+		height: &#x27;100%&#x27;,
+		theme: &#x27;pk_mg&#x27;,
+		renderer: itemRenderer,
+		equalItemsWidth:true
+		&#x2F;&#x2F;,selectedIndex: 0
+	});
+	$(&quot;#mapsList&quot;).jqxListBox(&#x27;selectIndex&#x27;,defaultLoad);
+	$(&quot;.loadMapBtn&quot;).live(&#x27;click&#x27;,function(){
+		router(&#x27;lmap&#x27;);
+		return false;
+	});
+	&#x2F;&#x2F;createMapListThumbsUL();
+	
+}
+
+function createMapListThumbsUL(){
+	var slider = $(&quot;#mapSlider&quot;);
+	var maps = mapSource.getrecords();
+	slider.html(&quot;&quot;);
+	var data = [];
+	var contDiv = $(&quot;&lt;ul &#x2F;&gt;&quot;);
+	var item = $(&quot;&lt;li &#x2F;&gt;&quot;);
+	var img = $(&quot;&lt;img &#x2F;&gt;&quot;);
+	var link = $(&quot;&lt;a &#x2F;&gt;&quot;);
+	var src = config.folderPath+&#x27;Images&#x2F;map_Add.png&#x27;;
+	img.attr(&quot;src&quot;,src);
+	img.attr(&quot;title&quot;,&quot;New Map&quot;);
+	link.attr(&quot;title&quot;,&quot;New Map&quot;);
+	item.attr(&quot;title&quot;,&quot;New Map&quot;);
+	link.bind(&#x27;click&#x27;,showMapDialog);
+	link.append(img);
+	
+	
+	item.append(link);
+	&#x2F;&#x2F;contDiv.append(item);
+	$.each(maps,function(i,v){
+		var item = $(&quot;&lt;li &#x2F;&gt;&quot;);
+		var img = $(&quot;&lt;img &#x2F;&gt;&quot;);
+		var link = $(&quot;&lt;a &#x2F;&gt;&quot;);
+		var src = config.folderPath+&#x27;GetImage.ashx?qType=mapThumb&amp;qContents=&#x27;+v.id;
+		img.attr(&quot;src&quot;,src);
+		img.attr(&quot;title&quot;,v.mapName);
+		link.attr(&quot;title&quot;,v.mapName);
+		item.attr(&quot;title&quot;,v.mapName);
+		link.bind(&#x27;click&#x27;,{mapIndex: i},showMapDialog);
+		&#x2F;&#x2F;link.onclick = showMapDialog;
+		link.append(img);
+
+		item.append(link);
+
+		contDiv.append(item);
+	});
+	var wrapItem = $(&quot;&lt;div &#x2F;&gt;&quot;);
+	wrapItem.append(contDiv);
+	wrapItem.attr(&quot;class&quot;,&quot;es-carousel&quot;);
+	
+	slider.append(wrapItem);
+	slider.elastislide({
+		imageW  : 50,
+		border  : 0
+	});
+}
+
+function createLayerList(mapID)
+{
+	var layerlist=$(&#x27;#layersList&#x27;);
+	
+	try{
+		layerlist.die();
+		layerlist.unbind(&#x27;cellendedit&#x27;);
+		layerlist.unbind(&#x27;select&#x27;);
+		layerlist.unbind(&#x27;checkchange&#x27;);
+		
+		&#x2F;&#x2F;$(&quot;#layersList&quot;).jqxListBox(&#x27;clearSelection&#x27;, true);
+	}catch(err){
+	
+	}
+	&#x2F;&#x2F;layerlist.bind(&quot;bindingcomplete&quot;,setTimeout(function(){mygis.UI.layerCloneInit();},1500));
+	&#x2F;&#x2F;var myurl = config.mgreq+&quot;?qtype=GetLayerList&amp;qContents=&quot;+mapID;
+	var myurl = config.folderPath +&quot;mgreq.ashx?qtype=GetLayerList&amp;qContents=&quot;+mapID;
+	var source;
+	var localLayers = mygis.Storage.getItem(&#x27;layerRecords_&#x27;+mapID);
+	if (localLayers &amp;&amp; !Sys.Services.AuthenticationService.get_isLoggedIn()){
+		var restore = eval(localLayers);
+		source = {
+			datatype: &quot;local&quot;,
+			localdata: restore
+		};
+	}else{
+		source =
+		{
+			datatype: &quot;json&quot;,
+			datafields: [
+				{ name: &quot;mapID&quot; },
+				{ name: &quot;layerID&quot; },
+				{ name: &quot;layerNAME&quot; },
+				{ name: &quot;layerDESCRIPTION&quot; },
+				{ name: &quot;layerTABLE&quot; },
+				{ name: &quot;layerORDER&quot; },
+				{ name: &quot;layerEXTENTS&quot;}, 
+				{ name: &quot;hidden&quot;},
+				{ name: &quot;Editable&quot;},
+				{ name: &quot;Selectable&quot;},
+				&#x2F;&#x2F;{ name: &quot;Locked&quot;},
+				{ name: &quot;layerMinScale&quot; },
+				{ name: &quot;layerMaxScale&quot; },
+				{ name: &quot;manualVisibility&quot; },
+				{ name: &quot;layerGeomType&quot; },
+				{ name: &quot;folderName&quot;}
+			],
+			id: &#x27;layers_asdf&#x27;,
+			url: myurl
+		};
+	}
+	layerSource = new $.jqx.dataAdapter(source,{async:false});
+	layerSource.dataBind();
+	mygis.Map.getFieldDescriptions();
+	if (!Sys.Services.AuthenticationService.get_isLoggedIn())mygis.Storage.storeItem(&#x27;layerRecords_&#x27;+mapID,JSON.stringify(layerSource.records));
+	&#x2F;&#x2F;layerTreeSource = buildTreeSource(layerSource,&#x27;layers&#x27;);
+	
+	layergridSource = {
+		localdata: mygis.UI.buildGridSource(layerSource,&#x27;layers&#x27;,true),
+		datatype: &#x27;array&#x27;
+	};
+	
+
+	var containerForLayers=$(&quot;#layersPanel&quot;);
+
+	var locObject = {
+		groupsheaderstring: strings.Grid.groupsheaderstring,
+		sortascendingstring: strings.Grid.sortascendingstring,
+		sortdescendingstring: strings.Grid.sortdescendingstring,
+		sortremovestring: strings.Grid.sortremovestring,
+		groupbystring: strings.Grid.groupbystring,
+		groupremovestring: strings.Grid.groupremovestring
+	};
+
+	var groupsrenderer = function (text, group, expanded,properties) {
+		var len=properties.subItems.length;
+		var items=properties.subItems;
+		countVisible=0;
+		$.each(items,function(i,v){
+			if (v.Visible){
+				countVisible++;
+			}
+		});
+		var classNames=&quot;groupVisible jqx-checkbox-default jqx-checkbox-default-pk_mg jqx-rc-all jqx-rc-all-pk_mg&quot;;
+		if (countVisible==len){
+			classNames+=&quot; jqx-checkbox-check-checked&quot;
+		}else if (countVisible&gt;0){
+			classNames+=&quot; jqx-fill-state-normal jqx-fill-state-normal-pk_mg pressed&quot;
+		}else{
+			classNames+= &quot; jqx-fill-state-normal jqx-fill-state-normal-pk_mg&quot;;
+		}
+		var btn=&quot;&lt;a href=&#x27;#&#x27; class=&#x27;&quot;+classNames+&quot;&#x27; onclick=\&quot;router(&#x27;tlgv&#x27;,&#x27;&quot;+group+&quot;&#x27;);return false;\&quot;&gt;&lt;&#x2F;a&gt;&quot;;
+		return (btn+&quot;&lt;div class=&#x27;groupHeaderRow&#x27; title=&#x27;&quot;+group+&quot;&#x27;&gt;&quot; + group +&quot;&lt;&#x2F;div&gt;&quot;);
+	}
+	var mycolumns=[];
+	if (Sys.Services.AuthenticationService.get_isLoggedIn()){
+		mycolumns=[
+			&#x2F;&#x2F;{text: &#x27;&#x27;, datafield: &#x27;Locked&#x27;, width: 26, cellsrenderer: mygis.UI.layerInnerCellRenderer(), editable:false},
+			{text: &#x27;&#x27;,datafield:&#x27;Visible&#x27;, width: 20,cellsrenderer: mygis.UI.layerInnerCellRenderer()},
+			{text: &#x27;&#x27;,datafield:&#x27;Image&#x27;, width: 26, cellsrenderer: mygis.UI.layerGraphicCellRenderer(),editable:false},
+			{text: strings.LayerControl.columnName, datafield:&#x27;Name&#x27;, cellsrenderer: mygis.UI.layerInnerCellRenderer(), editable:false}
+			&#x2F;&#x2F;{text: &#x27;&#x27;, datafield: &#x27;Selectable&#x27;, width: 16, cellsrenderer: mygis.UI.layerInnerCellRenderer(), editable:false}
+			&#x2F;&#x2F;REENABLE when fixed:
+			&#x2F;&#x2F;,{text: &#x27;&#x27;, datafield: &#x27;Editable&#x27;, width: 16, cellsrenderer: mygis.UI.layerInnerCellRenderer(), editable:false},
+			&#x2F;&#x2F;{text: &#x27;&#x27;, datafield: &#x27;Savable&#x27;, width: 16, cellsrenderer: mygis.UI.layerInnerCellRenderer(), editable:false}
+		];
+	}else{
+		mycolumns=[
+			&#x2F;&#x2F;{text: &#x27;&#x27;, datafield: &#x27;Locked&#x27;, width: 26, cellsrenderer: mygis.UI.layerInnerCellRenderer(), editable:false},
+			{text: &#x27;&#x27;,datafield:&#x27;Visible&#x27;, width: 20,cellsrenderer: mygis.UI.layerInnerCellRenderer()},
+			{text: &#x27;&#x27;,datafield:&#x27;Image&#x27;, width: 26, cellsrenderer: mygis.UI.layerGraphicCellRenderer(),editable:false},
+			{text: strings.LayerControl.columnName, datafield:&#x27;Name&#x27;, cellsrenderer: mygis.UI.layerInnerCellRenderer(), editable:false}
+			&#x2F;&#x2F;{text: &#x27;&#x27;, datafield: &#x27;Selectable&#x27;, width: 16, cellsrenderer: mygis.UI.layerInnerCellRenderer(), editable:false}
+			
+		];
+	}
+	layerlist.jqxGrid({
+		source:layergridSource,
+		width: 241,
+		&#x2F;&#x2F;height: 300,
+		&#x2F;&#x2F;autoheight: false,
+		rowheight: 29,
+		&#x2F;&#x2F;autorowheight: true,
+		autoheight: true, 
+		theme: &#x27;pk_mg&#x27;,
+		columns:mycolumns,
+		groups: [&#x27;folderName&#x27;],
+		groupsexpandedbydefault:true,
+		enableanimations: true,
+		rowdetails: false,
+		sortable: true,
+		groupable: true,
+		showheader: false,
+		showgroupsheader: false,
+		editable: false,
+		pageable: false,
+		selectionmode: &#x27;none&#x27;,
+		groupsrenderer: groupsrenderer,
+		scrollbarsize: 5,
+		rendered: layerGridRendered
+	});
+	
+	mygis.UI.initLayerSelectionList(true);
+	mygis.UI.initLayerWithinSelectionList(true);
+	
+	
+	
+	
+	&#x2F;&#x2F;mygis.Map.setSelectableLayers(layerSource.records,selectionLayers);
+	&#x2F;&#x2F;mygis.Map.determineSelectionToggleStatus(&quot;#layerSelectionList&quot;);
+	
+	
+	layerlist.jqxGrid(&#x27;localizestrings&#x27;, locObject);
+	
+	
+	layerlist.bind(&#x27;rowselect&#x27;,mygis.UI.toggleLayerAvailableActions);
+	layerlist.bind(&#x27;rowunselect&#x27;,mygis.UI.toggleLayerAvailableActions);
+	
+	layerlist.bind(&#x27;mouseover&#x27;,gridRowsMouseOver);
+	layerlist.bind(&#x27;mouseout&#x27;,gridRowsMouseOut);
+	
+	
+	layerlist.find(&#x27;.layerLegendGraphic&#x27;).live({
+		mouseenter: layerStyleFullZoom,
+		mouseleave: layerStyleFullZoomOff
+	});
+	if (Sys.Services.AuthenticationService.get_isLoggedIn()){
+		mygis.User.Hooks.loadUserLayerRights();
+	};
+	&#x2F;&#x2F;mygis.UI.layerCloneInit();
+}
+
+function createQSList(mapID)
+{
+	&#x2F;&#x2F;var myurl = config.mgreq+&quot;?qtype=GetMapQuickSearches&amp;qContents=&quot;+mapID;
+	var myurl = config.folderPath+&quot;mgreq.ashx?qtype=GetMapQuickSearches&amp;qContents=&quot;+mapID;
+	var source =
+	{
+		datatype: &quot;json&quot;,
+		datafields: [
+			{ name: &quot;quickID&quot; },
+			{ name: &quot;layername&quot;}, 
+			{ name: &quot;fieldname&quot; },
+			{ name: &quot;searchType&quot; },
+			{ name: &quot;searchOperator&quot; },
+			{ name: &quot;searchLayout&quot; },
+			{ name: &quot;searchMode&quot; },
+			{ name: &quot;windowTitle&quot;}, 
+			{ name: &quot;windowIcon&quot;},
+			{ name: &quot;customFn&quot;},
+			{ name: &quot;fieldFill&quot;}
+		],
+		id: &#x27;asdfg&#x27;,
+		url: myurl
+	};
+	QSSource = new $.jqx.dataAdapter(source,{async:false});
+	QSSource.dataBind();
+	
+	
+}
+
+function createFileList()
+{
+	var myurl = config.mgreq+&quot;?qtype=GetUserFiles&quot;;
+	var fileSource;
+	var source =
+		{
+			datatype: &quot;json&quot;,
+			datafields: [
+				{ name: &quot;fileID&quot; },
+				{ name: &quot;fileTYPE&quot; },
+				{ name: &quot;fileNAME&quot; },
+				{ name: &quot;fileINUSE&quot;,type: &quot;boolean&quot; },
+				{ name: &quot;fileINSERT&quot;},
+				{ name: &quot;fileSIZE&quot;,type: &quot;number&quot;  }
+			],
+			id: &#x27;filesource&#x27;,
+			url: myurl
+		};
+	fileSource = new $.jqx.dataAdapter(source,{async:false});
+	&#x2F;&#x2F;fileSource.dataBind();
+	return fileSource;
+}
+
+function layerStyleFullZoom(e){
+	var targ = $(e.target);
+	var imgsrc = targ.css(&#x27;background-image&#x27;);
+	if (imgsrc!=&quot;none&quot;){
+		if (imgsrc.indexOf(&#x27;url(&quot;&#x27;)==0){
+			imgsrc = imgsrc.substring(5,imgsrc.length-2);
+		}else{
+			imgsrc = imgsrc.substring(4,imgsrc.length-1);
+		}
+		imgsrc=imgsrc.replace(&quot;&amp;WIDTH=20&amp;HEIGHT=20&quot;,&quot;&quot;);
+		$(&quot;#magnifierStyle&quot;).remove();
+		var magnifier = $(&quot;&lt;div &#x2F;&gt;&quot;);
+		magnifier.attr(&quot;id&quot;,&quot;magnifierStyle&quot;);
+		var magnImg = $(&quot;&lt;img &#x2F;&gt;&quot;);
+		var position,posx,posy;
+		position = targ.offset();
+		posx = position.left+20;
+		posy = position.top;
+		magnImg.attr(&quot;src&quot;,imgsrc);
+		magnifier.append(magnImg);
+		var docHeight = $(document).height();
+		var myHeight = magnifier.height();
+		if (posy+myHeight&gt;docHeight){
+			posy = docHeight-myHeight;
+		}
+		magnifier.css({
+			&quot;left&quot;: posx+&quot;px&quot;,
+			&quot;top&quot;: posy+&quot;px&quot;
+		});
+		$(&quot;Body&quot;).append(magnifier);
+		setTimeout(function(){
+			var myHeight = magnifier.height();
+			if (posy+myHeight&gt;docHeight){
+				posy = docHeight-myHeight-30;
+			}
+			magnifier.css({
+				&quot;left&quot;: posx+&quot;px&quot;,
+				&quot;top&quot;: posy+&quot;px&quot;
+			});
+		},300);
+	}
+}
+
+function layerStyleFullZoomOff(e){
+	var magnifier = $(&quot;#magnifierStyle&quot;);
+	magnifier.remove();
+}
+
+function gridRowsMouseOver(event){
+	var target = $(event.target);
+	
+	var gridRows=$(&quot;#contenttablelayersList &gt;div&quot;);
+	var found=false;
+	var i=0;
+	while (i&lt;gridRows.length &amp;&amp; !found)
+	{
+		var x = $(gridRows[i]);
+		if (x.is(&#x27;:hover&#x27;)){
+			found=true;
+		}
+		i++;
+	}
+	if (found){
+		var optionCell = x.find(&quot;.layer_options&quot;)[0];
+		if (optionCell){
+			optionCell.ex_AddClassName(&quot;pressed&quot;);
+		}
+		return true;
+	}else{
+		return true;
+	}
+}
+
+function gridRowsMouseOut()
+{
+	var gridRows=$(&quot;#contenttablelayersList &gt;div&quot;);
+	var items = gridRows.find(&quot;.layer_options&quot;);
+	for (var i=0;i&lt;items.length;i++){
+		items[i].ex_RemoveClassName(&quot;pressed&quot;);
+	}
+}
+
+function toggleLayerDetails(index,elem){
+	&#x2F;*
+	var arrowBtn;
+	if (index&gt;=layerSource.records.length){
+		displayNotify(strings.LayerControl.propertiesNotForBG);
+	}else{
+		var layerlist = $(&quot;#layersList&quot;);
+		var alreadySelected = layerlist.jqxGrid(&#x27;getselectedrowindexes&#x27;).indexOf(index);
+		if (alreadySelected == -1){
+			layerlist.jqxGrid(&#x27;clearselection&#x27;);
+			layerlist.jqxGrid(&#x27;selectrow&#x27;, index);
+			expandLayerDetails();
+			arrowBtn = $(&quot;#row&quot;+index+&quot;layersList&quot;).find(&quot;.layer_options&quot;)[0];
+			arrowBtn.ex_AddClassName(&quot;permanent_on&quot;);
+		}else{
+			collapseLayerDetails();
+			arrowBtn = $(&quot;#row&quot;+index+&quot;layersList&quot;).find(&quot;.layer_options&quot;)[0];
+			arrowBtn.ex_RemoveClassName(&quot;permanent_on&quot;);
+		}
+	}
+	*&#x2F;
+}
+
+function createLayerProperties(){
+	var calcHeight = $(&quot;#rsideSplitter&quot;).height()-10;
+	
+	$(&quot;#layerPropertiesTabs&quot;).die();
+	$(&quot;#layerstylePanel&quot;).die();
+	$(&quot;#layerPropertiesTabs&quot;).jqxNavigationBar({ 
+		width: 324, 
+		height: calcHeight,
+		sizeMode: &#x27;fitAvailableHeight&#x27;, 
+		theme: &#x27;pk_mg&#x27;,
+		expandMode: &#x27;toggle&#x27;,
+		expandedIndex: 0
+	});
+	$(&quot;#layerstylePanel&quot;).jqxNavigationBar({ 
+		width: 300, 
+		height: calcHeight-235,
+		sizeMode: &#x27;fitAvailableHeight&#x27;, 
+		theme: &#x27;classic&#x27;,
+		expandMode: &#x27;toggle&#x27;
+	});
+	
+}
+
+function createMapProperties(){
+	var calcHeight = $(&quot;#rsideSplitter&quot;).height()-10;
+	$(&quot;#mapsProperties&quot;).die();
+	$(&quot;#mapsList&quot;).die();
+	$(&quot;#mapsProperties&quot;).jqxNavigationBar({ 
+		width: &#x27;324&#x27;, 
+		height: calcHeight,
+		sizeMode: &#x27;fitAvailableHeight&#x27;, 
+		theme: &#x27;pk_mg&#x27;,
+		expandMode: &#x27;toggle&#x27;,
+		expandedIndex: 0
+	});
+	$(&quot;#mapsProperties&quot;).bind(&quot;collapsedItem&quot;,collapseMapProperties);
+}
+
+function propertiesVisibility(specific,visible){
+	var variousProps = $(&quot;#layerPropertiesWrapper&quot;).find(&quot;&gt;div&quot;);
+	for (var i=0;i&lt;variousProps.length;i++){
+		var id = variousProps[i].id;
+		if (id==specific &amp;&amp; visible){
+			$(variousProps[i]).css(&quot;display&quot;,&quot;block&quot;);
+		}else{
+			$(variousProps[i]).css(&quot;display&quot;,&quot;none&quot;);
+		}
+	}
+	var buttons = $(&quot;#rpanelTabButtons a&quot;);
+	for (var i=0;i&lt;buttons.length;i++){
+		buttons[i].ex_RemoveClassName(&quot;active&quot;);
+	}
+	if (visible){
+		&#x2F;&#x2F;$(&quot;#layerPropertiesWrapper&quot;).css(&quot;visibility&quot;,&quot;visible&quot;);
+		&#x2F;&#x2F;document.getElementById(&quot;panel3&quot;).ex_RemoveClassName(&quot;collapsed&quot;);
+		switch(specific){
+			case &quot;filterAnalysis&quot;:
+				&#x2F;&#x2F;document.getElementById(&quot;filterTabButton&quot;).ex_AddClassName(&quot;active&quot;);
+				break;
+			case &quot;infoAnalysis&quot;:
+				&#x2F;&#x2F;document.getElementById(&quot;resultsTabButton&quot;).ex_AddClassName(&quot;active&quot;);
+				break;
+		}
+		
+		document.getElementById(&quot;panel3Out&quot;).ex_RemoveClassName(&quot;collapsed&quot;);
+		document.getElementById(&quot;rpanelCollapseBtn&quot;).ex_AddClassName(&quot;active&quot;)
+		&#x2F;&#x2F;layout.show(&#x27;east&#x27;);
+		document.getElementById(&quot;panel2&quot;).ex_AddClassName(&quot;rightExpanded&quot;);
+		
+	}else{
+		&#x2F;&#x2F;$(&quot;#layerPropertiesWrapper&quot;).css(&quot;visibility&quot;,&quot;hidden&quot;);
+		&#x2F;&#x2F;document.getElementById(&quot;panel3&quot;).ex_AddClassName(&quot;collapsed&quot;);
+		document.getElementById(&quot;panel3Out&quot;).ex_AddClassName(&quot;collapsed&quot;);
+		document.getElementById(&quot;rpanelCollapseBtn&quot;).ex_RemoveClassName(&quot;active&quot;);
+		&#x2F;&#x2F;layout.hide(&#x27;east&#x27;);
+		document.getElementById(&quot;panel2&quot;).ex_RemoveClassName(&quot;rightExpanded&quot;);
+		
+		
+	}
+}
+
+function expandLayerDetails(event,forceUpdate){
+	
+	var rowIndex;
+	propertiesVisibility(&quot;layerPropertiesPanelCont&quot;,true);
+	&#x2F;*
+	$(&quot;#layerPropertiesPanelCont&quot;).css(&quot;display&quot;,&quot;block&quot;);
+	$(&quot;#layerPropertiesWrapper&quot;).css(&quot;visibility&quot;,&quot;visible&quot;);
+	$(&quot;#infoAnalysis&quot;).css(&quot;display&quot;,&quot;none&quot;);
+	*&#x2F;
+	
+	if (event){
+		rowIndex = event.args.rowindex;
+	}else{
+		rowIndex = $(&#x27;#layersList&#x27;).jqxGrid(&#x27;getselectedrowindex&#x27;);
+	}
+	
+	
+	var actualItem = layerSource.records[rowIndex];
+	&#x2F;&#x2F;$(&quot;#layerPropertiesTitleText&quot;).html(actualItem.layerNAME);
+	$(&quot;#layerPropertiesDescription&quot;).html(actualItem.layerDESCRIPTION);
+		
+	var actionBar = $(&quot;#layerPropertiesCommonActions&quot;);
+	var visibleBar1 = $(&quot;#visibleFrom&quot;);
+	var visibleBar2 = $(&quot;#visibleTo&quot;);
+	
+	var btnVisible = actionBar.find(&quot;.toggleLayerVisible&quot;)[0];
+	var btnEditable = actionBar.find(&quot;.toggleLayerEditable&quot;)[0];
+	var btnSelectable = actionBar.find(&quot;.toggleLayerSelectable&quot;)[0];
+	
+	var btnVisibleFrom = visibleBar1.find(&quot;.visibleFromBtn&quot;)[0];
+	var btnVisibleFromText = visibleBar1.find(&quot;.layerVisibleInput&quot;)[0];
+	var btnVisibleTo = visibleBar2.find(&quot;.visibleToBtn&quot;)[0];
+	var btnVisibleToText = visibleBar2.find(&quot;.layerVisibleInput&quot;)[0];
+	
+	if (actualItem.hidden){
+		btnVisible.ex_RemoveClassName(&#x27;pressed&#x27;);
+	}else{
+		btnVisible.ex_AddClassName(&#x27;pressed&#x27;);
+	}
+	if (actualItem.Editable){
+		btnEditable.ex_AddClassName(&#x27;pressed&#x27;);
+	}else{
+		btnEditable.ex_RemoveClassName(&#x27;pressed&#x27;);
+	}
+	if (actualItem.Selectable){
+		btnSelectable.ex_AddClassName(&#x27;pressed&#x27;);
+	}else{
+		btnSelectable.ex_RemoveClassName(&#x27;pressed&#x27;);
+	}
+	if (actualItem.layerMinScale&gt;-1){
+		btnVisibleFromText.value=mygis.Utilities.addCommas(actualItem.layerMinScale);
+		if (!actualItem.manualVisibility){
+			btnVisibleFrom.ex_AddClassName(&quot;pressed&quot;);
+		}else{
+			btnVisibleFrom.ex_RemoveClassName(&quot;pressed&quot;);
+		}
+	}else{
+		btnVisibleFrom.ex_RemoveClassName(&quot;pressed&quot;);
+	}
+	if (actualItem.layerMaxScale&gt;-1){
+		btnVisibleToText.value=mygis.Utilities.addCommas(actualItem.layerMaxScale);
+		if (!actualItem.manualVisibility){
+			btnVisibleTo.ex_AddClassName(&quot;pressed&quot;);
+		}else{
+			btnVisibleTo.ex_RemoveClassName(&quot;pressed&quot;);
+		}
+	}else{
+		btnVisibleTo.ex_RemoveClassName(&quot;pressed&quot;);
+	}
+	createLayerProperties();
+	mygis.UI.initializeStyler(actualItem.layerTABLE,actualItem);
+}
+
+function collapseLayerDetails(){
+	propertiesVisibility(&quot;layerPropertiesPanelCont&quot;,false);
+	&#x2F;*
+	$(&quot;#layerPropertiesPanelCont&quot;).css(&quot;display&quot;,&quot;none&quot;);
+	
+	$(&quot;#layerPropertiesWrapper&quot;).css(&quot;visibility&quot;,&quot;hidden&quot;);
+	$(&quot;#infoAnalysis&quot;).css(&quot;display&quot;,&quot;none&quot;);
+	*&#x2F;
+	var layerlist = $(&#x27;#layersList&#x27;);
+	layerlist.jqxGrid(&#x27;clearselection&#x27;);
+	
+	
+}
+
+function expandResultDetails(){
+	propertiesVisibility(&quot;infoAnalysis&quot;,true);
+	if (!$(&quot;#resultsTabButton&quot;).is(&quot;:visible&quot;)){
+		$(&quot;#resultsTabButton&quot;).show();
+	}	
+		
+	
+}
+
+function collapseResultDetails(){
+	propertiesVisibility(&quot;infoAnalysis&quot;,false);
+		
+}
+
+function expandMapProperties(){
+	createMapProperties();
+	if (finishApplicationLoad){
+	
+		propertiesVisibility(&quot;mapsPropertiesCont&quot;,true);
+		$(&quot;#mapsProperties&quot;).jqxNavigationBar(&#x27;expandAt&#x27;,0);
+		$(&quot;#mapsList&quot;).bind(&quot;select&quot;,expandMapProperties);
+	}
+}
+
+function collapseMapProperties(){
+	
+	propertiesVisibility(&quot;mapsPropertiesCont&quot;,false);
+}
+
+function expandFilters(){
+	propertiesVisibility(&quot;filterAnalysis&quot;,true);	
+}
+
+function collapseFilters(){
+	propertiesVisibility(&quot;filterAnalysis&quot;,false);	
+}
+
+
+function toggleStylerButton(mode){
+	var onButton;
+	var offBtn1, offBtn2;
+	var onDiv;
+	var offDiv1, offDiv2;
+	var arrowBtn;
+	var mycolor;
+	switch(mode){
+		case &#x27;Point&#x27;:
+			onButton = $(&quot;#pointStyleButton&quot;);
+			offBtn1 = $(&quot;#lineStyleButton&quot;);
+			offBtn2 = $(&quot;#polygonStyleButton&quot;);
+			onDiv = &quot;markerChooseStyle&quot;;
+			offDiv1 = &quot;polylineChooseStyle&quot;;
+			offDiv2 = &quot;polygonChooseStyle&quot;;
+			mycolor=&quot;blue&quot;;
+			break;
+		case &#x27;Line&#x27;:
+			onButton = $(&quot;#lineStyleButton&quot;);
+			offBtn1 = $(&quot;#pointStyleButton&quot;);
+			offBtn2 = $(&quot;#polygonStyleButton&quot;);
+			onDiv = &quot;polylineChooseStyle&quot;;
+			offDiv1 = &quot;markerChooseStyle&quot;;
+			offDiv2 = &quot;polygonChooseStyle&quot;;
+			mycolor=&quot;green&quot;;
+			break;
+		case &#x27;Polygon&#x27;:
+			onButton = $(&quot;#polygonStyleButton&quot;);
+			offBtn1 = $(&quot;#lineStyleButton&quot;);
+			offBtn2 = $(&quot;#pointStyleButton&quot;);
+			onDiv = &quot;polygonChooseStyle&quot;;
+			offDiv1 = &quot;polylineChooseStyle&quot;;
+			offDiv2 = &quot;markerChooseStyle&quot;;
+			mycolor=&quot;purple&quot;;
+			break;
+	}
+	&#x2F;*
+	$(&quot;#&quot;+onDiv).css(&quot;display&quot;,&quot;block&quot;);
+	$(&quot;#&quot;+offDiv1).css(&quot;display&quot;,&quot;none&quot;);
+	$(&quot;#&quot;+offDiv2).css(&quot;display&quot;,&quot;none&quot;);
+	*&#x2F;
+}
+
+function MakeTimeout(fn,data,timeout,oThis){
+	
+	setTimeout(function(){fn.call(oThis,data);},timeout);
+}
+
+function buildDBSearchSource(dataAdapter)
+{
+	var selectElement = $(&quot;#databaseAnalysis&quot;).find(&quot;.criteriaFirstRow&quot;).find(&quot;.dbTableName&quot;)[0];
+	var data = dataAdapter.records;
+	var source=new Array();
+	for (var i = 0; i &lt; data.length; i++) {
+		var item = data[i];
+		var label = item.layerNAME;
+		var row = {};
+		row[&quot;name&quot;]=label;
+		&#x2F;&#x2F;row[&quot;value&quot;]=label;
+		row[&quot;value&quot;]=item.layerTABLE;
+		source.push(row);
+	}
+	mygis.Utilities.populateSelect(selectElement,source);
+}
+
+
+&#x2F;***
+* Pure magic :)
+*
+*&#x2F;
+function buildFontSource(fontname,colNumber){
+	var retvalue = [];
+	var rowItem;
+	var hexValue;
+	var rowNumber = parseInt(224&#x2F;colNumber);	&#x2F;&#x2F;256 -32 control characters
+	if ((224%colNumber)!=0){rowNumber+=1;}
+	switch (fontname){
+		case &#x27;Wingdings&#x27;:
+			for (var i=1;i&lt;=rowNumber;i++){
+				rowItem={};
+				for (var j=1;j&lt;=colNumber;j++){
+					var picrow = parseInt((((i-1)*colNumber)+j) &#x2F; 16);
+					var piccol = (((i-1)*colNumber)+j)%16;
+					&#x2F;&#x2F;hexValue=32+(i*j);
+					hexValue = 32 + (picrow*16) + piccol;
+					rowItem[&quot;_&quot;+j.toString()]=&quot;0x&quot;+hexValue.toString(16);
+				}
+				retvalue.push(rowItem);
+			}
+			break;
+	}
+	return retvalue;
+}
+
+function buildLibrarySource(mode,colNumber){
+	var retvalue = [];
+	var rowItem;
+	
+	var rowNumber ;	&#x2F;&#x2F;= parseInt(layer
+	switch (mode){
+		case &quot;currentMap&quot;:
+			var mysymbols = mygis.Map.getUniqueGraphics();
+			var symbolCount = mysymbols.length;
+			var lowestLoop = colNumber&lt;symbolCount?colNumber:symbolCount;
+			var itemEntered;
+			rowNumber = parseInt(symbolCount&#x2F;colNumber);
+			if ((symbolCount%colNumber)!=0){rowNumber+=1;}
+			for (var i=1;i&lt;=rowNumber;i++){
+				rowItem={};
+				itemEntered=false;
+				for (var j=1;j&lt;=lowestLoop;j++){
+					var actualItemIndex = ((i-1)*symbolCount)+j-1;
+					var actualItem = mysymbols[actualItemIndex];
+					rowItem[&quot;_&quot;+j.toString()]=mygis.Utilities.format(&quot;{0}#{1}&quot;,actualItem.layer,actualItem.graphicUrl);
+				};
+				retvalue.push(rowItem);
+			}
+			break;
+	}
+	return retvalue;
+}
+
+function updateMapProperties(event)
+{
+	
+	var selectedItem = $(&quot;#mapsList&quot;).jqxListBox(&#x27;getSelectedItem&#x27;); 
+	if (selectedItem){
+		var data = selectedItem.originalItem;
+		$(&quot;#layerMapTitle&quot;).html(data.mapName);
+		$(&quot;#mapShortDescription&quot;).html(data.mapDescription);
+		if (data.mapDescription){
+			$(&quot;#mapShortDescription&quot;).show();
+		}else{
+			$(&quot;#mapShortDescription&quot;).hide();
+		}
+		document.getElementById(&quot;mapLargeThumb&quot;).src = config.folderPath+&quot;GetImage.ashx?qType=mapThumb&amp;qSize=300&amp;qContents=&quot;+data.id;
+		$(&quot;#mapLayerCount&quot;).html(data.mapLayerCount);
+		
+		$(&quot;#mapCreatedDate&quot;).html(data.mapCreateDate);
+		$(&quot;#mapUpdateDate&quot;).html(data.mapUpdateDate);
+		$(&quot;#mapOwner&quot;).html(data.mapOwner);
+		$(&quot;#mapDeveloper&quot;).html(data.mapDevelopedBy);
+		
+	}
+
+	return false;
+}
+
+function updateLayerProperties()
+{
+	var selectedItem = $(&quot;#layersList&quot;).jqxTree(&#x27;selectedItem&#x27;); 
+	
+}
+
+function createMapListTips()
+{
+	var found=$(&quot;#mapsList&quot;).find(&quot;#listBoxContent&gt;div&gt;div&quot;);
+	if (found.length==0){setTimeout(createMapListTips,500);}
+	else{
+		
+		found.addClass(&#x27;listFullWidth&#x27;);
+		var objArray = $(&quot;#mapsList&quot;).jqxListBox(&#x27;getItems&#x27;);
+		for (var i=0;i&lt;objArray.length;i++){
+			try{
+			var item = objArray[i].element;
+			var itemData = objArray[i].originalItem;
+			
+			if (itemData.defaultLoad!=&quot;false&quot;){
+				var found2 = $(item).parent().find(&#x27;.mapsListButtons&#x27;);
+				if (found2.length==0){
+					var appendButtons = $(&#x27;&lt;div &#x2F;&gt;&#x27;);
+					appendButtons.addClass(&#x27;mapsListButtons&#x27;);
+					var starButton = $(&#x27;&lt;a &#x2F;&gt;&#x27;);
+					starButton.addClass(&#x27;starButton&#x27;);
+					starButton.attr(&quot;title&quot;,strings.MapControl.currentMap);
+					appendButtons.append(starButton);
+					appendButtons.insertBefore(item);
+				}
+			}
+					
+			}catch(err){
+			
+				console.log(err);
+			}
+		};
+		if (!mapsBound){
+			$(&#x27;#mapsList&#x27;).bind(&#x27;change&#x27;, function (event){
+				updateMapProperties(event);
+			});
+			mapsBound = true;
+		}
+		var previousIndex=$(&quot;#mapsList&quot;).jqxListBox(&#x27;getSelectedIndex&#x27;);
+		$(&quot;#mapsList&quot;).jqxListBox(&#x27;clearSelection&#x27;); 
+		$(&quot;#mapsList&quot;).jqxListBox(&#x27;selectIndex&#x27;,previousIndex);
+	}
+}
+
+function setUpQTips() {
+    singleQTip(&quot;cosmetic&quot;);
+	&#x2F;&#x2F;singleQTip(&quot;mapActionsBtn&quot;);
+	&#x2F;&#x2F;singleQTip(&quot;mapAction_Maps&quot;);
+	&#x2F;&#x2F;singleQTip(&quot;mapAction_Layers&quot;);
+	&#x2F;&#x2F;singleQTip(&quot;mapAction_Tables&quot;);
+	singleQTip(&quot;mapSaveBtn&quot;);
+	singleQTip(&quot;mode_TopSelect&quot;);
+	singleQTip(&quot;mode_InfoSelect&quot;);
+	singleQTip(&quot;mode_InfoStore&quot;);
+	singleQTip(&quot;mode_AddSelect&quot;);
+	singleQTip(&quot;mode_SubtractSelect&quot;);
+	singleQTip(&quot;editModeCopy&quot;);
+	singleQTip(&quot;editModePaste&quot;);
+	singleQTip(&quot;editModeDelete&quot;);
+	singleQTip(&quot;editModeDrag&quot;);
+	singleQTip(&quot;editModeRotate&quot;);
+	singleQTip(&quot;editModeResize&quot;);
+	singleQTip(&quot;editModeReshape&quot;);
+	singleQTip(&quot;mode_EditableInfo&quot;);
+	singleQTip(&quot;mode_Grouping&quot;);
+	singleQTip(&quot;mode_Snap&quot;);
+	singleQTip(&quot;dragPanBtn&quot;);
+	singleQTip(&quot;zoomBoxBtn&quot;);
+	singleQTip(&quot;zoomOutBtn&quot;);
+	singleQTip(&quot;toggleInfoBtn&quot;);
+	singleQTip(&quot;selectObject&quot;);
+	singleQTip(&quot;infoTool&quot;);
+	singleQTip(&quot;selectRect&quot;);
+	singleQTip(&quot;selectCircle&quot;);	&#x2F;&#x2F;JK CHANGES
+	singleQTip(&quot;selectClear&quot;);
+	singleQTip(&quot;markerButton&quot;);
+	singleQTip(&quot;polylineButton&quot;);
+	singleQTip(&quot;polygonButton&quot;);
+	singleQTip(&quot;rectangleButton&quot;);
+	singleQTip(&quot;mapActionsBtn&quot;);
+	
+}
+
+function singleQTip(tipped,params) {
+    var message; 
+    var containerSelector;
+    var posMy = &quot;top left&quot;;
+    var posAt = &quot;bottom right&quot;;
+    var defaultTarget=false;
+    var defaultEvent = &#x27;click&#x27;;
+    var defaultReady = false;
+    var defaultHide = &#x27;mouseleave unfocus&#x27;;
+    var destroyAfter = false;
+	var defaultInactive = 3000;
+    switch (tipped){
+		case &quot;editField&quot;:
+			message = params.message;
+			containerSelector= params.element;
+			defaultEvent = &#x27;mouseover click&#x27;;
+			defaultReady = false;
+			destroyAfter = false;
+			posMy = &#x27;left center&#x27;;
+			posAt = &quot;right center&quot;;
+			defaultInactive = 6000;
+			defaultHide = &#x27;click unfocus&#x27;
+			break;
+		case &quot;polygon&quot;:
+		case &quot;marker&quot;:
+        case &quot;polyline&quot;:
+		case &quot;rectangle&quot;:
+            message = params[1];
+            containerSelector = &quot;&lt;div &#x2F;&gt;&quot;;
+            posMy = &quot;top center&quot;;
+            &#x2F;&#x2F;at = &quot;right middle&quot;;
+            var pixel = params[0];
+            &#x2F;&#x2F; Grab marker position
+
+            var offsetB = $(&#x27;#mapContainer&#x27;).offset();
+            var offTop = offsetB.top;
+            var offLeft = offsetB.left;
+            var pos = [offLeft + pixel.x, offTop + pixel.y + 10];
+
+            defaultTarget = pos;
+            defaultReady = true;
+            defaultEvent = &#x27;mouseover&#x27;;
+            defaultHide = &#x27;mouseleave unfocus&#x27;;
+            destroyAfter = true;
+            break;
+                      
+		case &quot;cosmetic&quot;:
+			message = strings.LayerControl.tipEdit;
+			containerSelector = $(&quot;#cosmeticPanel&quot;).find(&quot;div.RadListBox&quot;);
+			defaultEvent = &quot;mouseover&quot;;
+			posMy=&quot;bottom center&quot;;
+			posAt = &quot;top center&quot;;
+			break;
+		case &quot;mapActionsBtn&quot;:
+		case &quot;mapAction_Maps&quot;:
+		case &quot;mapAction_Layers&quot;:
+		case &quot;mapAction_Tables&quot;:
+		case &quot;mapSaveBtn&quot;:
+			containerSelector = $(&quot;#&quot;+tipped);
+			defaultEvent = &quot;mouseover&quot;;
+			posMy = &quot;bottom center&quot;;
+			posAt = &quot;top center&quot;;
+			&#x2F;&#x2F;Only message changes:
+			switch (tipped){
+				case &quot;mapActionsBtn&quot;:
+					message = tip_btnErgaleia;
+					break;
+				case &quot;mapAction_Maps&quot;:
+					message = tip_btnMaps;
+					break;
+				case &quot;mapAction_Layers&quot;:
+					message = tip_btnLayers;
+					break;
+				case &quot;mapAction_Tables&quot;:
+					message = tip_btnTables;
+					break;
+				case &quot;mapSaveBtn&quot;:
+					message = tip_btnSave;
+					break;
+			}
+			break;
+		case &quot;mapList&quot;:
+			containerSelector=$(params[0]);
+			defaultEvent = &quot;mouseover&quot;;
+			posMy = &quot;bottom center&quot;;
+			posAt = &quot;top center&quot;;
+			message = params[1];
+			break;
+		case &quot;projection&quot;:
+			containerSelector=$(&quot;#map_projection_node&quot;);
+			defaultEvent = &quot;mouseover&quot;;
+			posMy = &quot;bottom center&quot;;
+			posAt = &quot;top center&quot;;
+			message = params[0];
+			break;
+		case &quot;tip_MacroName&quot;:
+			containerSelector = $(&quot;#tip_MacroName&quot;);
+			defaultEvent = &quot;mouseover&quot;;
+			posMy = &quot;left center&quot;;
+			posAt = &quot;right center&quot;;
+			message = params[0];			
+			break;
+		case &quot;tip_MacroSelector&quot;:
+			containerSelector = $(&quot;#tip_MacroSelector&quot;);
+			defaultEvent = &quot;mouseover&quot;;
+			posMy = &quot;left center&quot;;
+			posAt = &quot;right center&quot;;
+			message = params[0];
+			break;
+		case &quot;tip_MacroButton&quot;:
+			containerSelector = $(&quot;#tip_MacroButton&quot;);
+			defaultEvent = &quot;mouseover&quot;;
+			posMy = &quot;left center&quot;;
+			posAt = &quot;right center&quot;;
+			message = params[0];			
+			break;
+		case &quot;tip_MacroRegistered&quot;:
+			containerSelector = $(&quot;#tip_MacroRegistered&quot;);
+			defaultEvent = &quot;mouseover&quot;;
+			posMy = &quot;left center&quot;;
+			posAt = &quot;right center&quot;;
+			message = params[0];
+			break;
+		case &quot;tip_MacroApp&quot;:
+			containerSelector = $(&quot;#tip_MacroApp&quot;);
+			defaultEvent = &quot;mouseover&quot;;
+			posMy = &quot;left center&quot;;
+			posAt = &quot;right center&quot;;
+			message = params[0];
+			break;
+		case &quot;mode_TopSelect&quot;:
+		case &quot;mode_InfoSelect&quot;:
+		case &quot;mode_InfoStore&quot;:
+		case &quot;mode_AddSelect&quot;:
+		case &quot;mode_SubtractSelect&quot;:
+		case &quot;editModeCopy&quot;:
+		case &quot;editModePaste&quot;:
+		case &quot;editModeDelete&quot;:
+		case &quot;editModeDrag&quot;:
+		case &quot;editModeRotate&quot;:
+		case &quot;editModeResize&quot;:
+		case &quot;editModeReshape&quot;:
+		case &quot;mode_EditableInfo&quot;:
+		case &quot;mode_Grouping&quot;:
+		case &quot;mode_Snap&quot;:
+			containerSelector = (&quot;#&quot;+tipped);
+			defaultEvent = &quot;mouseover&quot;;
+			posMy = &quot;left center&quot;;
+			posAt = &quot;right center&quot;;
+			message = strings.MapTools[tipped];
+			break;
+		case &quot;dragPanBtn&quot;:
+		case &quot;zoomBoxBtn&quot;:
+		case &quot;zoomOutBtn&quot;:
+		case &quot;toggleInfoBtn&quot;:
+		case &quot;selectObject&quot;:
+		case &quot;infoTool&quot;:
+		case &quot;selectRect&quot;:
+		case &quot;selectCircle&quot;:	&#x2F;&#x2F;JK CHANGES
+		case &quot;selectClear&quot;:
+		case &quot;markerButton&quot;:
+		case &quot;polylineButton&quot;:
+		case &quot;polygonButton&quot;:
+		case &quot;rectangleButton&quot;:
+		case &quot;mapActionsBtn&quot;:
+			containerSelector = (&quot;#&quot;+tipped);
+			defaultEvent = &quot;mouseover&quot;;
+			posMy = &quot;bottom center&quot;;
+			posAt = &quot;top center&quot;;
+			message = strings.MapTools[tipped];
+			break;
+		case &quot;switchBG&quot;:
+			containerSelector = params[0];
+			defaultEvent = &quot;mouseover&quot;;
+			posMy = &quot;right center&quot;;
+			posAt = &quot;left center&quot;;
+			message = strings.LayerControl.tip_ChangeBG_cb;
+			defaultReady = true;
+            defaultEvent = &#x27;mouseover&#x27;;
+            &#x2F;&#x2F;defaultHide = &#x27;mouseleave unfocus&#x27;;
+            destroyAfter = true;
+			defaultInactive = 6000;
+			break;
+		case &quot;mapResultsToggler&quot;:
+			containerSelector: &quot;#panel2 .ui-layout-toggler&quot;;
+			message = strings.HelpSystem.mapResults;
+			posMy = &quot;bottom center&quot;;
+			posAt = &quot;top center&quot;;
+			defaultHide: &#x27;click&#x27;;
+			defaultEvent= &#x27;mouseover&#x27;;
+			defaultReady=true;
+			
+			break;
+		
+    }
+    $(containerSelector).qtip({
+        content: {
+            text: message
+        },
+        position: {
+            my: posMy,
+            at: posAt,
+            viewport: $(window),
+            target: defaultTarget
+        },
+        show: {
+            event: defaultEvent,
+            ready: defaultReady,
+            solo: true,
+			delay: 1000
+        },
+        hide: {
+            event: defaultHide,
+            inactive: defaultInactive
+        },
+        events: {
+            hide: function(event, api) {
+                if (destroyAfter) {
+                    api.destroy();
+                }
+            }
+        },
+        style: {
+            classes: &#x27;ui-tooltip-shadow&#x27;, &#x2F;&#x2F; Optional shadow...
+            tip: {
+                border: 1
+            },
+            border: 1
+        }
+    });
+}
+
+function setMarkerStyleTree(){
+	var thetree = $(&quot;#markerFolders&quot;).jstree(
+		{
+		&quot;html_data&quot;:{
+			&quot;ajax&quot;: {
+				&quot;url&quot;: config.folderPath+&quot;Scripts&#x2F;markerStyleTree.html&quot;,
+				&quot;data&quot;: function(n){
+					return {id: n.attr ? n.attr(&quot;id&quot;): 0};
+				}
+			}
+		},
+		&quot;themes&quot;:{
+			&quot;theme&quot;:&quot;pk&quot;,
+			&quot;dots&quot;: false,
+			&quot;icons&quot;: false
+		},
+		&quot;ui&quot;:{
+			&quot;initially_select&quot;: [&quot;nodeDefault&quot;],
+			&quot;select_limit&quot;: 1
+		},
+		&quot;plugins&quot;: [&quot;themes&quot;,&quot;html_data&quot;,&quot;ui&quot;]
+		}
+	
+	);
+	thetree.bind(&quot;select_node.jstree&quot;,function(e,data){
+		var tree=data.inst;
+		var clicked = data.rslt.obj;
+		var parentText,text;
+		var has_parent;
+		if (tree.is_leaf(clicked)){
+			has_parent = tree._get_parent(clicked);
+			text=tree.get_text(clicked);
+			if (has_parent===-1){
+				&#x2F;&#x2F;has no parent, so call this:
+				&#x2F;&#x2F;mygis.UI.populateMarkerIcons(text);
+			}else{
+				parentText = tree.get_text(has_parent);
+				&#x2F;&#x2F;mygis.UI.populateMarkerIcons(parentText,text);
+			}
+			
+		}else{
+			tree.toggle_node(clicked);
+		}
+	});
+}
+
+
+function showConfirmationDialog(actionstring,callbackYes,callbackNo)
+{
+	$(&quot;#confirmationAction&quot;).html(actionstring);
+	$(&quot;#confirmationBox&quot;).dialog({
+		&#x27;buttons&#x27;: {
+			&#x27;Confirm&#x27;: {
+				&#x27;text&#x27;: strings.ConfirmBox.buttonConfirm,
+				&#x27;class&#x27;: &#x27;confirmButton&#x27;,
+				&#x27;click&#x27;: function(){
+					closeConfirm();
+					if (callbackYes){
+						callbackYes();
+					}
+				}
+			},
+			&#x27;Cancel&#x27;: {
+				&#x27;text&#x27;: strings.ConfirmBox.buttonCancel,
+				&#x27;class&#x27;: &#x27;cancelButton&#x27;,
+				&#x27;click&#x27;: function(){
+					closeConfirm();
+					if (callbackNo){
+						callbackNo();
+					}
+				}
+			}
+		},
+		modal: true,
+		draggable: false,
+		resizable: false
+	}).siblings(&#x27;div.ui-dialog-titlebar&#x27;).remove();
+
+}
+
+function showEditFieldDialog(layername,columnname,existingValue,recordNumber,callbackYes){
+	$(&quot;#editRecordNo&quot;).html(&quot;#&quot;+recordNumber);
+	$(&quot;#editLayerName&quot;).html(layername);
+	$(&quot;#fieldColumnName&quot;).html(columnname);
+	$(&quot;#fieldEditor&quot;).attr(&quot;value&quot;,existingValue);
+	
+	$(&quot;#editFieldBox&quot;).dialog({
+		modal: true,
+		draggable: true,
+		resizable: false,
+		open: mygis.Utilities.unbindGlobalHandlers,
+		close: mygis.Utilities.rebindGlobalHandlers
+	}).siblings(&#x27;div.ui-dialog-titlebar&#x27;).remove();
+}
+
+function editRouter(){
+	var mydata = $(this).data(&quot;attachedData&quot;);
+	showEditFieldDialog(mydata.layername,mydata.fieldname,mydata.existingValue,mydata.recordIndex);
+};
+
+function closeConfirm(){
+	$(&quot;#confirmationBox&quot;).dialog(&#x27;close&#x27;);
+}
+
+
+function fixLayerList(){
+	&#x2F;&#x2F;$(&quot;#layersList&quot;).jqxGrid(&#x27;width&#x27;,240);
+	&#x2F;&#x2F;$(&quot;#layersList&quot;).jqxGrid(&#x27;width&#x27;,241);
+	&#x2F;&#x2F;$(&quot;#infoLeftList&quot;).jqxListBox(&#x27;height&#x27;,&#x27;99%&#x27;);
+	&#x2F;&#x2F;$(&quot;#infoLeftList&quot;).jqxListBox(&#x27;height&#x27;,&#x27;100%&#x27;);
+	
+	
+}
+
+function layerGridRendered(){
+	&#x2F;&#x2F;console.log(&quot;rendered&quot;);
+	
+	
+	
+}
+
+
+jQuery.fn.animateStrikethrough = function(speed, callback){
+  return this.each(function(){
+    if(jQuery(this).find(&#x27;.strike&#x27;).length == 0) {
+      jQuery(this).wrapInner(&quot;&lt;span class=&#x27;letters-left&#x27;&gt;&lt;&#x2F;span&gt;&quot;);
+      jQuery(this).prepend(&quot;&lt;span class=&#x27;strike&#x27;&gt;&lt;&#x2F;span&gt;&quot;);
+    }
+    
+    var line = jQuery(this);
+    var strike = jQuery(line).find(&#x27;.strike&#x27;);
+    var left = jQuery(line).find(&#x27;.letters-left&#x27;);
+
+    strikethrough = setInterval(function () {
+      jQuery(line).strikeThroughFirstLetter();
+      if(jQuery(left).text().length == 0) {
+        jQuery(line).addClass(&#x27;strike&#x27;);
+        &#x2F;&#x2F;jQuery(line).text(jQuery(line).find(&#x27;.strike&#x27;).text());
+        clearInterval(strikethrough);
+        if(typeof callback == &quot;function&quot;) callback();
+      }
+    }, speed);
+  });
+};
+
+jQuery.fn.strikeThroughFirstLetter = function(){
+  return this.each(function(){
+    jQuery(this).find(&#x27;.strike&#x27;).transposeFirstLetter(jQuery(this).find(&#x27;.letters-left&#x27;));
+    jQuery(this).find(&#x27;.letters-left&#x27;).removeFirstLetter();
+  });
+};
+
+jQuery.fn.transposeFirstLetter = function(toTransposeTo){
+  return this.each(function(){
+    
+    var replacementText = jQuery(this).text() + jQuery(toTransposeTo).text().charAt(0);
+    jQuery(this).text(replacementText);
+  });
+};
+
+jQuery.fn.removeFirstLetter = function(){
+  return this.each(function(){
+    var replacementText = jQuery(this).text().replace(&#x2F;^.&#x2F;, &#x27;&#x27;);
+    jQuery(this).text(replacementText);
+  });
+};
+
+
+
+
+var notSupportedBrowsers = [{&#x27;os&#x27;: &#x27;Any&#x27;, &#x27;browser&#x27;: &#x27;MSIE&#x27;, &#x27;version&#x27;: 9}, {&#x27;os&#x27;: &#x27;Any&#x27;, &#x27;browser&#x27;: &#x27;Firefox&#x27;, &#x27;version&#x27;: 3}];
+var displayPoweredBy = false;
+var noticeLang = &#x27;pk&#x27;;
+var noticeLangCustom = null;
+var supportedBrowsers = [];
+
+var BrowserDetection = {
+	init: function(){
+		if(notSupportedBrowsers == null || notSupportedBrowsers.length &lt; 1){
+			notSupportedBrowsers = this.defaultNotSupportedBrowsers;
+		}
+		
+		this.detectBrowser();
+		this.detectOS();
+		
+		if(this.browser == &#x27;&#x27; || this.browser == &#x27;Unknown&#x27; || this.os == &#x27;&#x27; || 
+		   this.os == &#x27;Unknown&#x27; || this.browserVersion == &#x27;&#x27; || this.browserVersion == 0)
+		{
+			return;
+		}
+		
+		&#x2F;&#x2F; Check if this is old browser
+		var oldBrowser = false;
+		for(var i = 0; i &lt; notSupportedBrowsers.length; i++){
+			if(notSupportedBrowsers[i].os == &#x27;Any&#x27; || notSupportedBrowsers[i].os == this.os){
+				if(notSupportedBrowsers[i].browser == &#x27;Any&#x27; || notSupportedBrowsers[i].browser == this.browser){
+					if(notSupportedBrowsers[i].version == &quot;Any&quot; || this.browserVersion &lt;= parseFloat(notSupportedBrowsers[i].version)){
+						oldBrowser = true;
+						break;
+					}
+				} 
+			}
+		}
+		
+		if(oldBrowser){
+			this.displayNotice();
+		}
+	},
+	
+	getEl: function(id){ return window.document.getElementById(id); },
+	getElSize: function(id){ 
+		var el = this.getEl(id); 
+		if(el == null){ return null; } 
+		return { &#x27;width&#x27;: parseInt(el.offsetWidth), &#x27;height&#x27;: parseInt(el.offsetHeight) }; 
+	},
+	getWindowSize: function(){
+		if(typeof window.innerWidth != &#x27;undefined&#x27;){
+			return {&#x27;width&#x27;: parseInt(window.innerWidth), &#x27;height&#x27;: parseInt(window.innerHeight)};
+		} else {
+			if(window.document.documentElement.clientWidth != 0){
+				return {&#x27;width&#x27;: parseInt(window.document.documentElement.clientWidth), &#x27;height&#x27;: parseInt(window.document.documentElement.clientHeight)};
+			} else {
+				return {&#x27;width&#x27;: parseInt(window.document.body.clientWidth), &#x27;height&#x27;: parseInt(window.document.body.clientHeight)};
+			}
+		}
+	},
+	positionNotice: function(){
+		var noticeSize = this.getElSize(&#x27;browser-detection&#x27;);
+		var windowSize = this.getWindowSize();
+		var noticeEl = this.getEl(&#x27;browser-detection&#x27;);
+		
+		if(noticeEl == null || noticeSize == null || windowSize == null || !windowSize.width || !windowSize.height){ return; }
+		noticeEl.style.left = (windowSize.width - noticeSize.width) &#x2F; 2 + &quot;px&quot;;
+		
+		var offset = (this.browser == &quot;MSIE&quot; &amp;&amp; this.browserVersion &lt; 7) ? (window.document.documentElement.scrollTop != 0 ? window.document.documentElement.scrollTop : window.document.body.scrollTop) : 0;
+		noticeEl.style.top = (windowSize.height - noticeSize.height - 20 + offset) + &quot;px&quot;;
+		this.noticeHeight = noticeSize.height;
+	},
+	
+	displayNotice: function(){
+		&#x2F;* --DISPLAY ALWAYS--
+		if(this.readCookie(&#x27;bdnotice&#x27;) == 1){
+			return;
+		}
+		*&#x2F;
+		this.writeNoticeCode();
+		this.positionNotice();
+		
+		var el = this;
+		
+		if(this.browser == &quot;MSIE&quot; &amp;&amp; this.browserVersion &lt; 10){
+			window.onscroll = function(){ el.positionNotice(); };
+		}
+		
+		this.getEl(&#x27;browser-detection-close&#x27;).onclick = function(){ el.remindMe(false); };
+		this.getEl(&#x27;browser-detection-remind-later&#x27;).onclick = function(){ el.remindMe(false); };
+		this.getEl(&#x27;browser-detection-never-remind&#x27;).onclick = function(){ el.remindMe(true); };
+	},
+	
+	remindMe: function(never){
+		this.writeCookie(&#x27;bdnotice&#x27;, 1, never == true ? 365 : 7);
+		this.getEl(&#x27;browser-detection&#x27;).style.display = &#x27;none&#x27;;
+		this.getEl(&#x27;black_overlay&#x27;).style.display = &#x27;none&#x27;;
+	},
+	
+	writeCookie: function(name, value, days){
+		var expiration = &quot;&quot;; 
+		if(parseInt(days) &gt; 0){
+			var date = new Date();
+			date.setTime(date.getTime() + parseInt(days) * 24 * 60 * 60 * 1000);
+			expiration = &#x27;; expires=&#x27; + date.toGMTString();
+		}
+		
+		document.cookie = name + &#x27;=&#x27; + value + expiration + &#x27;; path=&#x2F;&#x27;;
+	},
+	
+	readCookie: function(name){
+		if(!document.cookie){ return &#x27;&#x27;; }
+		
+		var searchName = name + &#x27;=&#x27;; 
+		var data = document.cookie.split(&#x27;;&#x27;);
+		
+		for(var i = 0; i &lt; data.length; i++){
+			while(data[i].charAt(0) == &#x27; &#x27;){
+				data[i] = data[i].substring(1, data[i].length);
+			}
+			
+			if(data[i].indexOf(searchName) == 0){ 
+				return data[i].substring(searchName.length, data[i].length);
+			}
+		}
+		
+		return &#x27;&#x27;;
+	},
+	
+	writeNoticeCode: function(){
+		var title = &#x27;&#x27;;
+		var notice = &#x27;&#x27;;
+		var selectBrowser = &#x27;&#x27;;
+		var remindMeLater = &#x27;&#x27;;
+		var neverRemindAgain = &#x27;&#x27;;
+		
+		var browsersList = null;		
+		var code = &#x27;&lt;div id=&quot;black_overlay&quot;&gt;&lt;&#x2F;div&gt;&lt;div id=&quot;browser-detection&quot;&gt;&lt;a href=&quot;javascript:;&quot; id=&quot;browser-detection-close&quot;&gt;Close&lt;&#x2F;a&gt;&#x27;;
+		
+		if(noticeLang == &#x27;custom&#x27; &amp;&amp; noticeLangCustom != null){
+			title = noticeLangCustom.title;
+			notice = noticeLangCustom.notice;
+			selectBrowser = noticeLangCustom.selectBrowser;
+			remindMeLater = noticeLangCustom.remindMeLater;
+			neverRemindAgain = noticeLangCustom.neverRemindAgain;
+		} else {
+			var noticeTextObj = null;
+			eval(&#x27;noticeTextObj = this.noticeText.&#x27; + noticeLang + &#x27;;&#x27;);
+			
+			if(!noticeTextObj){
+				noticeTextObj = this.noticeText.professional;
+			}
+			
+			title = noticeTextObj.title;
+			notice = noticeTextObj.notice;
+			selectBrowser = noticeTextObj.selectBrowser;
+			remindMeLater = noticeTextObj.remindMeLater;
+			neverRemindAgain = noticeTextObj.neverRemindAgain;
+		}
+		
+		notice = notice.replace(&quot;\n&quot;, &#x27;&lt;&#x2F;p&gt;&lt;p class=&quot;bd-notice&quot;&gt;&#x27;);
+		notice = notice.replace(&quot;{browser_name}&quot;, (this.browser + &quot; &quot; + this.browserVersion));
+		
+		code += &#x27;&lt;p class=&quot;bd-title&quot;&gt;&#x27; + title + &#x27;&lt;&#x2F;p&gt;&lt;p class=&quot;bd-notice&quot;&gt;&#x27; + notice + &#x27;&lt;&#x2F;p&gt;&lt;p class=&quot;bd-notice&quot;&gt;&lt;b&gt;&#x27; + selectBrowser + &#x27;&lt;&#x2F;b&gt;&lt;&#x2F;p&gt;&#x27;;
+		
+		if(supportedBrowsers.length &gt; 0){
+			browsersList = supportedBrowsers;
+		} else {
+			browsersList = this.supportedBrowsers;
+		}
+		
+		code += &#x27;&lt;ul class=&quot;bd-browsers-list&quot;&gt;&#x27;;
+		for(var i = 0; i &lt; browsersList.length; i++){
+			code += &#x27;&lt;li class=&quot;&#x27; + browsersList[i].cssClass + &#x27;&quot;&gt;&lt;a href=&quot;&#x27; + browsersList[i].downloadUrl + &#x27;&quot; target=&quot;_blank&quot;&gt;&#x27; + browsersList[i].name + &#x27;&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;&#x27;;
+		}		
+		code += &#x27;&lt;&#x2F;ul&gt;&#x27;;
+		
+		if(displayPoweredBy){
+			code += &#x27;&lt;div class=&quot;bd-poweredby&quot;&gt;Powered by &lt;a href=&quot;http:&#x2F;&#x2F;www.devslide.com&#x2F;labs&#x2F;browser-detection&quot; target=&quot;_blank&quot;&gt;DevSlide Labs&lt;&#x2F;a&gt;&lt;&#x2F;div&gt;&#x27;;
+		}
+		&#x2F;*
+		code += &#x27;&lt;ul class=&quot;bd-skip-buttons&quot;&gt;&#x27;;
+		code += &#x27;&lt;li&gt;&lt;button id=&quot;browser-detection-remind-later&quot; type=&quot;button&quot;&gt;&#x27; + remindMeLater + &#x27;&lt;&#x2F;button&gt;&lt;&#x2F;li&gt;&#x27;;
+		code += &#x27;&lt;li&gt;&lt;button id=&quot;browser-detection-never-remind&quot; type=&quot;button&quot;&gt;&#x27; + neverRemindAgain + &#x27;&lt;&#x2F;button&gt;&lt;&#x2F;li&gt;&#x27;;
+		code += &#x27;&lt;&#x2F;ul&gt;&#x27;;
+		*&#x2F;
+		code += &#x27;&lt;&#x2F;div&gt;&#x27;;
+		window.document.body.innerHTML = code;
+	},
+
+	detectBrowser: function(){
+		this.browser = &#x27;&#x27;;
+		this.browserVersion = 0;
+		
+		if(&#x2F;Opera[\&#x2F;\s](\d+\.\d+)&#x2F;.test(navigator.userAgent)){
+			this.browser = &#x27;Opera&#x27;;
+		} else if(&#x2F;MSIE (\d+\.\d+);&#x2F;.test(navigator.userAgent)){
+			this.browser = &#x27;MSIE&#x27;;
+		} else if(&#x2F;Navigator[\&#x2F;\s](\d+\.\d+)&#x2F;.test(navigator.userAgent)){
+			this.browser = &#x27;Netscape&#x27;;
+		} else if(&#x2F;Chrome[\&#x2F;\s](\d+\.\d+)&#x2F;.test(navigator.userAgent)){
+			this.browser = &#x27;Chrome&#x27;;
+		} else if(&#x2F;Safari[\&#x2F;\s](\d+\.\d+)&#x2F;.test(navigator.userAgent)){
+			this.browser = &#x27;Safari&#x27;;
+			&#x2F;Version[\&#x2F;\s](\d+\.\d+)&#x2F;.test(navigator.userAgent);
+			this.browserVersion = new Number(RegExp.$1);
+		} else if(&#x2F;Firefox[\&#x2F;\s](\d+\.\d+)&#x2F;.test(navigator.userAgent)){
+			this.browser = &#x27;Firefox&#x27;;
+		}
+		
+		if(this.browser == &#x27;&#x27;){
+			this.browser = &#x27;Unknown&#x27;;
+		} else if(this.browserVersion == 0) {
+			this.browserVersion = parseFloat(new Number(RegExp.$1));
+		}		
+	},
+	
+	&#x2F;&#x2F; Detect operation system
+	detectOS: function(){
+		for(var i = 0; i &lt; this.operatingSystems.length; i++){
+			if(this.operatingSystems[i].searchString.indexOf(this.operatingSystems[i].subStr) != -1){
+				this.os = this.operatingSystems[i].name;
+				return;
+			}
+		}
+		
+		this.os = &quot;Unknown&quot;;
+	},
+	
+	&#x2F;&#x2F;	Variables
+	noticeHeight: 0,
+	browser: &#x27;&#x27;,
+	os: &#x27;&#x27;,
+	browserVersion: &#x27;&#x27;,
+	supportedBrowsers: [
+	       { &#x27;cssClass&#x27;: &#x27;firefox&#x27;, &#x27;name&#x27;: &#x27;Mozilla Firefox&#x27;, &#x27;downloadUrl&#x27;: &#x27;http:&#x2F;&#x2F;www.getfirefox.com&#x2F;&#x27; },
+	       { &#x27;cssClass&#x27;: &#x27;chrome&#x27;, &#x27;name&#x27;: &#x27;Google Chrome&#x27;, &#x27;downloadUrl&#x27;: &#x27;http:&#x2F;&#x2F;www.google.com&#x2F;chrome&#x2F;&#x27; },
+	       { &#x27;cssClass&#x27;: &#x27;msie&#x27;, &#x27;name&#x27;: &#x27;Internet Explorer&#x27;, &#x27;downloadUrl&#x27;: &#x27;http:&#x2F;&#x2F;www.google.com&#x2F;chromeframe&#x2F;eula.html?quickenable=true&#x2F;&#x27; },
+	       { &#x27;cssClass&#x27;: &#x27;opera&#x27;, &#x27;name&#x27;: &#x27;Opera&#x27;, &#x27;downloadUrl&#x27;: &#x27;http:&#x2F;&#x2F;www.opera.com&#x2F;&#x27; }
+	],
+	operatingSystems: [
+           { &#x27;searchString&#x27;: navigator.platform, &#x27;name&#x27;: &#x27;Windows&#x27;, &#x27;subStr&#x27;: &#x27;Win&#x27; },
+           { &#x27;searchString&#x27;: navigator.platform, &#x27;name&#x27;: &#x27;Mac&#x27;, &#x27;subStr&#x27;: &#x27;Mac&#x27; },
+           { &#x27;searchString&#x27;: navigator.platform, &#x27;name&#x27;: &#x27;Linux&#x27;, &#x27;subStr&#x27;: &#x27;Linux&#x27; },
+           { &#x27;searchString&#x27;: navigator.userAgent, &#x27;name&#x27;: &#x27;iPhone&#x27;, &#x27;subStr&#x27;: &#x27;iPhone&#x2F;iPod&#x27; }
+	],
+	defaultNotSupportedBrowsers: [{&#x27;os&#x27;: &#x27;Any&#x27;, &#x27;browser&#x27;: &#x27;MSIE&#x27;, &#x27;version&#x27;: 8}],
+	noticeText: {
+    	   &#x27;professional&#x27;: { &quot;title&quot;: &quot;Not suppported Browser Detected&quot;, &quot;notice&quot;: &quot;Our website has detected that you are using an outdated or not supported browser. Using your current browser will prevent you from accessing features on our website. An upgrade is not required, but is strongly recommend to improve your browsing experience on our website.&quot;, &quot;selectBrowser&quot;: &quot;Use the links below to download a new browser or upgrade your existing browser.&quot;, &quot;remindMeLater&quot;: &quot;Remind me later&quot;, &quot;neverRemindAgain&quot;: &quot;No, don&#x27;t remind me again&quot; },
+    	   &#x27;pk&#x27;: { &quot;title&quot;: &quot;Not suppported browser detected&quot;, &quot;notice&quot;: &quot;Our website has detected that you are using an outdated or not supported browser. Using your current browser will prevent you from accessing features on our website. An upgrade is required.&quot;, &quot;remindMeLater&quot;: &quot;Remind me later&quot;, &quot;neverRemindAgain&quot;: &quot;No, don&#x27;t remind me again&quot; },
+    	   &#x27;informal&#x27;: { &quot;title&quot;: &quot;Whoaaa!&quot;, &quot;notice&quot;: &quot;It appears you&#x27;re using an outdated browser which prevents access to some of the features on our website. While it&#x27;s not required, you really should &lt;b&gt;upgrade or install a new browser&lt;&#x2F;b&gt;!&quot;, &quot;selectBrowser&quot;: &quot;Visit the official sites for popular browsers below:&quot;, &quot;remindMeLater&quot;: &quot;Not now, but maybe later&quot;, &quot;neverRemindAgain&quot;: &quot;No, don&#x27;t remind me again&quot; },
+    	   &#x27;technical&#x27;: { &quot;title&quot;: &quot;Old Browser Alert! &lt;span class=&#x27;bd-highlight&#x27;&gt;DEFCON 5&lt;&#x2F;span&gt;&quot;, &quot;notice&quot;: &quot;Come on! If you are hitting our site, then you must at least be partially tech savvy. So, why the older browser? We&#x27;re not asking you to brush off your old Fibonacci Heap and share it with the class. Just upgrade!\nI know, I know. You don&#x27;t like to be told what to do. But, we&#x27;re only asking you to upgrade so you can access all the latest, greatest features on our site. It&#x27;s quick and easy. But, if you still want to skip it, that&#x27;s cool. We will still welcome you &amp;mdash; and your creepy old browser. :P&quot;, &quot;selectBrowser&quot;: &quot;Visit the official sites for popular browsers below:&quot;, &quot;remindMeLater&quot;: &quot;Remind me later&quot;, &quot;neverRemindAgain&quot;: &quot;No, don&#x27;t remind me. I like my Commodore 64!&quot; },
+    	   &#x27;goofy&#x27;: { &quot;title&quot;: &quot;Are You Serious?&quot;, &quot;notice&quot;: &quot;Are you really using &lt;b&gt;{browser_name}&lt;&#x2F;b&gt; as your browser?\nYou&#x27;re surfing the web on a dinosaur (a dangerous one too &amp;mdash; like a Tyrannosaurus or Pterodactyl or something scary like that). &lt;b&gt;Get with it and upgrade now!&lt;&#x2F;b&gt; If you do, we promise you will enjoy our site a whole lot more. :)&quot;, &quot;selectBrowser&quot;: &quot;Visit the official sites for popular browsers below:&quot;, &quot;remindMeLater&quot;: &quot;Maybe Later&quot;, &quot;neverRemindAgain&quot;: &quot;No, don&#x27;t remind me again&quot; },
+    	   &#x27;mean&#x27;: { &quot;title&quot;: &quot;Umm, Your Browser Sucks!&quot;, &quot;notice&quot;: &quot;Get a new one here.&quot;, &quot;selectBrowser&quot;: &quot;Official sites for popular browsers:&quot;, &quot;remindMeLater&quot;: &quot;Remind me later, a&#x27;hole&quot;, &quot;neverRemindAgain&quot;: &quot;F&#x27; off! My browser rocks!&quot; }
+	}
+};
+
+window.onload = function(){
+	BrowserDetection.init();
+};
+
+
+$(document).ready(function(){
+	layout = $(&#x27;#applicationContainer&#x27;).layout({
+		north__closable:false
+	,	spacing_open: 0
+	,	spacing_closed: 0
+	,	west__onresize:	function(pane_name,pane_element,pane_state,pane_options,layout_name){fixLayerList();}
+	,	center__onresize: function(pane_name,pane_element,pane_state,pane_options,layout_name){digimap.updateSize();$.layout.callbacks.resizePaneAccordions(pane_name,pane_element);}
+	});
+	panel1=$(&#x27;#panel1&#x27;).layout({
+		north__size: 87+13    &#x2F;&#x2F;345
+	,   north__resizable: false
+	,	north__closable:false	
+	});
+	&#x2F;*
+	maplayout= $(&#x27;#panel2&#x27;).layout({
+		south__size:      190
+	,   south__resizable: true
+	,	south__closable:true
+	,	south__initHidden: false
+	,	south__initClosed: true
+	
+	});
+	*&#x2F;
+	singleQTip(&quot;mapResultsToggler&quot;);
+	&#x2F;&#x2F;replace_initialLogo();
+	&#x2F;&#x2F; Stores past URLs that failed to load. Used for a quick lookup
+	&#x2F;&#x2F; and because &#x60;onerror&#x60; is not triggered in some browsers
+	&#x2F;&#x2F; if the response is cached.
+	window.errors = {};
+  
+	&#x2F;&#x2F; Check the existence of an image file at &#x60;url&#x60; by creating a
+	&#x2F;&#x2F; temporary Image element. The &#x60;success&#x60; callback is called
+	&#x2F;&#x2F; if the image loads correctly or the image is already complete.
+	&#x2F;&#x2F; The &#x60;failure&#x60; callback is called if the image fails to load
+	&#x2F;&#x2F; or has failed to load in the past.
+	window.checkImage = function (url, success, failure) {
+	  var img = new Image(), &#x2F;&#x2F; the
+		  loaded = false,
+		  errored = false;
+  
+	  &#x2F;&#x2F; Run only once, when &#x60;loaded&#x60; is false. If &#x60;success&#x60; is a
+	  &#x2F;&#x2F; function, it is called with &#x60;img&#x60; as the context.
+	  img.onload = function () {
+			if (loaded) {
+			  return;
+			}
+  
+			loaded = true;
+  
+			if (success &amp;&amp; success.call) {
+			  success.call(img,img);
+			}
+		  };
+  
+	  &#x2F;&#x2F; Run only once, when &#x60;errored&#x60; is false. If &#x60;failure&#x60; is a
+	  &#x2F;&#x2F; function, it is called with &#x60;img&#x60; as the context.
+	  img.onerror = function () {
+			if (errored) {
+			  return;
+			}
+  
+			window.errors[url] = errored = true;
+  
+			if (failure &amp;&amp; failure.call) {
+			  failure.call(img,img);
+			}
+		  };
+  
+	  img.src = url;
+  
+	  &#x2F;&#x2F; If &#x60;url&#x60; is in the &#x60;errors&#x60; object, trigger the &#x60;onerror&#x60;
+	  &#x2F;&#x2F; callback.
+	  if (window.errors[url]) {
+		img.onerror.call(img,img);
+	  }
+  
+	  &#x2F;&#x2F; If the image is already complete (i.e. cached), trigger the
+	  &#x2F;&#x2F; &#x60;onload&#x60; callback.
+	  if (img.complete) {
+		img.onload.call(img);
+	  }
+	};
+	
+	$(&quot;#dialog-extend-fixed-title&quot;).bind(&#x27;click&#x27;,mygis.UI.toggleInfoGroup);
+	
+    ui_setup();
+	
+	
+});
+
+
+
+function replace_initialLogo(){
+	var domainLogo = $(&quot;#logoPane&quot;).parent().find(&quot;.domainLogoWrapper2 img&quot;)[0];
+	var startLogo = $(&quot;#initialLoad&quot;).find(&quot;.mygis_logo img&quot;)[0];
+	if (domainLogo.src){
+		startLogo.src=domainLogo.src;
+	}
+}
+
+function ui_setup()
+{
+	mygis.Utilities.blockUI(true);
+	&#x2F;&#x2F;$(&#x27;a[title]&#x27;).qtip();
+	&#x2F;&#x2F;$(&quot;#mapDescription&quot;).button().click(function(){router(&#x27;shortcutMaps&#x27;);});;
+	$(&quot;#mapChangeBtn&quot;).click(function(){router(&#x27;shortcutMaps&#x27;);});
+	
+	mygis.UI.resetLoadFeedback();
+	mygis.UI.feedback(strings.Coding.loadingStep1);
+	setTimeout(function(){
+	mygis.UI.initializeStyleSheets();
+	
+	$(&quot;#olScaleLine_wrapper&quot;).find(&quot;.olControlScaleLineTop&quot;).css({
+		visibility: &quot;visible !important&quot;
+	});
+	
+	&#x2F;&#x2F;playVideo();
+		
+    $(&#x27;.backBtn&#x27;).button();
+	$(&#x27;.forwardBtn&#x27;).button();
+	$(&#x27;#polylineStrokeColor&#x27;).bind(&#x27;colorpicked&#x27;, function () {
+      mygis.UI.updateLinePreview();
+    });
+	$(&#x27;#polygonStrokeColor&#x27;).bind(&#x27;colorpicked&#x27;, function () {
+      mygis.UI.updatePolyPreview();
+    });
+	$(&#x27;#polygonFillColor&#x27;).bind(&#x27;colorpicked&#x27;, function () {
+      mygis.UI.updatePolyPreview();
+    });
+	&#x2F;&#x2F;------- Layer------------
+	$(&quot;#layerOpacitySlider&quot;).slider({
+		max: 1,
+		min: 0,
+		value: 0,
+		step: 0.25,
+		slide: mygis.UI.changeLayerOpacity
+	});
+	
+	
+	&#x2F;&#x2F;--------Marker-----------
+	$(&#x27;#markerSizeSlider&#x27;).slider({
+		max: 128,
+		min: 8,
+		step: 1,
+		value: 32,
+		slide: mygis.UI.changeMarkerSize
+	});
+	$(&quot;#pointColumns&quot;).jqxNumberInput({
+		width: &#x27;50px&#x27;,
+		height: &#x27;25px&#x27;,
+		decimal: 5,
+		min: 1,
+		max: 7,
+		decimalDigits: 0,
+		spinButtons: true,
+		inputMode: &#x27;simple&#x27;,
+		theme: &#x27;energyblue&#x27;
+	});
+	$(&quot;#pointColumns&quot;).bind(&#x27;valuechanged&#x27;,function(){
+		var fontSelect = document.getElementById(&quot;pointFontFamily&quot;);
+		var font = fontSelect.options[fontSelect.options.selectedIndex].value;
+		mygis.UI.populatePointIcons(&#x27;font&#x27;,font);
+	});
+	$(&quot;#pointBorderSlider&quot;).slider({
+		max: 32,
+		min: 1,
+		value: 1,
+		step: 1,
+		slide: mygis.UI.changePointBorder
+	});
+	$(&quot;#pointOpacitySlider&quot;).slider({
+		max: 1,
+		min: 0,
+		value: 0,
+		step: 0.25,
+		slide: mygis.UI.changePointOpacity
+	});
+	&#x2F;&#x2F;--------Polyline-----------
+	$(&#x27;#lineStrokeOpacitySlider&#x27;).slider({
+		max: 1,
+		min: 0,
+		step: 0.25,
+		value: 1,
+		slide: mygis.UI.changeLineOpacity
+	});
+	$(&#x27;#lineStrokeWeightSlider&#x27;).slider({
+		max: 32,
+		min: 1,
+		value: 3,
+		step: 1,
+		slide: mygis.UI.changeLineWeight
+	});
+	&#x2F;&#x2F;--------Polygon-----------
+	$(&#x27;#polygonStrokeOpacitySlider&#x27;).slider({
+		max: 1,
+		min: 0,
+		step: 0.25,
+		value: 1,
+		slide: mygis.UI.changePolyStrokeOpacity
+	});
+	$(&#x27;#polygonFillOpacitySlider&#x27;).slider({
+		max: 1,
+		min: 0,
+		step: 0.25,
+		value: 0.5,
+		slide: mygis.UI.changePolyFillOpacity
+	});
+	$(&#x27;#polygonStrokeWeightSlider&#x27;).slider({
+		max: 32,
+		min: 1,
+		value: 3,
+		step: 1,
+		slide: mygis.UI.changePolyWeight
+	});
+	
+	&#x2F;&#x2F;--------------------------------
+    $(&#x27;.saveActionLine&#x27;).find(&#x27;.forwardBtn&#x27;).button()
+        .bind(&#x27;click&#x27;, saveAndClose);
+
+    $(&#x27;#login_btn&#x27;).hover(
+        function() {
+            $(&#x27;#login_btn&#x27;).stop().animate({ backgroundPosition: &quot;138px 0px&quot; }, 900);
+            $(&#x27;#login_btn&#x27;).css({ backgroundColor: &quot;white&quot; });
+        }
+    );
+
+    $(&#x27;#login_btn&#x27;).mouseout(
+        function() {
+            $(&#x27;#login_btn&#x27;).stop().animate({ backgroundPosition: &quot;0 0&quot; }, 900);
+            $(&#x27;#login_btn&#x27;).css({ backgroundColor: &quot;#F2F2F2&quot; });
+        }
+    );
+
+    $(&#x27;#Notification&#x27;)
+
+        .jnotifyInizialize({
+
+            oneAtTime: true,
+
+            appendType: &#x27;append&#x27;
+
+        })
+
+        .css({ &#x27;position&#x27;: &#x27;absolute&#x27;,
+			&#x2F;*
+            &#x27;top&#x27;: &#x27;65px&#x27;,
+
+            &#x27;right&#x27;: &#x27;433px&#x27;,
+
+            &#x27;width&#x27;: &#x27;auto&#x27;,
+			&#x27;left&#x27;: &#x27;145px&#x27;,
+			*&#x2F;
+			&#x2F;*
+			&#x27;bottom&#x27;: &#x27;5px&#x27;,
+			&#x27;right&#x27;: &#x27;15px&#x27;,
+			*&#x2F;
+			&#x2F;*plaka den ehei pou alli douleia den ehoume kai ta pame giro giro? *&#x2F;
+			&#x27;top&#x27;: &#x27;1px&#x27;,
+			&#x27;left&#x27;: &#x27;50%&#x27;,
+			&#x27;margin-left&#x27;: &#x27;-250px&#x27;,
+			&#x27;width&#x27;: &#x27;500px&#x27;,
+            &#x27;z-index&#x27;: &#x27;100000&#x27;,
+			
+			
+			&#x27;padding-top&#x27;: &#x27;5px&#x27;
+
+        });
+    $(&#x27;#mapActionsBtn&#x27;).bind(&#x27;click&#x27;, function() {
+        if (!toolbarToggling) {
+            toolbarToggling = true;
+            if ($(&quot;#fWindowWrapper&quot;).is(&quot;:visible&quot;)) {
+                $(&quot;#fWindowWrapper&quot;).hide(&quot;slide&quot;, { direction: &quot;up&quot; }, 1000, function() { toolbarToggling = false; });
+				&#x2F;&#x2F;$(&quot;#fWindowWrapper&quot;).hide();
+                document.getElementById(&quot;mapActionsBtn&quot;).setAttribute(&quot;class&quot;, &quot;&quot;);
+                document.getElementById(&quot;mapActionsBtn&quot;).setAttribute(&quot;className&quot;, &quot;&quot;);
+				$(&quot;#rsideSplitter&quot;).jqxSplitter(&#x27;collapseAt&#x27;,0);
+            } else {
+                &#x2F;&#x2F;closeToolbars(&quot;mapToolbar&quot;);
+                $(&quot;#fWindowWrapper&quot;).show(&quot;slide&quot;, { direction: &quot;up&quot; }, 1000, function() { toolbarToggling = false; });
+				&#x2F;&#x2F;$(&quot;#fWindowWrapper&quot;).show();
+                document.getElementById(&quot;mapActionsBtn&quot;).setAttribute(&quot;class&quot;, &quot;pressed&quot;);
+                document.getElementById(&quot;mapActionsBtn&quot;).setAttribute(&quot;className&quot;, &quot;pressed&quot;);
+				$(&quot;#rsideSplitter&quot;).jqxSplitter(&#x27;expandAt&#x27;,0);
+
+            }
+        }
+
+    });
+	$(&#x27;#allListsTabButton&#x27;).bind(&#x27;click&#x27;, function() {
+		if (!document.getElementById(&quot;panel1&quot;).ex_HasClassName(&quot;collapsed&quot;)){
+			document.getElementById(&quot;panel1&quot;).ex_AddClassName(&quot;collapsed&quot;);
+			document.getElementById(&quot;allListsTabButton&quot;).ex_RemoveClassName(&quot;active&quot;);
+			document.getElementById(&quot;panel2&quot;).ex_RemoveClassName(&quot;leftExpanded&quot;);
+			&#x2F;&#x2F;layout.hide(&#x27;west&#x27;);
+		}else{
+			document.getElementById(&quot;panel1&quot;).ex_RemoveClassName(&quot;collapsed&quot;);
+			document.getElementById(&quot;allListsTabButton&quot;).ex_AddClassName(&quot;active&quot;)
+			&#x2F;&#x2F;layout.show(&#x27;west&#x27;);
+			document.getElementById(&quot;panel2&quot;).ex_AddClassName(&quot;leftExpanded&quot;);
+		}
+	});
+	$(&#x27;#rpanelCollapseBtn&#x27;).bind(&#x27;click&#x27;, function() {
+		if (!document.getElementById(&quot;panel3Out&quot;).ex_HasClassName(&quot;collapsed&quot;)){
+			document.getElementById(&quot;panel3Out&quot;).ex_AddClassName(&quot;collapsed&quot;);
+			document.getElementById(&quot;rpanelCollapseBtn&quot;).ex_RemoveClassName(&quot;active&quot;);
+			&#x2F;&#x2F;layout.hide(&#x27;east&#x27;);
+			document.getElementById(&quot;panel2&quot;).ex_RemoveClassName(&quot;rightExpanded&quot;);
+		}else{
+			document.getElementById(&quot;panel3Out&quot;).ex_RemoveClassName(&quot;collapsed&quot;);
+			document.getElementById(&quot;rpanelCollapseBtn&quot;).ex_AddClassName(&quot;active&quot;)
+			&#x2F;&#x2F;layout.show(&#x27;east&#x27;);
+			document.getElementById(&quot;panel2&quot;).ex_AddClassName(&quot;rightExpanded&quot;);
+		}
+	});
+	$(&quot;#resultsTabButton&quot;).bind(&#x27;click&#x27;,function(){propertiesVisibility(&quot;infoAnalysis&quot;,!document.getElementById(&quot;resultsTabButton&quot;).ex_HasClassName(&quot;active&quot;));});
+    $(&#x27;#mapActionsBtn&#x27;).click();
+	setUpQTips();
+	
+	var lPanes=$(&quot;.leftpanes&quot;);
+	
+	$(&quot;#menuTriggerBtn&quot;).bind(&#x27;click&#x27;,function(){
+		
+		if (!slideMenuVisible){
+			
+			lPanes.css({&quot;margin-left&quot;:&quot;0px&quot;});
+			
+			slideMenuVisible=true;
+		}
+	});
+	
+	lPanes.bind(&#x27;mouseenter&#x27;,function(){
+		clearTimeout(impendingSlideClose);
+	});
+	lPanes.bind(&#x27;mouseleave&#x27;,function(){
+		
+		if (slideMenuVisible){
+			lPanes.css({&quot;margin-left&quot;:&quot;-195px&quot;});
+			slideMenuVisible=false;
+		}
+	});
+	var search=$(&quot;#infoAnalysis_SearchInput&quot;);
+	search.data(&quot;oldVal&quot;,&quot;&quot;);
+	search.bind(&#x27;propertychange keyup input paste&#x27;,mygis.UI.filterSearchResults);
+	search.bind(&#x27;focus&#x27;,function(){mygis.UI.toggleSearchFilterFocus(true);});
+	search.bind(&#x27;blur&#x27;,function(){mygis.UI.toggleSearchFilterFocus(false);});
+	&#x2F;*
+	if (!tabsInitialized){
+		initializeTabs();
+	}
+	*&#x2F;
+	mygis.UI.feedback(strings.Coding.loadingStep2);
+	createMapList();
+	mygis.UI.feedback(strings.Coding.loadingStep3,
+					  $(&quot;#mapsList&quot;).jqxListBox(&#x27;source&#x27;).records==0);	&#x2F;&#x2F;if true will say that there&#x27;s error
+	loadMap(true);
+	
+	},100);
+}
+
+function ui_setup_2(error){
+	&#x2F;&#x2F;console.log(&#x27;ui_setup_2&#x27;);
+	
+	mygis.UI.togglePointMode();
+	mygis.UI.feedback(&#x27;&#x27;);
+	&#x2F;&#x2F;$(&quot;#olScale_wrapper&quot;).linkselect();
+	setTimeout(function(){
+		
+		
+		resultGridButtons = $(&quot;&lt;div &#x2F;&gt;&quot;);
+		setTimeout(function(){initializeTabs();$(&quot;#bottomTabContainer&quot;).jqxTabs(&#x27;ensureVisible&#x27;,0);},1500);
+		setTimeout(createMapListTips,1000);
+		
+		
+		finishApplicationLoad=true;
+		var mapItem = $(&quot;#mapsList&quot;).jqxListBox(&#x27;getSelectedItem&#x27;).originalItem;
+		mygis.Map.switchBackground(mapItem.mapDefaultBG,0);
+		setTimeout(function(){
+			mygis.Utilities.unblockUI();
+			$(document).trigger(&quot;initMapFinished&quot;);
+			$(&quot;.blockUI.blockOverlay&quot;).animate({opacity: 0},1400);
+			$(&quot;#page_effect&quot;).animate({opacity:1},1400);
+			digimap.updateSize();
+			$(&quot;#pageActionsWrapper&quot;).animate({opacity: 1},1400);
+			if (Sys.Services.AuthenticationService.get_isLoggedIn()){
+				mygis.User.Hooks.initialLoad();
+			};
+			panel1.sizePane(&#x27;north&#x27;,$(&quot;#customOverview&quot;).height()+$(&quot;#bottomTabContainer&quot;).height()-4);
+			mygis.Map.moveEnd();
+			
+			&#x2F;&#x2F;mygis.UI.Help.showManual();
+			
+		},1400);
+	},1400);
+}
+
+&#x2F;**
+ * Loads an html fragment from another source
+ * @method loadFragment
+ * @param {String} idSelector the id of the object to load
+ * @param {Function} callback The function to call when load is complete
+ * @param {String} specificElement The id of the specificElement to load inside the html fragment
+ * @param {Boolean} stripIDs Whether to strip ids from the loaded fragment
+ *&#x2F;
+function loadFragment(idSelector,callback,specificElement,stripIDs)
+{
+	var containerDiv; 
+	if (!specificElement){
+		containerDiv= $(&quot;#&quot;+idSelector);
+	}else{
+		containerDiv = $(specificElement);
+	}
+	if (containerDiv.children().length==0){
+		&#x2F;&#x2F;mygis.Utilities.blockUI();
+		var suffix = &quot;?qtype=&quot;+idSelector;	
+		var customUrl = &quot;&#x2F;mgfrag2.aspx&quot;+suffix+&quot;&amp;language=&quot;+Sys.CultureInfo.CurrentCulture.name;
+		$.ajax({
+			url: customUrl,
+			type: &#x27;GET&#x27;,
+			dataType: &quot;html&quot;,
+			success: function(data) {
+				&#x2F;&#x2F;mygis.Utilities.unblockUI();
+				var replacement=$(data).find(&quot;#&quot;+idSelector).html();
+				if (stripIDs){$(replacement).find(&quot;*&quot;).removeAttr(&#x27;id&#x27;);}
+				containerDiv.html(replacement);
+				if (callback){
+					callback();
+				}
+			}
+		});
+
+		&#x2F;&#x2F;$(&quot;#&quot;+idSelector).load(&#x27;&#x2F;mgfrag.aspx #&#x27;+idSelector,callback);
+	}else{
+		callback();
+	}
+}
+
+function testLocal(evt)
+{
+	&#x2F;&#x2F;$(&quot;#testLocalBrowse&quot;).bind(&#x27;change&#x27;,testLocal);
+	&#x2F;&#x2F;$(&quot;#testLocal&quot;).dialog();
+	
+	var get = function(id) { return document.getElementById(id); }
+	var files = evt.target.files; &#x2F;&#x2F; FileList object.
+&#x2F;&#x2F; Loop through the FileList and render image files as thumbnails.
+	for (var i = 0, f; f = files[i]; i++) {
+	&#x2F;&#x2F; Only process image files.
+	if (!f.type.match(&#x27;image.*&#x27;)) {
+	continue;
+	}
+	&#x2F;*
+	var reader = new FileReader();
+	&#x2F;&#x2F; Need a closure to capture the file information.
+	reader.onload = (function(theFile) {
+	return function(e) {
+	&#x2F;&#x2F; Render thumbnail.
+	document.getElementById(&quot;testLocalImg&quot;).src=	e.target.result;
+	var graphic = new OpenLayers.Layer.Image( 
+			&#x27;City Lights&#x27;, 
+			document.getElementById(&quot;testLocalImg&quot;).src, 
+			new OpenLayers.Bounds(digimap.getExtent()), 
+			new OpenLayers.Size(580, 288) 
+		); 
+		digimap.addLayer(graphic);  
+	
+	};
+	})(f);
+	&#x2F;&#x2F; Read in the image file as a data URL.
+	&#x2F;&#x2F;reader.readAsDataURL(f);
+	*&#x2F;
+	
+	document.getElementById(&quot;testLocalImg&quot;).src=window.URL.createObjectURL(f);
+	var manipulateBlob = document.getElementById(&quot;testLocalImg&quot;).src.split(&quot;:&quot;);
+	var newUrl = manipulateBlob[0]+&quot;:&quot;+&quot;http:&#x2F;&#x2F;localhost&#x2F;&quot;+manipulateBlob[1];
+	var graphic = new OpenLayers.Layer.Image( 
+			&#x27;City Lights&#x27;, 
+			newUrl, 
+			new OpenLayers.Bounds(digimap.getExtent()), 
+			new OpenLayers.Size(580, 288) 
+		); 
+		digimap.addLayer(graphic);  
+	} 
+	
+}
+
+(function(d){var k=d.scrollTo=function(a,i,e){d(window).scrollTo(a,i,e)};k.defaults={axis:&#x27;xy&#x27;,duration:parseFloat(d.fn.jquery)&gt;=1.3?0:1};k.window=function(a){return d(window)._scrollable()};d.fn._scrollable=function(){return this.map(function(){var a=this,i=!a.nodeName||d.inArray(a.nodeName.toLowerCase(),[&#x27;iframe&#x27;,&#x27;#document&#x27;,&#x27;html&#x27;,&#x27;body&#x27;])!=-1;if(!i)return a;var e=(a.contentWindow||a).document||a.ownerDocument||a;return d.browser.safari||e.compatMode==&#x27;BackCompat&#x27;?e.body:e.documentElement})};d.fn.scrollTo=function(n,j,b){if(typeof j==&#x27;object&#x27;){b=j;j=0}if(typeof b==&#x27;function&#x27;)b={onAfter:b};if(n==&#x27;max&#x27;)n=9e9;b=d.extend({},k.defaults,b);j=j||b.speed||b.duration;b.queue=b.queue&amp;&amp;b.axis.length&gt;1;if(b.queue)j&#x2F;=2;b.offset=p(b.offset);b.over=p(b.over);return this._scrollable().each(function(){var q=this,r=d(q),f=n,s,g={},u=r.is(&#x27;html,body&#x27;);switch(typeof f){case&#x27;number&#x27;:case&#x27;string&#x27;:if(&#x2F;^([+-]=)?\d+(\.\d+)?(px|%)?$&#x2F;.test(f)){f=p(f);break}f=d(f,this);case&#x27;object&#x27;:if(f.is||f.style)s=(f=d(f)).offset()}d.each(b.axis.split(&#x27;&#x27;),function(a,i){var e=i==&#x27;x&#x27;?&#x27;Left&#x27;:&#x27;Top&#x27;,h=e.toLowerCase(),c=&#x27;scroll&#x27;+e,l=q[c],m=k.max(q,i);if(s){g[c]=s[h]+(u?0:l-r.offset()[h]);if(b.margin){g[c]-=parseInt(f.css(&#x27;margin&#x27;+e))||0;g[c]-=parseInt(f.css(&#x27;border&#x27;+e+&#x27;Width&#x27;))||0}g[c]+=b.offset[h]||0;if(b.over[h])g[c]+=f[i==&#x27;x&#x27;?&#x27;width&#x27;:&#x27;height&#x27;]()*b.over[h]}else{var o=f[h];g[c]=o.slice&amp;&amp;o.slice(-1)==&#x27;%&#x27;?parseFloat(o)&#x2F;100*m:o}if(&#x2F;^\d+$&#x2F;.test(g[c]))g[c]=g[c]&lt;=0?0:Math.min(g[c],m);if(!a&amp;&amp;b.queue){if(l!=g[c])t(b.onAfterFirst);delete g[c]}});t(b.onAfter);function t(a){r.animate(g,j,b.easing,a&amp;&amp;function(){a.call(this,n,b)})}}).end()};k.max=function(a,i){var e=i==&#x27;x&#x27;?&#x27;Width&#x27;:&#x27;Height&#x27;,h=&#x27;scroll&#x27;+e;if(!d(a).is(&#x27;html,body&#x27;))return a[h]-d(a)[e.toLowerCase()]();var c=&#x27;client&#x27;+e,l=a.ownerDocument.documentElement,m=a.ownerDocument.body;return Math.max(l[h],m[h])-Math.min(l[c],m[c])};function p(a){return typeof a==&#x27;object&#x27;?a:{top:a,left:a}}})(jQuery);
+
+Telerik.Web.UI.RadAsyncUpload.prototype._updateFormProperties = function (form) {
+	 if (form) {
+		 form.enctype = form.encoding = &quot;multipart&#x2F;form-data&quot;;
+	 }
+ }
+ 
+ 
+
+
+
+function contextMenu(div){
+	var that = this,
+		ts = null;
+
+	this.div = div;
+	this.items = [];
+
+	&#x2F;&#x2F; create an item using a new closure
+	this.create = function(item){
+		var $item = $(&#x27;&lt;div class=&quot;item &#x27;+item.cl+&#x27;&quot;&gt;&#x27;+item.label+&#x27;&lt;&#x2F;div&gt;&#x27;);
+		$item
+		&#x2F;&#x2F; bind click on item
+		.click(function(){
+			if (typeof(item.fnc) === &#x27;function&#x27;){
+				item.fnc.apply($(this), []);
+			}
+		})
+		&#x2F;&#x2F; manage mouse over coloration
+		.hover(
+			function(){$(this).addClass(&#x27;hover&#x27;);},
+			function(){$(this).removeClass(&#x27;hover&#x27;);}
+		);
+		return $item;
+	};
+	this.clearTs = function(){
+		if (ts){
+			clearTimeout(ts);
+			ts = null;
+		}
+	};
+	this.initTs = function(t){
+		ts = setTimeout(function(){that.close()}, t);
+	};
+}
+
+&#x2F;&#x2F; add item
+contextMenu.prototype.add = function(label, cl, fnc){
+	this.items.push({
+		label:label,
+		fnc:fnc,
+		cl:cl
+	});
+}
+
+&#x2F;&#x2F; close previous and open a new menu
+contextMenu.prototype.open = function(event,hack){
+	this.close();
+	var k,
+	that = this,
+	offset = {
+	x:0,
+	y:0
+	},
+	$menu = $(&#x27;&lt;div id=&quot;right-menu&quot;&gt;&lt;&#x2F;div&gt;&#x27;);
+
+	&#x2F;&#x2F; add items in menu
+	for(var k=0;k&lt;this.items.length;k++){
+		$menu.append(this.create(this.items[k]));
+	}
+
+	&#x2F;&#x2F; manage auto-close menu on mouse hover &#x2F; out
+	$menu.hover(
+		function(){that.clearTs();},
+		function(){that.initTs(3000);}
+	);
+	$menu.css({
+		&#x27;top&#x27;: event.layerY ,
+		&#x27;left&#x27;: event.layerX,
+		&#x27;position&#x27;: &#x27;absolute&#x27;
+	});
+	rightmenuOpen = true;
+	$(digiContainer).append($menu);
+	this.initTs(5000);
+	return false;
+}
+
+&#x2F;&#x2F; close the menu
+contextMenu.prototype.close = function(){
+	this.clearTs();
+	rightmenuOpen = false;
+	$(&quot;#right-menu&quot;).remove();
+
+}
+
+var loadGoogleMaps = (function($) {
+
+	var now = $.now(),
+
+	promise;
+
+	return function( version, apiKey, language ) {
+
+		if( promise ) { return promise; }
+
+		&#x2F;&#x2F;Create a Deferred Object
+		var	deferred = $.Deferred(),
+
+		&#x2F;&#x2F;Declare a resolve function, pass google.maps for the done functions
+		resolve = function () {
+		deferred.resolve( window.google &amp;&amp; google.maps ? google.maps : false );
+		},
+
+		&#x2F;&#x2F;global callback name
+		callbackName = &quot;loadGoogleMaps_&quot; + ( now++ ),
+
+		&#x2F;&#x2F; Default Parameters
+		params = $.extend(
+			{&#x27;sensor&#x27;: false}
+			, apiKey ? {&quot;key&quot;: apiKey} : {}
+			, language ? {&quot;language&quot;: language} : {}
+			, {&#x27;libraries&#x27;:&#x27;places&#x27;}
+		);;
+
+		&#x2F;&#x2F;If google.maps exists, then Google Maps API was probably loaded with the &lt;script&gt; tag
+		if( window.google &amp;&amp; google.maps ) {
+
+		resolve();
+
+		&#x2F;&#x2F;If the google.load method exists, lets load the Google Maps API in Async.
+		} else if ( window.google &amp;&amp; google.load ) {
+
+		google.load(&quot;maps&quot;, version || 3, {&quot;other_params&quot;: $.param(params) , &quot;callback&quot; : resolve});
+
+		&#x2F;&#x2F;Last, try pure jQuery Ajax technique to load the Google Maps API in Async.
+		} else {
+
+		&#x2F;&#x2F;Ajax URL params
+		params = $.extend( params, {
+		&#x27;v&#x27;: version || 3,
+		&#x27;callback&#x27;: callbackName
+		});
+
+		&#x2F;&#x2F;Declare the global callback
+		window[callbackName] = function( ) {
+
+		resolve();
+
+		&#x2F;&#x2F;Delete callback
+		setTimeout(function() {
+		try{
+		delete window[callbackName];
+		} catch( e ) {}
+		}, 20);
+		};
+
+		&#x2F;&#x2F;Can&#x27;t use the jXHR promise because &#x27;script&#x27; doesn&#x27;t support &#x27;callback=?&#x27;
+		$.ajax({
+		dataType: &#x27;script&#x27;,
+		data: params,
+		url: &#x27;http:&#x2F;&#x2F;maps.google.com&#x2F;maps&#x2F;api&#x2F;js&#x27;
+		});
+
+		}
+
+		promise = deferred.promise();
+
+		return promise;
+	};
+
+}(jQuery));
+
+    </pre>
+</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="..&#x2F;assets/vendor/prettify/prettify-min.js"></script>
+<script>prettyPrint();</script>
+<script src="..&#x2F;assets/js/yui-prettify.js"></script>
+<script src="..&#x2F;assets/../api.js"></script>
+<script src="..&#x2F;assets/js/api-filter.js"></script>
+<script src="..&#x2F;assets/js/api-list.js"></script>
+<script src="..&#x2F;assets/js/api-search.js"></script>
+<script src="..&#x2F;assets/js/apidocs.js"></script>
+</body>
+</html>

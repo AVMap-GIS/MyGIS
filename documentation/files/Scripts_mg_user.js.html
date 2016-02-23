@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Scripts\mg_user.js</title>
+    <link rel="stylesheet" href="http:&#x2F;&#x2F;yui.yahooapis.com&#x2F;3.5.1&#x2F;build&#x2F;cssgrids&#x2F;cssgrids-min.css">
+    <link rel="stylesheet" href="..&#x2F;assets/vendor/prettify/prettify-min.css">
+    <link rel="stylesheet" href="..&#x2F;assets/css/main.css" id="site_styles">
+    <link rel="shortcut icon" type="image/png" href="..&#x2F;assets/favicon.png">
+    <script src="http:&#x2F;&#x2F;yui.yahooapis.com&#x2F;combo?3.5.1&#x2F;build&#x2F;yui&#x2F;yui-min.js"></script>
+</head>
+<body class="yui3-skin-sam">
+
+<div id="doc">
+    <div id="hd" class="yui3-g header">
+        <div class="yui3-u-3-4">
+            
+                <h1><a href="..&#x2F;index.html"><img src="..&#x2F;assets/css/logo.png" title=""></a></h1>
+            
+        </div>
+        <div class="yui3-u-1-4 version">
+            <em>API Docs for MyGIS version 2.0.0</em>
+        </div>
+    </div>
+    <div id="bd" class="yui3-g">
+
+        <div class="yui3-u-1-4">
+            <div id="docs-sidebar" class="sidebar apidocs">
+                <div id="api-list">
+    <h2 class="off-left">APIs</h2>
+    <div id="api-tabview" class="tabview">
+        <ul class="tabs">
+            <li><a href="#api-classes">Classes</a></li>
+            <li><a href="#api-modules">Modules</a></li>
+        </ul>
+
+        <div id="api-tabview-filter">
+            <input type="search" id="api-filter" placeholder="Type to filter APIs">
+        </div>
+
+        <div id="api-tabview-panel">
+            <ul id="api-classes" class="apis classes">
+            
+                <li><a href="..&#x2F;classes/mygis.Admin.html">mygis.Admin</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Admin.AppManager.html">mygis.Admin.AppManager</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Admin.AppManager.Apps.html">mygis.Admin.AppManager.Apps</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Admin.AppManager.Maps.html">mygis.Admin.AppManager.Maps</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Admin.AppManager.Styles.html">mygis.Admin.AppManager.Styles</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Admin.AppManager.URLs.html">mygis.Admin.AppManager.URLs</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Admin.LayerManager.html">mygis.Admin.LayerManager</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Admin.LogManager.html">mygis.Admin.LogManager</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Admin.MapManager.html">mygis.Admin.MapManager</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Admin.MapManager.Layers.html">mygis.Admin.MapManager.Layers</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Admin.MapManager.Macros.html">mygis.Admin.MapManager.Macros</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Admin.MapManager.Maps.html">mygis.Admin.MapManager.Maps</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Admin.MapManager.Permissions.html">mygis.Admin.MapManager.Permissions</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Admin.MapManager.QuickSearches.html">mygis.Admin.MapManager.QuickSearches</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Admin.UI.html">mygis.Admin.UI</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Admin.UserManager.html">mygis.Admin.UserManager</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Admin.Utilities.html">mygis.Admin.Utilities</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Drawing.html">mygis.Drawing</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Drawing.Editing.html">mygis.Drawing.Editing</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Drawing.Exporting.html">mygis.Drawing.Exporting</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Drawing.Importing.html">mygis.Drawing.Importing</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Drawing.Styling.html">mygis.Drawing.Styling</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Map.html">mygis.Map</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.OLOverrides.html">mygis.OLOverrides</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.OLOverrides.mygis_Control.html">mygis.OLOverrides.mygis_Control</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.OLOverrides.mygis_Control.mygis_GetFeature.html">mygis.OLOverrides.mygis_Control.mygis_GetFeature</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Printing.html">mygis.Printing</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Query.html">mygis.Query</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Storage.html">mygis.Storage</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.UI.html">mygis.UI</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.UI.Help.html">mygis.UI.Help</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.UI.Hooks.html">mygis.UI.Hooks</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.UI.Macros.html">mygis.UI.Macros</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.UI.MediaManager.html">mygis.UI.MediaManager</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.User.html">mygis.User</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.User.Hooks.html">mygis.User.Hooks</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.User.ProfileInfo.html">mygis.User.ProfileInfo</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.User.UI.html">mygis.User.UI</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Utilities.html">mygis.Utilities</a></li>
+            
+                <li><a href="..&#x2F;classes/mygis.Utilities.projections.html">mygis.Utilities.projections</a></li>
+            
+            </ul>
+
+            <ul id="api-modules" class="apis modules">
+            
+            </ul>
+        </div>
+    </div>
+</div>
+
+            </div>
+        </div>
+        <div class="yui3-u-3-4">
+                <div id="api-options">
+        Show:
+        <label for="api-show-inherited">
+            <input type="checkbox" id="api-show-inherited" checked>
+            Inherited
+        </label>
+
+        <label for="api-show-protected">
+            <input type="checkbox" id="api-show-protected">
+            Protected
+        </label>
+
+        <label for="api-show-private">
+            <input type="checkbox" id="api-show-private">
+            Private
+        </label>
+        <label for="api-show-deprecated">
+            <input type="checkbox" id="api-show-deprecated">
+            Deprecated
+        </label>
+
+    </div>
+
+
+            <div class="apidocs">
+                <div id="docs-main">
+                    <div class="content">
+                        <h1 class="file-heading">File: Scripts\mg_user.js</h1>
+
+<div class="file">
+    <pre class="code prettyprint linenums">
+&#x2F;**
+	Methods and classes for the user back-end of MyGIS
+	@class mygis.User
+	@static
+**&#x2F;
+mygis.User = {
+
+	&#x2F;**
+		Functions that are meant to be overrided by app-specific functionality
+		@class mygis.User.Hooks
+		@static
+	**&#x2F;
+	Hooks: {
+		
+		&#x2F;**
+			Fired after initial load, when the user is logged in
+			@method initialLoad
+		**&#x2F;
+		initialLoad: function(){},
+		
+		&#x2F;**
+		* @method beforeProfileUpdate
+		*&#x2F;
+		beforeProfileUpdate: function(){},
+		
+		&#x2F;**
+		* @method afterProfileUpdate
+		*&#x2F;
+		afterProfileUpdate: function(){},
+		
+		&#x2F;**
+		* @method getProfilePageData
+		*&#x2F;
+		getProfilePageData: function(){return null;},
+		
+		&#x2F;**
+		* @property updateProfileUrl
+		*&#x2F;
+		updateProfileURL: config.mgreq+&quot;?qtype=updateUserProfile&quot;,
+		
+		&#x2F;**
+		* @method loadUserLayerRights
+		*&#x2F;
+		loadUserLayerRights: function(){
+			var url=config.mgreq+&quot;?qtype=getUserLayerRights&quot;;
+			var data={
+				layers:[]
+			}
+			$.each(layerSource.records,function(x,item){
+				data.layers.push(item.layerID);
+			});
+			$.ajax({
+				type:&quot;POST&quot;,
+				data: JSON.stringify(data),
+				url: url,
+				success: function(retdata){
+					var results=eval(retdata);
+					internalMemory.layerRights={};
+					$.each(results,function(i,result){
+						var newObj={
+							objectID: result.objectID,
+							hasUpdate: result.hasUpdate,
+							hasDelete: result.hasDelete,
+							isOwner: result.isOwner
+						}
+						if (!internalMemory.layerRights[result.layerID]){
+							internalMemory.layerRights[result.layerID]=[];
+						}
+						internalMemory.layerRights[result.layerID].push(newObj);
+					});
+					
+				}
+			});
+		}
+	},
+  
+	&#x2F;**
+		Functions related to the user profile data
+		@class mygis.User.ProfileInfo
+		@static
+	**&#x2F;
+	ProfileInfo: {
+	
+		&#x2F;**
+		 * Gets the profile details
+		 * @method getProfileDetails
+		 *&#x2F;
+		getProfileDetails: function(){
+			var customUrl = config.mgreq+&quot;?qtype=GetCurrentUserDetails&quot;;
+			mygis.Utilities.blockUI();
+			$.ajax({
+				type:&quot;GET&quot;,
+				url: customUrl,
+				success: function(data){
+					mygis.Utilities.unblockUI();
+					try{
+						var realResults = eval(data);
+						mygis.User.ProfileInfo.buildCategories(realResults);
+						
+					}catch(err){
+						displayError(&quot;There was an error in the request.&quot;);
+						console.log(err.message);
+					}
+				}
+			});
+			
+		},
+		
+		&#x2F;**
+		 * Re-arranges the raw properties according to to their categories
+		 * @method categorizeProperties
+		 * @param {Array} rawData
+		 * @returns {Object} An object containing the categories. Each category is an array of properties.
+		 *&#x2F;
+		categorizeProperties: function(rawData){
+			var retvalue = {};
+			$.each(rawData,function(key,obj){
+				if (!retvalue[obj.PropertyCategory]){
+					retvalue[obj.PropertyCategory]=[];
+				}
+				retvalue[obj.PropertyCategory].push(obj);
+			});
+			return retvalue;
+		},
+		
+		&#x2F;**
+		* Updates the dnn profile
+		* @method updateProfile
+		*&#x2F;
+		updateProfile: function(){
+			mygis.User.Hooks.beforeProfileUpdate();
+			var data = mygis.User.Hooks.getProfilePageData();
+			if (!data){
+				&#x2F;&#x2F;TODO: get proper (non-application specific) profile data
+			}
+			mygis.Utilities.blockUI();
+			$.ajax({
+				type:&quot;POST&quot;,
+				data: {&quot;qContents&quot;: JSON.stringify(data)},
+				url: mygis.User.Hooks.updateProfileURL,
+				success: function(data){
+					mygis.Utilities.unblockUI();
+					var realResults = eval(data);
+					if (realResults.iotype==&quot;success&quot;){
+						displaySuccess(strings.UserProfile.updateSuccess);
+					}else{
+						displayError(realResults.iomsg);
+					}
+					mygis.User.Hooks.afterProfileUpdate();
+				}
+			});
+			
+		},
+		&#x2F;**
+		 * This function dynamically builds the category tabs, based on the actual data.
+		 * @method buildCategories
+		 * @param {Array} rawData
+		 * @example
+		 * Example output:
+		 * &lt;div id=&quot;profileInfo&quot;&gt;
+		 * 	&lt;div class=&quot;sectionHeader&quot;&gt;
+		 * 		&lt;a href=&quot;#&quot;&gt;Tab 1&lt;&#x2F;a&gt;
+		 * 	&lt;&#x2F;div&gt;
+		 * 	&lt;div class=&quot;sectionContent&quot;&gt;
+		 *		&lt;div class=&quot;sectionButtons&quot;&gt;
+		 *			&lt;a href=&quot;#&quot; class=&quot;adminGenericAction&quot;&gt;&lt;span&gt;&lt;&#x2F;span&gt;New&lt;&#x2F;a&gt;
+		 *		&lt;&#x2F;div&gt;
+		 *		&lt;div class=&quot;editAppRow&quot;&gt;
+		 *			...
+		 *		&lt;&#x2F;div&gt;
+		 * 	&lt;&#x2F;div&gt;
+		 * &lt;&#x2F;div&gt;
+		 *&#x2F;
+		buildCategories: function(rawData){
+			var finalData = mygis.User.ProfileInfo.categorizeProperties(rawData);
+			var finalForm = $(&quot;&lt;div &#x2F;&gt;&quot;);
+			finalForm.attr(&quot;id&quot;,&quot;profileInfoForm&quot;);
+			var counter = 0;
+			var first=true;
+			$.each(finalData,function(key,prop){
+				if (key!=&quot;Hidden&quot;){
+					var header = $(&quot;&lt;div class=&#x27;sectionHeader&#x27; &#x2F;&gt;&quot;);
+					var headerLink = $(mygis.Utilities.format(&quot;&lt;a href=&#x27;#&#x27; onclick=&#x27;router(\&quot;accountInfo_Config_Tab\&quot;,{0});&#x27; &#x2F;&gt;&quot;,counter));
+					headerLink.append(key);	&#x2F;&#x2F;TODO: strings.UserProfile.Categories.key
+					header.append(headerLink);
+					var content = $(&quot;&lt;div class=&#x27;sectionContent&#x27; &#x2F;&gt;&quot;);
+					var sectionButtons= $(&quot;&lt;div class=&#x27;sectionButtons&#x27; &#x2F;&gt;&quot;);
+					content.append(sectionButtons);
+					if (first){
+						first=false;
+						content.css(&quot;display&quot;,&quot;block&quot;);
+					}
+					$.each(prop,function(index,property){
+						content.append(mygis.User.ProfileInfo.buildProfileEntry(
+										property.DataType,
+										property.PropertyName,
+										property.PropertyValue,
+										property.PropertyValue
+										));
+						&#x2F;&#x2F;console.log(mygis.Utilities.format(&quot;{0}: {1}&quot;,property.PropertyName,mygis.User.ProfileInfo.decodeDNNDataType(property.DataType)));
+					});
+					
+					finalForm.append(header);
+					finalForm.append(content);
+					counter+=1;
+				}
+			});
+			$(&quot;#up_AccountTab_Info&quot;).empty();
+			$(&quot;#up_AccountTab_Info&quot;).append(finalForm);
+			mygis.User.UI.setTabs(finalForm.find(&quot;.sectionHeader&quot;).clone());
+			router(&quot;amenu_Apps_Config_Tab&quot;,0);
+		},
+		
+		&#x2F;**
+		* Builds a profile entry
+		* @method buildProfileEntry
+		* @param {String} entryType One of &#x27;list&#x27;,&#x27;string&#x27;,&#x27;number&#x27;
+		* @param {String} entryName The property&#x27;s name
+		* @param {Mixed} entryValues The possible values for the entry (if it is a list) or the actual value if it&#x27;s not
+		* @param {String} entrySelectedValue The selected value (if it is a list)
+		*&#x2F;
+		buildProfileEntry: function(entryType,entryName,entryValues,entrySelectedValue){
+			var retvalue = null;
+			
+			try{
+				retvalue = $(&quot;&lt;div class=&#x27;editAppRow&#x27; &#x2F;&gt;&quot;);
+				
+				var label = $(&quot;&lt;span class=&#x27;editAppLabel&#x27; &#x2F;&gt;&quot;);
+				var inp = $(&quot;&lt;input class=&#x27;editAppInput &quot;+entryName.replace(&quot; &quot;,&quot;_&quot;)+&quot;&#x27; type=&#x27;text&#x27; &#x2F;&gt;&quot;);
+				label.append(entryName);
+				inp.val(entrySelectedValue);
+				retvalue.append(label);
+				retvalue.append(inp);
+			}catch(err){
+				retvalue=null;
+			}
+			return retvalue;
+		},
+		
+		switchToTab: function(event){
+			var index = event.item;
+			var tabHeaders = $(&quot;#up_contentLinkTabsRound&quot;).find(&quot;.sectionHeader&quot;);
+			for (var i=0;i&lt;tabHeaders.length;i++){
+					if (i!=index){
+							tabHeaders[i].ex_RemoveClassName(&quot;active&quot;);
+					}else{
+							tabHeaders[i].ex_AddClassName(&quot;active&quot;);
+					}
+			}
+			var tabs = $(&quot;#profileInfoForm&quot;).find(&quot;.sectionContent&quot;);
+			for (var i=0;i&lt;tabs.length;i++){
+					if (i!=index){
+							$(tabs[i]).hide();
+					}else{
+							$(tabs[i]).show();
+							var buttons = $(tabs[i]).find(&quot;.sectionButtons&quot;);
+							$(&quot;#up_contentSpecificToolbar&quot;).empty();
+							$(&quot;#up_contentSpecificToolbar&quot;).append(buttons.clone());
+					}
+			}
+		},
+		
+		&#x2F;**
+		 * This decodes a dataTypeID to a more friendly string
+		 * @method decodeDNNDataType
+		 * @param {Integer} dataTypeID
+		 * @returns {String} The friendly name
+		 *&#x2F;
+		decodeDNNDataType: function(dataTypeID){
+			&#x2F;&#x2F;This should come from the database, but for now...:
+			var retvalue=&quot;&quot;;
+			switch (dataTypeID){
+				case 349:	&#x2F;&#x2F;Text
+					retvalue = &quot;Text&quot;;
+					break;
+				case 352:	&#x2F;&#x2F;Timezone
+					retvalue = &quot;Timezone&quot;;
+					break;
+				case 353:	&#x2F;&#x2F;Locale
+					retvalue = &quot;Locale&quot;;
+					break;
+				case 355:	&#x2F;&#x2F;Rich Text
+					retvalue = &quot;Rich Text&quot;;
+					break;
+				case 356:	&#x2F;&#x2F;Country
+					retvalue = &quot;Country&quot;;
+					break;
+				case 357:	&#x2F;&#x2F;Region
+					retvalue = &quot;Region&quot;;
+					break;
+				case 358:	&#x2F;&#x2F;List
+					retvalue = &quot;List&quot;;
+					break;
+				case 361:	&#x2F;&#x2F;Image
+					retvalue = &quot;Image&quot;;
+					break;
+				case 1414:	&#x2F;&#x2F;TimeZoneInfo
+					retvalue = &quot;TimeZoneInfo&quot;;
+					break;
+				default:
+					retvalue=&quot;Unknown datatype: &quot;+dataTypeID;
+					
+			}
+			return retvalue;
+		}
+	},
+		
+	&#x2F;**
+		UI-related functions
+		@class mygis.User.UI
+		@static
+	**&#x2F;
+	UI: {
+		
+		&#x2F;**
+			Hides the admin interface and shows the application.
+			@method switchToApp
+		**&#x2F;
+		switchToApp: function(){
+			$(&quot;#page_administration&quot;).hide();
+			$(&quot;#page_userProfile&quot;).hide();
+			$(&quot;#page_effect&quot;).show();
+			$(window).resize();
+		},
+		
+		&#x2F;**
+		 * Resets the tabs under each menu to blank status
+		 * @method resetTabs
+		 *&#x2F;
+		resetTabs: function(){
+			$(&quot;#up_contentLinkTabsRound&quot;).empty();
+			$(&quot;#up_contentLinkTabs&quot;).css(&quot;display&quot;,&quot;none&quot;);
+			$(&quot;#up_contentSpecificToolbar&quot;).empty();
+		},
+		
+		setTabs: function(htmlElement){
+			mygis.User.UI.resetTabs();
+			$(&quot;#up_contentLinkTabsRound&quot;).append(htmlElement);
+			$(&quot;#up_contentLinkTabs&quot;).css(&quot;display&quot;,&quot;table-row&quot;);
+		},
+	
+		&#x2F;**
+			Handles the off-page loading of the userpage interface
+			@method loadUserPage
+		**&#x2F;
+		loadUserPage: function(){
+			if ($(&quot;#page_userProfile&quot;).children().length==0){
+				mygis.Utilities.blockUI();
+				loadFragment(&quot;page_userProfile&quot;,mygis.User.UI.initialize);
+			}else{
+				mygis.User.UI.initialize();
+			}
+			
+		},
+			
+		&#x2F;**
+			Initializes the interface (menus,tabs,grids, handlers etc)
+			@method initialize
+		**&#x2F;
+		initialize: function(){
+			mygis.Utilities.unblockUI();
+			internalConfig.isUserPageLoaded=true;
+			$(&quot;#up_menuTabs&quot;).jqxMenu({ 
+				width: &#x27;635&#x27;, 
+				height: &#x27;30&#x27;, 
+				mode: &#x27;horizontal&#x27;, 
+				showTopLevelArrows: true, 
+				theme: &#x27;classic&#x27; 
+			});
+		 
+			$(&quot;#up_menuTabs&quot;).bind(&#x27;itemclick&#x27;,function(event){
+				MakeTimeout(mygis.User.UI.menuClick,event,800,this);
+			});
+			
+		
+			mygis.User.UI.switchToUserPage();
+			mygis.User.UI.menuClick(null,&quot;up_menuAccount_Info&quot;);	&#x2F;&#x2F;TODO: first item
+			router(&#x27;accountInfo_Config_Tab&#x27;,0);	
+			
+		},
+			
+		switchToUserPage: function(){
+			if (internalConfig.isUserPageLoaded){
+				$(&quot;#page_effect&quot;).hide();
+				$(&quot;#page_administration&quot;).hide();
+				$(&quot;#page_userProfile&quot;).show();
+			}else{
+				mygis.User.UI.loadUserPage();
+			}
+		},
+		
+		&#x2F;**
+			Handles the clicking of a menu item
+			
+			@method menuClick
+			@param {Object} sender The menu object
+			@param {String} manualID Used if called manually.
+		**&#x2F;
+		menuClick: function(sender,manualID){
+			var eventArgs = manualID?document.getElementById(manualID):sender.args;
+			var callerID = eventArgs.id;
+			var menuLevel=-1;
+			if (manualID){sender = $(&quot;#up_menuTabs&quot;);}
+			if (callerID){
+				var idparts =callerID.split(&quot;_&quot;);
+				menuLevel = idparts.length-1;
+				var parent;
+				var title;
+				if (menuLevel&gt;1){
+					if (manualID){
+						parent = $(sender).find(mygis.Utilities.format(&quot;#{0}_{1}&quot;,idparts[0],idparts[1]));
+					}else{
+						sender.currentTarget=this;
+						parent = $(sender.currentTarget).find(mygis.Utilities.format(&quot;#{0}_{1}&quot;,idparts[0],idparts[1]));
+					}
+					
+					title = parent.find(&quot;a&quot;).html();
+				}
+			}
+			if (menuLevel&gt;1){
+				var idparts =callerID.split(&quot;_&quot;);
+				switch (idparts[1]){
+					case &quot;menuAccount&quot;:
+						
+						break;
+				}
+				mygis.User.UI.resetTabs();
+				switch(callerID){
+					case &quot;up_menuAccount_Info&quot;:
+						mygis.User.UI.activateTab(&quot;up_AccountTab_Info&quot;);
+						mygis.User.UI.createGenericActions(callerID);
+						$(&quot;up_contentActionsTitle&quot;).attr(&quot;class&quot;,&quot;&quot;);
+						mygis.User.ProfileInfo.getProfileDetails();
+						break;
+				}
+			}
+		},
+		
+		&#x2F;**
+			Activates(displays) the content tab with the given id and hides the rest.
+			
+			@method activateTab
+			@param {String} tabID 
+		**&#x2F;
+		activateTab: function(tabID){
+			var tabs = $(&quot;#up_contentTabs&quot;).find(&quot;.contentTab&quot;);
+			$.each(tabs,function(i,v){
+				var myid = $(v).attr(&quot;id&quot;);
+				if (myid==tabID){
+					$(v).attr(&quot;class&quot;,&quot;contentTab active&quot;);
+				}else{
+					$(v).attr(&quot;class&quot;,&quot;contentTab&quot;);
+				}
+			});
+		},
+		
+		&#x2F;**
+			Generates a button for the &quot;generic actions&quot;
+			
+			@method btnGenerator
+			@param {String} id The generated id on the element
+			@param {String} imageClass The additional class the element should have (in order to display an image)
+			@param {String} text The text that will be displayed for the button
+			@param {String} action A function that should be attached at the &quot;onclick&quot; event
+			@param {Boolean} disabled If the button starts disabled.
+			@return {Element} The generated element.
+		**&#x2F;
+		btnGenerator: function(id,imageClass,text, action,disabled){
+			var retvalue = $(&quot;&lt;a &#x2F;&gt;&quot;);
+			retvalue.attr(&quot;href&quot;,&quot;#&quot;);
+			retvalue.attr(&quot;id&quot;,id);
+			retvalue.attr(&quot;title&quot;,text);
+			if (disabled){
+				retvalue.attr(&quot;class&quot;,&quot;adminGenericAction disabled&quot;);
+			}else{
+				retvalue.attr(&quot;class&quot;,&quot;adminGenericAction&quot;);
+			}
+			if (action){
+				retvalue.attr(&quot;onclick&quot;,action);
+			}
+			var imgElement = $(&quot;&lt;span &#x2F;&gt;&quot;);
+			imgElement.attr(&quot;class&quot;,mygis.Utilities.format(&quot;adminActionImg {0}&quot;,imageClass));
+			
+			retvalue.append(imgElement);
+			retvalue.append(text);
+			return retvalue;
+		},
+		
+		&#x2F;**
+			Creates the generic action buttons for each menu item
+			@method createGenericActions
+			@param {String} menuItem The menuItem to create actions for
+		**&#x2F;
+		createGenericActions: function(menuItem){
+			var actionCount=0;
+			var actionIDs=[];
+			var actionTexts = [];
+			var actionClasses = [];
+			var actionHandlers = [];
+			var disabled=[];
+			var replacement=$(&quot;&lt;div &#x2F;&gt;&quot;);
+			switch(menuItem){
+				case &quot;up_menuAccount_Info&quot;:
+					actionCount = 2;
+					actionIDs = [
+						mygis.Utilities.format(&quot;{0}_{1}&quot;,menuItem,&quot;save&quot;),
+						mygis.Utilities.format(&quot;{0}_{1}&quot;,menuItem,&quot;cancel&quot;)
+					];
+					actionTexts = [
+						 strings.AppManager.upmenu_ProfileInfo_Save,
+						 strings.AppManager.upmenu_ProfileInfo_Cancel
+					];
+					actionClasses = [&quot;imgSave&quot;, &quot;imgCancel&quot;];
+					actionHandlers = [
+						mygis.Utilities.format(&quot;router(&#x27;{0}&#x27;,&#x27;{1}&#x27;);return false;&quot;,menuItem,&quot;save&quot;),	&#x2F;&#x2F;FIX
+						mygis.Utilities.format(&quot;router(&#x27;{0}&#x27;,&#x27;{1}&#x27;);return false;&quot;,menuItem,&quot;cancel&quot;)
+					];
+					disabled = [false];
+					break;
+			}
+			for (var i=0;i&lt;actionCount;i++){
+				replacement.append(mygis.User.UI.btnGenerator(actionIDs[i],actionClasses[i],actionTexts[i],actionHandlers[i],disabled[i]));
+			}
+			if (actionCount&gt;0){
+				$(&quot;#up_contentToolbar&quot;).html(replacement.html());
+			}
+		}
+	
+	}
+}
+    </pre>
+</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="..&#x2F;assets/vendor/prettify/prettify-min.js"></script>
+<script>prettyPrint();</script>
+<script src="..&#x2F;assets/js/yui-prettify.js"></script>
+<script src="..&#x2F;assets/../api.js"></script>
+<script src="..&#x2F;assets/js/api-filter.js"></script>
+<script src="..&#x2F;assets/js/api-list.js"></script>
+<script src="..&#x2F;assets/js/api-search.js"></script>
+<script src="..&#x2F;assets/js/apidocs.js"></script>
+</body>
+</html>
