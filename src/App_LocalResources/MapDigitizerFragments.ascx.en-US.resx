@@ -1,0 +1,1465 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnGeneralOptions.Title" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnGeneralOptions.Tooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnLoadLayout.Tooltip" xml:space="preserve">
+    <value>Load window layout</value>
+  </data>
+  <data name="btnLogin.Text" xml:space="preserve">
+    <value>ΟΚ</value>
+  </data>
+  <data name="btnRestoreLayout.Tooltip" xml:space="preserve">
+    <value>Reset window layout</value>
+  </data>
+  <data name="btnSaveLayout.Tooltip" xml:space="preserve">
+    <value>Save window layout</value>
+  </data>
+  <data name="common_Back.Text" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="common_Go.Text" xml:space="preserve">
+    <value>ΟΚ!</value>
+  </data>
+  <data name="common_in.Text" xml:space="preserve">
+    <value>in</value>
+  </data>
+  <data name="coverNeedsContent.Text" xml:space="preserve">
+    <value>&lt;p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'&gt;&lt;b&gt;&lt;span lang=EN-US style='font-size:24.0pt;font-family:"Times New Roman","serif";mso-fareast-language:EL'&gt;All your work safe and private.&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'&gt;&lt;span lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman","serif";mso-fareast-language:EL'&gt;MyGIS has developed special algorithm and database infrastructure to guarantee security and privacy. &lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'&gt;&lt;span lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman","serif";mso-fareast-language:EL'&gt;Most users fear of accidental loss of data. MyGIS ensures data integrity and versioning. This means that even if you delete or change a data layer, there is always instant roll-back. &lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'&gt;&lt;span lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman","serif";mso-fareast-language:EL'&gt;Developing data layers for public use, or using sensitive personal/corporate information, you MyGIS offers you easy and efficient control on what you keep off-site, what you share with certain users and what you share with the public.&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="helpBtn.Text" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="inboxBtn.Text" xml:space="preserve">
+    <value>Inbox</value>
+  </data>
+  <data name="lblPassword.Text" xml:space="preserve">
+    <value>Password:</value>
+  </data>
+  <data name="lblSaveAsk.Text" xml:space="preserve">
+    <value>The map contains:</value>
+  </data>
+  <data name="lblUsername.Text" xml:space="preserve">
+    <value>Username:</value>
+  </data>
+  <data name="linkCompany1.Text" xml:space="preserve">
+    <value>Geoinformatics</value>
+  </data>
+  <data name="linkCompany2.Text" xml:space="preserve">
+    <value>Informatics</value>
+  </data>
+  <data name="linkCompany3.Text" xml:space="preserve">
+    <value>Environment - Energy</value>
+  </data>
+  <data name="linkCompany4.Text" xml:space="preserve">
+    <value>Media-Advertising</value>
+  </data>
+  <data name="linkCompany5.Text" xml:space="preserve">
+    <value>Funding</value>
+  </data>
+  <data name="linkCompany6.Text" xml:space="preserve">
+    <value>Real Estate</value>
+  </data>
+  <data name="linkCompany7.Text" xml:space="preserve">
+    <value>E-shop</value>
+  </data>
+  <data name="linkCompany8.Text" xml:space="preserve">
+    <value>Job2day</value>
+  </data>
+  <data name="linkCompany9.Text" xml:space="preserve">
+    <value>E-class</value>
+  </data>
+  <data name="linkDigitizer.Text" xml:space="preserve">
+    <value>MyGIS</value>
+  </data>
+  <data name="loginBtn.Text" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="loginHeader.Text" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="logoutBtn.Text" xml:space="preserve">
+    <value>Logout</value>
+  </data>
+  <data name="mapActionsBtn.Text" xml:space="preserve">
+    <value>ACTIONS</value>
+  </data>
+  <data name="mapAction_Layers.Text" xml:space="preserve">
+    <value>Layers</value>
+  </data>
+  <data name="mapAction_Tables.Text" xml:space="preserve">
+    <value>Tables</value>
+  </data>
+  <data name="mapAction_Tools.Text" xml:space="preserve">
+    <value>DIGITIZE</value>
+  </data>
+  <data name="mapLabel.Text" xml:space="preserve">
+    <value>My map</value>
+  </data>
+  <data name="mapNewBtn.Text" xml:space="preserve">
+    <value>NEW MAP</value>
+  </data>
+  <data name="mapPrintBtn.Text" xml:space="preserve">
+    <value>PRINT</value>
+  </data>
+  <data name="mapSaveBtn.Text" xml:space="preserve">
+    <value>SAVE</value>
+  </data>
+  <data name="mapSendBtn.Text" xml:space="preserve">
+    <value>SEND</value>
+  </data>
+  <data name="menuProfile_AccountInfo.Text" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="menuProfile_CompanyInfo.Text" xml:space="preserve">
+    <value>Company info</value>
+  </data>
+  <data name="menuProfile_Login.Text" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="menuProfile_LookFeel.Text" xml:space="preserve">
+    <value>Interface</value>
+  </data>
+  <data name="menuProfile_PersonalInfo.Text" xml:space="preserve">
+    <value>Personal info</value>
+  </data>
+  <data name="menuSave_Exit.Text" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="menuSave_Logout.Text" xml:space="preserve">
+    <value>Logout</value>
+  </data>
+  <data name="menuSave_Save.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="menuStart_BuyData.Text" xml:space="preserve">
+    <value>Buy data</value>
+  </data>
+  <data name="menuStart_MyLibrary.Text" xml:space="preserve">
+    <value>My library</value>
+  </data>
+  <data name="menuStart_MyProfile.Text" xml:space="preserve">
+    <value>My profile</value>
+  </data>
+  <data name="menuStart_MyShop.Text" xml:space="preserve">
+    <value>My shop</value>
+  </data>
+  <data name="menuStart_RequestData.Text" xml:space="preserve">
+    <value>Request data</value>
+  </data>
+  <data name="menuStart_WhatIs.Text" xml:space="preserve">
+    <value>What is MyGIS</value>
+  </data>
+  <data name="menuStart_YouProfessional.Text" xml:space="preserve">
+    <value>For professionals</value>
+  </data>
+  <data name="promptLanguage.Text" xml:space="preserve">
+    <value>Χρησιμοποίησε το MyGIS στα ελληνικά</value>
+  </data>
+  <data name="registerBtn.Text" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="saveAndClose.Title" xml:space="preserve">
+    <value />
+  </data>
+  <data name="searchBoxBtn.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="searchTerm.EmptyMessage" xml:space="preserve">
+    <value>search</value>
+  </data>
+  <data name="slogan.Text" xml:space="preserve">
+    <value>Mapping just got easier</value>
+  </data>
+  <data name="supportMenu.Text" xml:space="preserve">
+    <value>About the site</value>
+  </data>
+  <data name="titleLabelLayers.Text" xml:space="preserve">
+    <value>layer</value>
+  </data>
+  <data name="titleLabelMarkers.Text" xml:space="preserve">
+    <value>points</value>
+  </data>
+  <data name="titleLabelPolygons.Text" xml:space="preserve">
+    <value>polygons</value>
+  </data>
+  <data name="titleLabelPolylines.Text" xml:space="preserve">
+    <value>polylines</value>
+  </data>
+  <data name="titleLabelSize.Text" xml:space="preserve">
+    <value>KML estimated size:</value>
+  </data>
+  <data name="triggerLayers.Text" xml:space="preserve">
+    <value>Map Layers</value>
+  </data>
+  <data name="txtDatabase.Title" xml:space="preserve">
+    <value>Coming soon</value>
+  </data>
+  <data name="txtMap.Title" xml:space="preserve">
+    <value>Map</value>
+  </data>
+  <data name="txtShareIt.Title" xml:space="preserve">
+    <value>Coming soon</value>
+  </data>
+  <data name="txtSupport.Title" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWhatIs.Title" xml:space="preserve">
+    <value>Get Started</value>
+  </data>
+  <data name="welcomeHeader.Text" xml:space="preserve">
+    <value>Introduction</value>
+  </data>
+  <data name="welcomeUser.Text" xml:space="preserve">
+    <value>Welcome</value>
+  </data>
+  <data name="whatIsContent.Text" xml:space="preserve">
+    <value>&lt;p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'&gt;&lt;b&gt;&lt;span lang=EN-US style='font-size:18.0pt;font-family:"Times New Roman","serif";mso-fareast-language:EL'&gt;Mapping just got easier&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'&gt;&lt;b&gt;&lt;span lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman","serif";mso-fareast-language:EL'&gt;MyGIS&lt;/span&gt;&lt;/b&gt;&lt;span lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman","serif";mso-fareast-language:EL'&gt; is basically &lt;b&gt;your GIS&lt;/b&gt;. It is a free service that lets you bring all your data on a map. This means that almost any source of information (e.g. client databases, city plans, even moving vehicles) can be geocoded and plotted on your map. Additional information such as photos, videos, city plans are also easily georeferenced and included within your maps. This means that you can have instant access to your portfolio, anytime, anywhere. &lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'&gt;&lt;span lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman","serif";mso-fareast-language:EL'&gt;MyGIS also makes sharing data with others, whether you're a student or professional, civil servant or citizen. You may browse through thousands of data layers shared by others, choose according to your needs and make your map in a few minutes. On the other hand, you may produce data layers and decide to share them for free, or make a profit applying a reasonable fee.&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="wizardGreet.Text" xml:space="preserve">
+    <value>Under construction</value>
+  </data>
+  <data name="wizardHeader.Text" xml:space="preserve">
+    <value>Step by step instructions</value>
+  </data>
+  <data name="forgotPassword.Text" xml:space="preserve">
+    <value>I forgot my password</value>
+  </data>
+  <data name="RememberMe.Text" xml:space="preserve">
+    <value>Remember me</value>
+  </data>
+  <data name="loginTitle.Text" xml:space="preserve">
+    <value>Welcome</value>
+  </data>
+  <data name="reg_confirmpassword.Label" xml:space="preserve">
+    <value>Confirm password</value>
+  </data>
+  <data name="reg_displayname.EmptyMessage" xml:space="preserve">
+    <value>Your display name</value>
+  </data>
+  <data name="reg_displayname.Label" xml:space="preserve">
+    <value>Display name</value>
+  </data>
+  <data name="reg_email.EmptyMessage" xml:space="preserve">
+    <value>Your email</value>
+  </data>
+  <data name="reg_email.Label" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="reg_name.EmptyMessage" xml:space="preserve">
+    <value>Your name</value>
+  </data>
+  <data name="reg_name.Label" xml:space="preserve">
+    <value>First name</value>
+  </data>
+  <data name="reg_password.Label" xml:space="preserve">
+    <value>Your password</value>
+  </data>
+  <data name="reg_surname.EmptyMessage" xml:space="preserve">
+    <value>Your surname</value>
+  </data>
+  <data name="reg_surname.Label" xml:space="preserve">
+    <value>Last name</value>
+  </data>
+  <data name="reg_username.EmptyMessage" xml:space="preserve">
+    <value>Your username</value>
+  </data>
+  <data name="reg_username.Label" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="ValidatorRequired.ErrorMessage" xml:space="preserve">
+    <value>The textbox cannot be empty!</value>
+  </data>
+  <data name="adminBtn.Text" xml:space="preserve">
+    <value>Application administration</value>
+  </data>
+  <data name="menuStart_Domain.Text" xml:space="preserve">
+    <value>Welcome</value>
+  </data>
+  <data name="common_Edit.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="flashPlayerError.Text" xml:space="preserve">
+    <value>You need Flash player 8+ and JavaScript enabled to view this video.</value>
+  </data>
+  <data name="loginCmdBtn.Text" xml:space="preserve">
+    <value>LOGIN</value>
+  </data>
+  <data name="login_password.Label" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="login_username.Label" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="reg_intro_Title.Text" xml:space="preserve">
+    <value>New user registration</value>
+  </data>
+  <data name="watchVideoPrompt.Text" xml:space="preserve">
+    <value>Watch the video</value>
+  </data>
+  <data name="styleLinePreview.Text" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="styleLineStrokeColor.Text" xml:space="preserve">
+    <value>Color:</value>
+  </data>
+  <data name="styleLineStrokeOpacity.Text" xml:space="preserve">
+    <value>Opacity:</value>
+  </data>
+  <data name="styleLineStrokeWeight.Text" xml:space="preserve">
+    <value>Width:</value>
+  </data>
+  <data name="styleMarkerApplyAll.Text" xml:space="preserve">
+    <value>Apply to all </value>
+  </data>
+  <data name="styleMarkerApplySelected.Text" xml:space="preserve">
+    <value>Apply to selected</value>
+  </data>
+  <data name="styleMarkerIcon.Text" xml:space="preserve">
+    <value>Icon:</value>
+  </data>
+  <data name="styleMarkerSize.Text" xml:space="preserve">
+    <value>Size:</value>
+  </data>
+  <data name="stylePolygonFillColor.Text" xml:space="preserve">
+    <value>Fill color:</value>
+  </data>
+  <data name="stylePolygonFillOpacity.Text" xml:space="preserve">
+    <value>Fill opacity:</value>
+  </data>
+  <data name="stylePolygonPreview.Text" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="stylePolygonStrokeColor.Text" xml:space="preserve">
+    <value>Stroke color:</value>
+  </data>
+  <data name="stylePolygonStrokeOpacity.Text" xml:space="preserve">
+    <value>Stroke opacity:</value>
+  </data>
+  <data name="stylePolygonStrokeWeight.Text" xml:space="preserve">
+    <value>Width:</value>
+  </data>
+  <data name="currentMapLabel.Text" xml:space="preserve">
+    <value>Current map:</value>
+  </data>
+  <data name="layerControlPanelTitle.Text" xml:space="preserve">
+    <value>Layers</value>
+  </data>
+  <data name="mapAction_Maps.Text" xml:space="preserve">
+    <value>Maps</value>
+  </data>
+  <data name="mapsPanelTitle.Text" xml:space="preserve">
+    <value>Maps</value>
+  </data>
+  <data name="rotateBackBtn.Text" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="rotateForwardBtn.Text" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="layerShortDescription.Text" xml:space="preserve">
+    <value>Description:</value>
+  </data>
+  <data name="mapLayerCount.Text" xml:space="preserve">
+    <value>Layer count:</value>
+  </data>
+  <data name="mapShortDescription.Text" xml:space="preserve">
+    <value>Description:</value>
+  </data>
+  <data name="mapExportBtn.Text" xml:space="preserve">
+    <value>EXPORT</value>
+  </data>
+  <data name="mapSelectBtn.Text" xml:space="preserve">
+    <value>SELECTION</value>
+  </data>
+  <data name="infoLeftTitle.Text" xml:space="preserve">
+    <value>Layers</value>
+  </data>
+  <data name="infoRightTitle.Text" xml:space="preserve">
+    <value>Objects</value>
+  </data>
+  <data name="mapActions_General.Text" xml:space="preserve">
+    <value>NAVIGATION</value>
+  </data>
+  <data name="permaElem.Text" xml:space="preserve">
+    <value>Permalink</value>
+  </data>
+  <data name="mapActions_Overview.Text" xml:space="preserve">
+    <value>OVERVIEW</value>
+  </data>
+  <data name="menuAct_Maps.Text" xml:space="preserve">
+    <value>CHANGE MAP</value>
+  </data>
+  <data name="menuAct_menu.Text" xml:space="preserve">
+    <value>START</value>
+  </data>
+  <data name="menuAct_tools.Text" xml:space="preserve">
+    <value>TOOLS</value>
+  </data>
+  <data name="menuAct_Export.Text" xml:space="preserve">
+    <value>SAVE AS</value>
+  </data>
+  <data name="menuAct_Send.Text" xml:space="preserve">
+    <value>SEND</value>
+  </data>
+  <data name="northText.Text" xml:space="preserve">
+    <value>N</value>
+  </data>
+  <data name="northTextTip.Title" xml:space="preserve">
+    <value>North</value>
+  </data>
+  <data name="saveAsLegend.Text" xml:space="preserve">
+    <value>The map's legend:</value>
+  </data>
+  <data name="saveAsPermalink.Text" xml:space="preserve">
+    <value>You can revisit this map through this link:</value>
+  </data>
+  <data name="searchDatabaseTitle.Text" xml:space="preserve">
+    <value>SEARCHES</value>
+  </data>
+  <data name="sqlMOD_AND.Text" xml:space="preserve">
+    <value>AND</value>
+  </data>
+  <data name="sqlMOD_NOT.Text" xml:space="preserve">
+    <value>AND NOT</value>
+  </data>
+  <data name="sqlMOD_OR.Text" xml:space="preserve">
+    <value>AND/OR</value>
+  </data>
+  <data name="sqlMOD_XOR.Text" xml:space="preserve">
+    <value>OR</value>
+  </data>
+  <data name="sqlOP_EQ.Text" xml:space="preserve">
+    <value>EQUAL TO</value>
+  </data>
+  <data name="sqlOP_GEQ.Text" xml:space="preserve">
+    <value>GREATER OR EQUAL TO</value>
+  </data>
+  <data name="sqlOP_GT.Text" xml:space="preserve">
+    <value>GREATER THAN</value>
+  </data>
+  <data name="sqlOP_LEQ.Text" xml:space="preserve">
+    <value>LESS THAN OR EQUAL TO</value>
+  </data>
+  <data name="sqlOP_LIKE.Text" xml:space="preserve">
+    <value>LIKE</value>
+  </data>
+  <data name="sqlOP_LT.Text" xml:space="preserve">
+    <value>LESS THAN</value>
+  </data>
+  <data name="sqlOP_NEQ.Text" xml:space="preserve">
+    <value>NOT EQUAL TO</value>
+  </data>
+  <data name="sqlMOD_AND_TIP.Title" xml:space="preserve">
+    <value>A and B must apply at the same time.</value>
+  </data>
+  <data name="sqlMOD_NOT_TIP.Title" xml:space="preserve">
+    <value>A must be true and B must be false.</value>
+  </data>
+  <data name="sqlMOD_OR_TIP.Title" xml:space="preserve">
+    <value>Either A, B or both must be true.</value>
+  </data>
+  <data name="sqlMOD_XOR_TIP.Title" xml:space="preserve">
+    <value>Either A or B can be true, but not both.</value>
+  </data>
+  <data name="qBuilderBtnConfirm.Text" xml:space="preserve">
+    <value>Confirm?</value>
+  </data>
+  <data name="qBuilderBtnGo.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="qBuilderBtnReset.Text" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="qBuilderDescription.Text" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="qBuilderName.Text" xml:space="preserve">
+    <value>Friendly name</value>
+  </data>
+  <data name="resultsPanelTitle.Text" xml:space="preserve">
+    <value>Search history</value>
+  </data>
+  <data name="tipTypeFields.Title" xml:space="preserve">
+    <value>Fields</value>
+  </data>
+  <data name="tipTypeFiles.Title" xml:space="preserve">
+    <value>Files</value>
+  </data>
+  <data name="tipTypeImages.Title" xml:space="preserve">
+    <value>Images</value>
+  </data>
+  <data name="tipTypeLinks.Title" xml:space="preserve">
+    <value>Links</value>
+  </data>
+  <data name="critLabelCriteria.Text" xml:space="preserve">
+    <value>CRITERIA</value>
+  </data>
+  <data name="critLabelTable.Text" xml:space="preserve">
+    <value>Table</value>
+  </data>
+  <data name="critWrapLegend.Text" xml:space="preserve">
+    <value>Search from</value>
+  </data>
+  <data name="mapLoadBtn.Text" xml:space="preserve">
+    <value>Load map</value>
+  </data>
+  <data name="mapsPropertyTitle.Text" xml:space="preserve">
+    <value>Properties</value>
+  </data>
+  <data name="searchEditBtn.Text" xml:space="preserve">
+    <value>Change criteria</value>
+  </data>
+  <data name="searchForgetBtn.Text" xml:space="preserve">
+    <value>Forget search</value>
+  </data>
+  <data name="searchSelectAll.Text" xml:space="preserve">
+    <value>Select all</value>
+  </data>
+  <data name="searchSelectNone.Text" xml:space="preserve">
+    <value>Select none</value>
+  </data>
+  <data name="selectionOnLayer.Text" xml:space="preserve">
+    <value>Αs new layer</value>
+  </data>
+  <data name="selectionOnMap.Text" xml:space="preserve">
+    <value>Locate</value>
+  </data>
+  <data name="selectionOnTheme.Text" xml:space="preserve">
+    <value>As new theme</value>
+  </data>
+  <data name="updateStyle.Text" xml:space="preserve">
+    <value>Update object style</value>
+  </data>
+  <data name="detachBtnEdit.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="detachBtnSave.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="coolBtnOff.Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="coolBtnOn.Text" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="mm_fileAction_delete.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="mm_fileAction_download.Text" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="mm_fileAction_replace.Text" xml:space="preserve">
+    <value>Replace</value>
+  </data>
+  <data name="mm_fileProp_Date.Text" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="mm_fileProp_InUse.Text" xml:space="preserve">
+    <value>In use</value>
+  </data>
+  <data name="mm_fileProp_Name.Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="mm_fileProp_Type.Text" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="mm_filterAction_Search.Text" xml:space="preserve">
+    <value>Search Media Manager</value>
+  </data>
+  <data name="mm_Tipper_MainWindow.Text" xml:space="preserve">
+    <value>Tip: You can select/deselect a file by clicking it.</value>
+  </data>
+  <data name="mm_fileProp_Size.Text" xml:space="preserve">
+    <value>Size (kb)</value>
+  </data>
+  <data name="mm_spaceInfo_current.Text" xml:space="preserve">
+    <value>Currently, you are using</value>
+  </data>
+  <data name="mm_spaceInfo_needMore.Text" xml:space="preserve">
+    <value>Need more space?</value>
+  </data>
+  <data name="mm_windowAction_Cancel.Text" xml:space="preserve">
+    <value>CANCEL</value>
+  </data>
+  <data name="mm_windowAction_OK.Text" xml:space="preserve">
+    <value>ATTACH</value>
+  </data>
+  <data name="mm_windowAction_uploadNew.Text" xml:space="preserve">
+    <value>Upload new file</value>
+  </data>
+  <data name="userFiles_btnSelectAll.Text" xml:space="preserve">
+    <value>Select all</value>
+  </data>
+  <data name="adminbackToApp.Text" xml:space="preserve">
+    <value>Back to map</value>
+  </data>
+  <data name="adminHeader.Text" xml:space="preserve">
+    <value>Management</value>
+  </data>
+  <data name="amenu_Apps.Text" xml:space="preserve">
+    <value>Applications</value>
+  </data>
+  <data name="amenu_Apps_Config.Text" xml:space="preserve">
+    <value>Current application settings</value>
+  </data>
+  <data name="amenu_Apps_Manager.Text" xml:space="preserve">
+    <value>Application manager</value>
+  </data>
+  <data name="amenu_Apps_Styling.Text" xml:space="preserve">
+    <value>Current application styling</value>
+  </data>
+  <data name="amenu_Data.Text" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="amenu_Data_Buy.Text" xml:space="preserve">
+    <value>Get data</value>
+  </data>
+  <data name="amenu_Data_Manager.Text" xml:space="preserve">
+    <value>Data management</value>
+  </data>
+  <data name="amenu_Data_Sell.Text" xml:space="preserve">
+    <value>Provide data</value>
+  </data>
+  <data name="amenu_Files.Text" xml:space="preserve">
+    <value>Files</value>
+  </data>
+  <data name="amenu_Files_Manager.Text" xml:space="preserve">
+    <value>Media Manager</value>
+  </data>
+  <data name="amenu_Help.Text" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="amenu_Help_Manual.Text" xml:space="preserve">
+    <value>Administrator manual</value>
+  </data>
+  <data name="amenu_Layers.Text" xml:space="preserve">
+    <value>Layers</value>
+  </data>
+  <data name="amenu_Layers_Manager.Text" xml:space="preserve">
+    <value>Layer management</value>
+  </data>
+  <data name="amenu_Logs.Text" xml:space="preserve">
+    <value>Logs</value>
+  </data>
+  <data name="amenu_Logs_DataActions.Text" xml:space="preserve">
+    <value>Actions</value>
+  </data>
+  <data name="amenu_Logs_Transactions.Text" xml:space="preserve">
+    <value>Transactions</value>
+  </data>
+  <data name="amenu_Logs_UserAccess.Text" xml:space="preserve">
+    <value>User access</value>
+  </data>
+  <data name="amenu_Maps.Text" xml:space="preserve">
+    <value>Maps</value>
+  </data>
+  <data name="amenu_Maps_Manager.Text" xml:space="preserve">
+    <value>Map management</value>
+  </data>
+  <data name="amenu_Users.Text" xml:space="preserve">
+    <value>Users</value>
+  </data>
+  <data name="amenu_Users_Manager.Text" xml:space="preserve">
+    <value>User manager</value>
+  </data>
+  <data name="amenu_Users_MassMail.Text" xml:space="preserve">
+    <value>Mass send notifications</value>
+  </data>
+  <data name="amenu_Users_RoleManager.Text" xml:space="preserve">
+    <value>Group manager</value>
+  </data>
+  <data name="editAppAlias.Text" xml:space="preserve">
+    <value>Identifier</value>
+  </data>
+  <data name="editAppLogo.Text" xml:space="preserve">
+    <value>Logo</value>
+  </data>
+  <data name="editAppLogo1.Text" xml:space="preserve">
+    <value>Logo #2</value>
+  </data>
+  <data name="editAppLogo2.Text" xml:space="preserve">
+    <value>Logo #3</value>
+  </data>
+  <data name="editAppName.Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="editAppWelcomeText.Text" xml:space="preserve">
+    <value>Introductory text</value>
+  </data>
+  <data name="editCommonReplace.Text" xml:space="preserve">
+    <value>Replace</value>
+  </data>
+  <data name="editCommonRemove.Text" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="editApp_HeaderBasic.Text" xml:space="preserve">
+    <value>BASIC</value>
+  </data>
+  <data name="editApp_HeaderMaps.Text" xml:space="preserve">
+    <value>MAPS</value>
+  </data>
+  <data name="editApp_HeaderPermissions.Text" xml:space="preserve">
+    <value>PERMISSIONS</value>
+  </data>
+  <data name="editApp_HeaderURLS.Text" xml:space="preserve">
+    <value>URLS</value>
+  </data>
+  <data name="editApp_UrlAdd.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="editApp_UrlRemove.Text" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="adminAppMap_Add.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="adminAppMap_Edit.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="adminAppMap_Remove.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="editApp_UserAdd.Text" xml:space="preserve">
+    <value>Add user</value>
+  </data>
+  <data name="editApp_UserRemove.Text" xml:space="preserve">
+    <value>Remove user</value>
+  </data>
+  <data name="addAliasAllIP.Text" xml:space="preserve">
+    <value>ALL</value>
+  </data>
+  <data name="addAliasCancel.Text" xml:space="preserve">
+    <value>CANCEL</value>
+  </data>
+  <data name="addAliasExample.Text" xml:space="preserve">
+    <value>Example: 2bparks.mygis.gr or www.2bparks.gr</value>
+  </data>
+  <data name="addAliasOK.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="chooseHost.Text" xml:space="preserve">
+    <value>Host name</value>
+  </data>
+  <data name="chooseIPAddress.Text" xml:space="preserve">
+    <value>IP Address</value>
+  </data>
+  <data name="choosePort.Text" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="chooseProtocol.Text" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="mapManager_btnCANCEL.Text" xml:space="preserve">
+    <value>CANCEL</value>
+  </data>
+  <data name="mapManager_btnOK.Text" xml:space="preserve">
+    <value>ATTACH</value>
+  </data>
+  <data name="mapManager_btnSelectAll.Text" xml:space="preserve">
+    <value>Select all</value>
+  </data>
+  <data name="mapManager_filterCreatorFalse.Text" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="mapManager_filterCreatorNull.Text" xml:space="preserve">
+    <value>- Created by -</value>
+  </data>
+  <data name="mapManager_filterCreatorTrue.Text" xml:space="preserve">
+    <value>Me</value>
+  </data>
+  <data name="mapManager_filterOwnerFalse.Text" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="mapManager_filterOwnerNull.Text" xml:space="preserve">
+    <value>- Ownership -</value>
+  </data>
+  <data name="mapManager_filterOwnerTrue.Text" xml:space="preserve">
+    <value>Mine</value>
+  </data>
+  <data name="mapManager_filterPublicFalse.Text" xml:space="preserve">
+    <value>Private</value>
+  </data>
+  <data name="mapManager_filterPublicNull.Text" xml:space="preserve">
+    <value>- Availability -</value>
+  </data>
+  <data name="mapManager_filterPublicTrue.Text" xml:space="preserve">
+    <value>Public</value>
+  </data>
+  <data name="mapManager_filterSubscriberFalse.Text" xml:space="preserve">
+    <value>No subscription</value>
+  </data>
+  <data name="mapManager_filterSubscriberNull.Text" xml:space="preserve">
+    <value>- Subscription -</value>
+  </data>
+  <data name="mapManager_filterSubscriberTrue.Text" xml:space="preserve">
+    <value>Subscriber</value>
+  </data>
+  <data name="mapManager_filterTip.Text" xml:space="preserve">
+    <value>Filter maps by:</value>
+  </data>
+  <data name="mapManager_load_PropCDate.Text" xml:space="preserve">
+    <value>Creation</value>
+  </data>
+  <data name="mapManager_load_PropCreator.Text" xml:space="preserve">
+    <value>Created</value>
+  </data>
+  <data name="mapManager_load_PropLCount.Text" xml:space="preserve">
+    <value>Layers</value>
+  </data>
+  <data name="mapManager_load_PropName.Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="mapManager_load_PropOwner.Text" xml:space="preserve">
+    <value>Ownership</value>
+  </data>
+  <data name="mapManager_load_PropPublic.Text" xml:space="preserve">
+    <value>Public</value>
+  </data>
+  <data name="mapManager_load_PropSubscriber.Text" xml:space="preserve">
+    <value>Subscriber</value>
+  </data>
+  <data name="mapManager_load_PropUDate.Text" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="mapManager_load_Tipper.Text" xml:space="preserve">
+    <value>Tip: &lt;br /&gt;You can select/unselect a map by clicking.</value>
+  </data>
+  <data name="mapManager_search_Prompt.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="mapManager_filterOwnershipBuy.Text" xml:space="preserve">
+    <value>Buy</value>
+  </data>
+  <data name="mapManager_filterOwnershipCreation.Text" xml:space="preserve">
+    <value>My creation</value>
+  </data>
+  <data name="mapManager_filterOwnershipNull.Text" xml:space="preserve">
+    <value>- Ownership type -</value>
+  </data>
+  <data name="mapManager_filterOwnershipSubscribe.Text" xml:space="preserve">
+    <value>Subscribe</value>
+  </data>
+  <data name="mapManager_load_PropOwnership.Text" xml:space="preserve">
+    <value>Ownership type</value>
+  </data>
+  <data name="adminAppMap_Default.Text" xml:space="preserve">
+    <value>Initial</value>
+  </data>
+  <data name="adminAppMap_Unpublish.Text" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="adminAppStyle_Add.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="adminAppStyle_CopyTo.Text" xml:space="preserve">
+    <value>Copy to</value>
+  </data>
+  <data name="adminAppStyle_Default.Text" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="adminAppStyle_Duplicate.Text" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="adminAppStyle_Edit.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="adminAppStyle_Publish.Text" xml:space="preserve">
+    <value>Publish</value>
+  </data>
+  <data name="adminAppStyle_Remove.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="adminAppStyle_Unpublish.Text" xml:space="preserve">
+    <value>Unpublish</value>
+  </data>
+  <data name="editApp_HeaderDatabase.Text" xml:space="preserve">
+    <value>DATABASE</value>
+  </data>
+  <data name="editApp_HeaderStyles.Text" xml:space="preserve">
+    <value>STYLES</value>
+  </data>
+  <data name="addAppName_btnCancel.Text" xml:space="preserve">
+    <value>CANCEL</value>
+  </data>
+  <data name="addAppName_btnOK.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="appSetting_expertModeToggle.Text" xml:space="preserve">
+    <value>Enable custom css rules</value>
+  </data>
+  <data name="appSetting_expertModeWarning.Text" xml:space="preserve">
+    <value>Warning! There rules will override any other setting you have made.</value>
+  </data>
+  <data name="appSetting_HeaderTextColor.Text" xml:space="preserve">
+    <value>Text color</value>
+  </data>
+  <data name="appSetting_mapDescriptionColor.Text" xml:space="preserve">
+    <value>Map header color</value>
+  </data>
+  <data name="appSetting_mapDescriptionSize.Text" xml:space="preserve">
+    <value>Map header size</value>
+  </data>
+  <data name="appSetting_mapFooterBG.Text" xml:space="preserve">
+    <value>Map footer background</value>
+  </data>
+  <data name="appSetting_mapFooterFontColor.Text" xml:space="preserve">
+    <value>Map footer text color</value>
+  </data>
+  <data name="appSetting_mapFooterOpacity.Text" xml:space="preserve">
+    <value>Map footer opacity</value>
+  </data>
+  <data name="appSetting_mapHeaderBG.Text" xml:space="preserve">
+    <value>Map header background</value>
+  </data>
+  <data name="appSetting_mapHeaderOpacity.Text" xml:space="preserve">
+    <value>Map header opacity</value>
+  </data>
+  <data name="appSetting_menuBackgroundActive.Text" xml:space="preserve">
+    <value>Active menu background</value>
+  </data>
+  <data name="appSetting_menuBackgroundBorderActive.Text" xml:space="preserve">
+    <value>Active menu border color</value>
+  </data>
+  <data name="appSetting_rPanelTabActiveColor.Text" xml:space="preserve">
+    <value>Active tab text color</value>
+  </data>
+  <data name="appSetting_rPanelTabBG.Text" xml:space="preserve">
+    <value>Tab background</value>
+  </data>
+  <data name="appSetting_rPanelTabColor.Text" xml:space="preserve">
+    <value>Tab text color</value>
+  </data>
+  <data name="appSetting_rPanelTopBG.Text" xml:space="preserve">
+    <value>Top section background</value>
+  </data>
+  <data name="appSetting_rPanelTopColor.Text" xml:space="preserve">
+    <value>Top section text color</value>
+  </data>
+  <data name="editStyleTabHeader.Text" xml:space="preserve">
+    <value>HEADER</value>
+  </data>
+  <data name="editStyleTabMenu.Text" xml:space="preserve">
+    <value>MENU</value>
+  </data>
+  <data name="editStyleTabMisc.Text" xml:space="preserve">
+    <value>MISC.</value>
+  </data>
+  <data name="editStyleTabRPanel.Text" xml:space="preserve">
+    <value>RIGHT PANEL</value>
+  </data>
+  <data name="editStyleTabΕxpert.Text" xml:space="preserve">
+    <value>FOR EXPERTS</value>
+  </data>
+  <data name="editStyle_headerBG.Text" xml:space="preserve">
+    <value>Header background</value>
+  </data>
+  <data name="editStyle_headerHeight.Text" xml:space="preserve">
+    <value>Header height</value>
+  </data>
+  <data name="editStyle_headerTextBG.Text" xml:space="preserve">
+    <value>Text background</value>
+  </data>
+  <data name="editStyle_headerTextRadius.Text" xml:space="preserve">
+    <value>Text radius</value>
+  </data>
+  <data name="editStyle_menuBackground.Text" xml:space="preserve">
+    <value>Menu background</value>
+  </data>
+  <data name="editStyle_menuBackgroundBorder.Text" xml:space="preserve">
+    <value>Menu border color</value>
+  </data>
+  <data name="editStyle_menuColor.Text" xml:space="preserve">
+    <value>Text color</value>
+  </data>
+  <data name="editStyle_menuΑctiveColor.Text" xml:space="preserve">
+    <value>Active text color</value>
+  </data>
+  <data name="editStyle_showHeader.Text" xml:space="preserve">
+    <value>Show header</value>
+  </data>
+  <data name="saveStyleAsLabel.Text" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="amenu_Maps_Config.Text" xml:space="preserve">
+    <value>Edit current map</value>
+  </data>
+  <data name="editMapCenter.Text" xml:space="preserve">
+    <value>Center:</value>
+  </data>
+  <data name="editMapDescription.Text" xml:space="preserve">
+    <value>Description:</value>
+  </data>
+  <data name="editMapDeveloper.Text" xml:space="preserve">
+    <value>Development:</value>
+  </data>
+  <data name="editMapExtent.Text" xml:space="preserve">
+    <value>Extents:</value>
+  </data>
+  <data name="editMapName.Text" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="editMapOwner.Text" xml:space="preserve">
+    <value>Owner:</value>
+  </data>
+  <data name="editMapThumb.Text" xml:space="preserve">
+    <value>Icon:</value>
+  </data>
+  <data name="editMapThumbFromManual.Text" xml:space="preserve">
+    <value>Attach</value>
+  </data>
+  <data name="editMapThumbFromMap.Text" xml:space="preserve">
+    <value>Create thumbnail from map</value>
+  </data>
+  <data name="editMapViewPort.Text" xml:space="preserve">
+    <value>Get from current map</value>
+  </data>
+  <data name="editMapZoom.Text" xml:space="preserve">
+    <value>Zoom:</value>
+  </data>
+  <data name="editMap_AddLayer.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="editMap_EditLayer.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="editMap_HeaderLayers.Text" xml:space="preserve">
+    <value>LAYERS</value>
+  </data>
+  <data name="editMap_HeaderPermissions.Text" xml:space="preserve">
+    <value>PERMISSIONS</value>
+  </data>
+  <data name="editMap_HeaderProperties.Text" xml:space="preserve">
+    <value>PROPERTIES</value>
+  </data>
+  <data name="editMap_HeaderTags.Text" xml:space="preserve">
+    <value>TAGS</value>
+  </data>
+  <data name="editMap_MoveDownLayer.Text" xml:space="preserve">
+    <value>Down</value>
+  </data>
+  <data name="editMap_MoveUpLayer.Text" xml:space="preserve">
+    <value>Up</value>
+  </data>
+  <data name="editMap_RemoveLayer.Text" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="amenu_editQS_cancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="amenu_editQS_save.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="amenu_editStyle_cancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="amenu_editStyle_save.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="editMap_AddHotSearch.Text" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="editMap_DeleteHotSearch.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="editMap_EditHotSearch.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="editMap_HeaderHotSearch.Text" xml:space="preserve">
+    <value>QUICK FILTERS</value>
+  </data>
+  <data name="editQSTabSettings.Text" xml:space="preserve">
+    <value>BASIC</value>
+  </data>
+  <data name="qs_layerfieldInp.Text" xml:space="preserve">
+    <value>Field</value>
+  </data>
+  <data name="qs_layernameInp.Text" xml:space="preserve">
+    <value>Layer</value>
+  </data>
+  <data name="qs_layerSearchType.Text" xml:space="preserve">
+    <value>Search type</value>
+  </data>
+  <data name="qs_layerSearchType1.Text" xml:space="preserve">
+    <value>Distinct values</value>
+  </data>
+  <data name="qs_layerSearchType2.Text" xml:space="preserve">
+    <value>User input</value>
+  </data>
+  <data name="qs_layerSearchType3.Text" xml:space="preserve">
+    <value>SQL text</value>
+  </data>
+  <data name="qs_searchLayout.Text" xml:space="preserve">
+    <value>Layout</value>
+  </data>
+  <data name="qs_searchLayout1.Text" xml:space="preserve">
+    <value>Checkboxes</value>
+  </data>
+  <data name="qs_searchLayout2.Text" xml:space="preserve">
+    <value>List</value>
+  </data>
+  <data name="qs_searchMode.Text" xml:space="preserve">
+    <value>Search method</value>
+  </data>
+  <data name="qs_searchMode1.Text" xml:space="preserve">
+    <value>Automatic</value>
+  </data>
+  <data name="qs_searchMode2.Text" xml:space="preserve">
+    <value>Buttons</value>
+  </data>
+  <data name="qs_searchOp.Text" xml:space="preserve">
+    <value>Compare method</value>
+  </data>
+  <data name="qs_windowTitle.Text" xml:space="preserve">
+    <value>Filter title</value>
+  </data>
+  <data name="editMap_NewLayer.Text" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="amenu_editMacro_cancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="amenu_editMacro_save.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="editMacroTabButton.Text" xml:space="preserve">
+    <value>BUTTON STYLE</value>
+  </data>
+  <data name="editMacroTabCommands.Text" xml:space="preserve">
+    <value>COMMANDS</value>
+  </data>
+  <data name="editMacroTabContainer.Text" xml:space="preserve">
+    <value>OUTSIDE STYLE</value>
+  </data>
+  <data name="editMacroTabSettings.Text" xml:space="preserve">
+    <value>BASIC</value>
+  </data>
+  <data name="editMacro_macroIsButton.Text" xml:space="preserve">
+    <value>Button:</value>
+  </data>
+  <data name="editMacro_macroIsForRegistered.Text" xml:space="preserve">
+    <value>For registered users:</value>
+  </data>
+  <data name="editMacro_macroName.Text" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="editMacro_macroSelector.Text" xml:space="preserve">
+    <value>JQuery selector:</value>
+  </data>
+  <data name="editMap_AddMacro.Text" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="editMap_DeleteMacro.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="editMap_EditMacro.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="editMap_HeaderMacros.Text" xml:space="preserve">
+    <value>MACROS</value>
+  </data>
+  <data name="editMacro_macroAppID.Text" xml:space="preserve">
+    <value>Application:</value>
+  </data>
+  <data name="tip_macroBtnStyle.Text" xml:space="preserve">
+    <value>Insert directly the css you want to apply to the button.</value>
+  </data>
+  <data name="tip_macroCommandEditor.Text" xml:space="preserve">
+    <value>Insert the command and then the parameters separated by comma. Place each new command in a new line. For more info see the &lt;a href="#" target="_blank"&gt;API&lt;/a&gt;.Example: mygis.UI.toggleLayerEditable,0</value>
+  </data>
+  <data name="tip_macroContainerStyle.Text" xml:space="preserve">
+    <value>Insert directly the css you want to apply to the button's container.</value>
+  </data>
+  <data name="amenu_editDigitize_cancel.Text" xml:space="preserve">
+    <value>Undo</value>
+  </data>
+  <data name="amenu_editDigitize_save.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="editDigitizeTabFields.Text" xml:space="preserve">
+    <value>Fields</value>
+  </data>
+  <data name="editDigitizeTabFiles.Text" xml:space="preserve">
+    <value>Files</value>
+  </data>
+  <data name="editDigitizeTabImages.Text" xml:space="preserve">
+    <value>Images</value>
+  </data>
+  <data name="editDigitizeTabLinks.Text" xml:space="preserve">
+    <value>Links</value>
+  </data>
+  <data name="popupWiz_btnCopy.Text" xml:space="preserve">
+    <value>Copy to commands</value>
+  </data>
+  <data name="popupWiz_btnRun.Text" xml:space="preserve">
+    <value>Try it</value>
+  </data>
+  <data name="popupWiz_button.Text" xml:space="preserve">
+    <value>Popup wizard</value>
+  </data>
+  <data name="popupWiz_dispClose.Text" xml:space="preserve">
+    <value>Show window close button</value>
+  </data>
+  <data name="popupWiz_dispHeader.Text" xml:space="preserve">
+    <value>Show window titlebar</value>
+  </data>
+  <data name="popupWiz_header.Text" xml:space="preserve">
+    <value>The window's title</value>
+  </data>
+  <data name="popupWiz_height.Text" xml:space="preserve">
+    <value>The window's height (number)</value>
+  </data>
+  <data name="popupWiz_id.Text" xml:space="preserve">
+    <value>Identifier (latin letters, no spaces)</value>
+  </data>
+  <data name="popupWiz_isMovable.Text" xml:space="preserve">
+    <value>Movable window</value>
+  </data>
+  <data name="popupWiz_output.Text" xml:space="preserve">
+    <value>Command (copy this text)</value>
+  </data>
+  <data name="popupWiz_position.Text" xml:space="preserve">
+    <value>Window's position (i.e. center center)</value>
+  </data>
+  <data name="popupWiz_textArea.Text" xml:space="preserve">
+    <value>Window contents (html)</value>
+  </data>
+  <data name="popupWiz_width.Text" xml:space="preserve">
+    <value>The window's width (number)</value>
+  </data>
+  <data name="appSetting_HeaderOpacity.Text" xml:space="preserve">
+    <value>Header background opacity</value>
+  </data>
+  <data name="appSetting_HeaderTextOpacity.Text" xml:space="preserve">
+    <value>Text background opacity</value>
+  </data>
+  <data name="appSetting_menuBGActiveOpacity.Text" xml:space="preserve">
+    <value>Active menu background opacity</value>
+  </data>
+  <data name="appSetting_menuBGOpacity.Text" xml:space="preserve">
+    <value>Menu background opacity</value>
+  </data>
+  <data name="appSetting_MidBGOpacity.Text" xml:space="preserve">
+    <value>Tab opacity</value>
+  </data>
+  <data name="appSetting_TopBGOpacity.Text" xml:space="preserve">
+    <value>Top section opacity</value>
+  </data>
+  <data name="editMapDefaultBG.Text" xml:space="preserve">
+    <value>Initial map background</value>
+  </data>
+  <data name="up_Header.Text" xml:space="preserve">
+    <value>User page</value>
+  </data>
+  <data name="up_menuAccount.Text" xml:space="preserve">
+    <value>My account</value>
+  </data>
+  <data name="up_menuAccount_Balance.Text" xml:space="preserve">
+    <value>Balance</value>
+  </data>
+  <data name="up_menuAccount_Info.Text" xml:space="preserve">
+    <value>Account details</value>
+  </data>
+  <data name="up_menuAccount_Preferences.Text" xml:space="preserve">
+    <value>Preferences</value>
+  </data>
+  <data name="up_menuMessages.Text" xml:space="preserve">
+    <value>Messages</value>
+  </data>
+  <data name="up_menuMessages_Inbox.Text" xml:space="preserve">
+    <value>Inbox</value>
+  </data>
+  <data name="up_menuMessages_NewMessage.Text" xml:space="preserve">
+    <value>New message</value>
+  </data>
+  <data name="up_menuShopLayers.Text" xml:space="preserve">
+    <value>Data shop</value>
+  </data>
+  <data name="up_menuShopLayers_Buy.Text" xml:space="preserve">
+    <value>Buy data</value>
+  </data>
+  <data name="up_menuShopLayers_Sell.Text" xml:space="preserve">
+    <value>Sell data</value>
+  </data>
+  <data name="up_menuShopMaps.Text" xml:space="preserve">
+    <value>Map shop</value>
+  </data>
+  <data name="up_menuShopMaps_Buy.Text" xml:space="preserve">
+    <value>Buy map</value>
+  </data>
+  <data name="up_menuShopMaps_Sell.Text" xml:space="preserve">
+    <value>Sell map</value>
+  </data>
+  <data name="cmdHelp.Text" xml:space="preserve">
+    <value>How to...</value>
+  </data>
+  <data name="statsCalculate.Text" xml:space="preserve">
+    <value>Calculate</value>
+  </data>
+  <data name="statsExplain1.Text" xml:space="preserve">
+    <value>Select layers</value>
+  </data>
+  <data name="statsExplain2.Text" xml:space="preserve">
+    <value>Select fields</value>
+  </data>
+  <data name="statsExplain3.Text" xml:space="preserve">
+    <value>Press the button "Calculate". The following are displayed:</value>
+  </data>
+  <data name="statsExplain3a.Text" xml:space="preserve">
+    <value>Select fields</value>
+  </data>
+  <data name="statsExplain3b.Text" xml:space="preserve">
+    <value>Text fields: count of distinct values, minimum, maximum</value>
+  </data>
+  <data name="statsBack.Text" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="statsPrint.Text" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="cancelFeatureChangesBtn.Text" xml:space="preserve">
+    <value>Cancel changes</value>
+  </data>
+  <data name="deleteFeatureBtn.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="editFeatureBtn.Text" xml:space="preserve">
+    <value>Editing</value>
+  </data>
+  <data name="infoFieldsLabel.Text" xml:space="preserve">
+    <value>INFORMATION</value>
+  </data>
+  <data name="infoFilesLabel.Text" xml:space="preserve">
+    <value>FILES</value>
+  </data>
+  <data name="infoImagesLabel.Text" xml:space="preserve">
+    <value>IMAGES</value>
+  </data>
+  <data name="saveFeatureBtn.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="editUser_HeaderProperties.Text" xml:space="preserve">
+    <value>User data</value>
+  </data>
+</root>

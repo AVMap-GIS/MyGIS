@@ -1,0 +1,1111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnGeneralOptions.Title" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnGeneralOptions.Tooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnLoadLayout.Tooltip" xml:space="preserve">
+    <value>Ανακάλεση της διάταξης του παραθύρου</value>
+  </data>
+  <data name="btnLogin.Text" xml:space="preserve">
+    <value>ΟΚ</value>
+  </data>
+  <data name="btnRestoreLayout.Tooltip" xml:space="preserve">
+    <value>Επαναφορά της προκαθορισμένης διάταξης</value>
+  </data>
+  <data name="btnSaveLayout.Tooltip" xml:space="preserve">
+    <value>Αποθήκευση της διάταξης του παραθύρου</value>
+  </data>
+  <data name="common_Back.Text" xml:space="preserve">
+    <value>Πίσω</value>
+  </data>
+  <data name="common_Go.Text" xml:space="preserve">
+    <value>ΟΚ!</value>
+  </data>
+  <data name="common_in.Text" xml:space="preserve">
+    <value>σε</value>
+  </data>
+  <data name="coverNeedsContent.Text" xml:space="preserve">
+    <value>&lt;p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'&gt;&lt;b&gt;&lt;span lang=EN-US style='font-size:24.0pt;font-family:"Times New Roman","serif";mso-fareast-language:EL'&gt;All your work safe and private.&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'&gt;&lt;span lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman","serif";mso-fareast-language:EL'&gt;MyGIS has developed special algorithm and database infrastructure to guarantee security and privacy. &lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'&gt;&lt;span lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman","serif";mso-fareast-language:EL'&gt;Most users fear of accidental loss of data. MyGIS ensures data integrity and versioning. This means that even if you delete or change a data layer, there is always instant roll-back. &lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'&gt;&lt;span lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman","serif";mso-fareast-language:EL'&gt;Developing data layers for public use, or using sensitive personal/corporate information, you MyGIS offers you easy and efficient control on what you keep off-site, what you share with certain users and what you share with the public.&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="helpBtn.Text" xml:space="preserve">
+    <value>Βοήθεια</value>
+  </data>
+  <data name="inboxBtn.Text" xml:space="preserve">
+    <value>Γραμματοκιβώτιο</value>
+  </data>
+  <data name="lblPassword.Text" xml:space="preserve">
+    <value>Κωδικός:</value>
+  </data>
+  <data name="lblSaveAsk.Text" xml:space="preserve">
+    <value>Ο χάρτης περιέχει:</value>
+  </data>
+  <data name="lblUsername.Text" xml:space="preserve">
+    <value>Όνομα:</value>
+  </data>
+  <data name="linkCompany1.Text" xml:space="preserve">
+    <value>Γεωπληροφορική</value>
+  </data>
+  <data name="linkCompany2.Text" xml:space="preserve">
+    <value>Πληροφορική</value>
+  </data>
+  <data name="linkCompany3.Text" xml:space="preserve">
+    <value>Περιβάλλον-Ενέργεια</value>
+  </data>
+  <data name="linkCompany4.Text" xml:space="preserve">
+    <value>Media-Προβολή</value>
+  </data>
+  <data name="linkCompany5.Text" xml:space="preserve">
+    <value>Χρηματοδοτήσεις</value>
+  </data>
+  <data name="linkCompany6.Text" xml:space="preserve">
+    <value>Real Estate</value>
+  </data>
+  <data name="linkCompany7.Text" xml:space="preserve">
+    <value>E-shop</value>
+  </data>
+  <data name="linkCompany8.Text" xml:space="preserve">
+    <value>Job2day</value>
+  </data>
+  <data name="linkCompany9.Text" xml:space="preserve">
+    <value>E-class</value>
+  </data>
+  <data name="linkDigitizer.Text" xml:space="preserve">
+    <value>MyGIS</value>
+  </data>
+  <data name="loginBtn.Text" xml:space="preserve">
+    <value>Είσοδος</value>
+  </data>
+  <data name="loginHeader.Text" xml:space="preserve">
+    <value>Είσοδος</value>
+  </data>
+  <data name="logoutBtn.Text" xml:space="preserve">
+    <value>Έξοδος</value>
+  </data>
+  <data name="mapActionsBtn.Text" xml:space="preserve">
+    <value>ΕΝΕΡΓΕΙΕΣ</value>
+  </data>
+  <data name="mapAction_Layers.Text" xml:space="preserve">
+    <value>Επίπεδα</value>
+  </data>
+  <data name="mapAction_Tables.Text" xml:space="preserve">
+    <value>Πίνακες</value>
+  </data>
+  <data name="mapAction_Tools.Text" xml:space="preserve">
+    <value>ΨΗΦΙΟΠΟΙΗΣΗ</value>
+  </data>
+  <data name="mapLabel.Text" xml:space="preserve">
+    <value>O χάρτης μου</value>
+  </data>
+  <data name="mapNewBtn.Text" xml:space="preserve">
+    <value>ΝΕΟΣ ΧΑΡΤΗΣ</value>
+  </data>
+  <data name="mapPrintBtn.Text" xml:space="preserve">
+    <value>ΕΚΤΥΠΩΣΗ</value>
+  </data>
+  <data name="mapSaveBtn.Text" xml:space="preserve">
+    <value>ΑΠΟΘΗΚΕΥΣΗ</value>
+  </data>
+  <data name="mapSendBtn.Text" xml:space="preserve">
+    <value>ΑΠΟΣΤΟΛΗ</value>
+  </data>
+  <data name="menuProfile_AccountInfo.Text" xml:space="preserve">
+    <value>Λογαριασμός</value>
+  </data>
+  <data name="menuProfile_CompanyInfo.Text" xml:space="preserve">
+    <value>Εταιρικές πληροφορίες</value>
+  </data>
+  <data name="menuProfile_Login.Text" xml:space="preserve">
+    <value>Είσοδος</value>
+  </data>
+  <data name="menuProfile_LookFeel.Text" xml:space="preserve">
+    <value>Διεπαφή</value>
+  </data>
+  <data name="menuProfile_PersonalInfo.Text" xml:space="preserve">
+    <value>Προσωπ. πληροφορίες</value>
+  </data>
+  <data name="menuSave_Exit.Text" xml:space="preserve">
+    <value>Έξοδος</value>
+  </data>
+  <data name="menuSave_Logout.Text" xml:space="preserve">
+    <value>Αποσύνδεση</value>
+  </data>
+  <data name="menuSave_Save.Text" xml:space="preserve">
+    <value>Αποθήκευσε</value>
+  </data>
+  <data name="menuStart_BuyData.Text" xml:space="preserve">
+    <value>Αγοράζω δεδομένα</value>
+  </data>
+  <data name="menuStart_MyLibrary.Text" xml:space="preserve">
+    <value>Η βιβλιοθήκη μου</value>
+  </data>
+  <data name="menuStart_MyProfile.Text" xml:space="preserve">
+    <value>Το προφίλ μου</value>
+  </data>
+  <data name="menuStart_MyShop.Text" xml:space="preserve">
+    <value>Το μαγαζί μου</value>
+  </data>
+  <data name="menuStart_RequestData.Text" xml:space="preserve">
+    <value>Ζητώ δεδομένα</value>
+  </data>
+  <data name="menuStart_WhatIs.Text" xml:space="preserve">
+    <value>Τι είναι το MyGIS</value>
+  </data>
+  <data name="promptLanguage.Text" xml:space="preserve">
+    <value>Use MyGIS in English</value>
+  </data>
+  <data name="registerBtn.Text" xml:space="preserve">
+    <value>Εγγραφή</value>
+  </data>
+  <data name="saveAndClose.Title" xml:space="preserve">
+    <value />
+  </data>
+  <data name="searchBoxBtn.Text" xml:space="preserve">
+    <value>Αναζήτηση</value>
+  </data>
+  <data name="searchTerm.EmptyMessage" xml:space="preserve">
+    <value>αναζήτηση</value>
+  </data>
+  <data name="slogan.Text" xml:space="preserve">
+    <value>Η χαρτογράφηση μόλις έγινε ευκολότερη</value>
+  </data>
+  <data name="supportMenu.Text" xml:space="preserve">
+    <value>Σχετικά με το site</value>
+  </data>
+  <data name="titleLabelLayers.Text" xml:space="preserve">
+    <value>επίπεδo</value>
+  </data>
+  <data name="titleLabelMarkers.Text" xml:space="preserve">
+    <value>σημεία</value>
+  </data>
+  <data name="titleLabelPolygons.Text" xml:space="preserve">
+    <value>πολύγωνα</value>
+  </data>
+  <data name="titleLabelPolylines.Text" xml:space="preserve">
+    <value>γραμμές</value>
+  </data>
+  <data name="titleLabelSize.Text" xml:space="preserve">
+    <value>Εκτιμώμενο μέγεθος KML:</value>
+  </data>
+  <data name="triggerLayers.Text" xml:space="preserve">
+    <value>Επίπεδα Χάρτη</value>
+  </data>
+  <data name="txtDatabase.Title" xml:space="preserve">
+    <value>Σύντομα κοντά σας</value>
+  </data>
+  <data name="txtMap.Title" xml:space="preserve">
+    <value>Χάρτης</value>
+  </data>
+  <data name="txtShareIt.Title" xml:space="preserve">
+    <value>Σύντομα κοντά σας</value>
+  </data>
+  <data name="txtSupport.Title" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWhatIs.Title" xml:space="preserve">
+    <value>Ξεκινώντας</value>
+  </data>
+  <data name="welcomeHeader.Text" xml:space="preserve">
+    <value>Εισαγωγή</value>
+  </data>
+  <data name="welcomeUser.Text" xml:space="preserve">
+    <value>Καλώς ήρθες</value>
+  </data>
+  <data name="whatIsContent.Text" xml:space="preserve">
+    <value>&lt;p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'&gt;&lt;b&gt;&lt;span&gt;Η χαρτογράφηση μόλις έγινε πιο εύκολη&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'&gt;&lt;span&gt;Το &lt;/span&gt;&lt;b&gt;&lt;span&gt;MyGIS&lt;/span&gt;&lt;/b&gt;&lt;span&gt; είναι βασικά το &lt;b&gt;δικό σας GIS&lt;/b&gt;. Είναι μια δωρεάν υπηρεσία που σας επιτρέπει να προβάλλετε όλα σας τα δεδομένα στον χάρτη. Αυτό σημαίνει πως οποιαδήποτε πηγή πληροφορία (πχ βάσεις πελατών, σχέδια πόλεως, ακόμα και κινούμενα οχήματα) μπορούν να γεωκωδικοποιηθούν και να σχεδιαστούν στον χάρτη σας. Επιπλέον πληροφορίες όπως φωτογραφίες, βίντεο μπορούν επίσης να γεωαναφερθούν και να συμπεριληφθούν στους χάρτες σας. Αυτό σημαίνει ότι έχετε άμεση πρόσβαση στο χαρτοφυλάκιό σας, οποτεδήποτε, οπουδήποτε. &lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'&gt;&lt;span&gt;Επιπλέον, το MyGIS επιτρέπει τον εύκολο διαμοιρασμό δεδομένων με άλλους, είτε είστε μαθητής,επαγγελματίας,δημόσιος λειτουργός ή πολίτης. Μπορείτε να πλοηγηθείτε ανάμεσα σε χιλιάδες επίπεδα πληροφοριών που έχουν διαμοιραστεί από άλλους, να διαλέξετε ανάλογα με τις ανάγκες σας και να φτιάξετε τον χάρτη σας σε λίγα λεπτά. Από την άλλη, μπορείτε να παράγετε επίπεδα δεδομένων και να αποφασίσετε να τα μοιραστείτε με άλλους δωρεάν, ή να βγάλετε κέρδος εφαρμόζοντας κάποια λογική τιμή.&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="wizardGreet.Text" xml:space="preserve">
+    <value>Υπό κατασκευή</value>
+  </data>
+  <data name="wizardHeader.Text" xml:space="preserve">
+    <value>Οδηγίες βήμα-βήμα</value>
+  </data>
+  <data name="forgotPassword.Text" xml:space="preserve">
+    <value>Ξέχασα τον κωδικό μου</value>
+  </data>
+  <data name="RememberMe.Text" xml:space="preserve">
+    <value>Να με θυμάσαι</value>
+  </data>
+  <data name="loginTitle.Text" xml:space="preserve">
+    <value>Καλώς ήρθατε</value>
+  </data>
+  <data name="reg_confirmpassword.Label" xml:space="preserve">
+    <value>Επιβεβαίωση κωδ.</value>
+  </data>
+  <data name="reg_displayname.EmptyMessage" xml:space="preserve">
+    <value>Όνομα που θα εμφανίζεται</value>
+  </data>
+  <data name="reg_displayname.Label" xml:space="preserve">
+    <value>Όνομα εμφάνισης</value>
+  </data>
+  <data name="reg_email.EmptyMessage" xml:space="preserve">
+    <value>Το email σας</value>
+  </data>
+  <data name="reg_email.Label" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="reg_name.EmptyMessage" xml:space="preserve">
+    <value>Το όνομά σας</value>
+  </data>
+  <data name="reg_name.Label" xml:space="preserve">
+    <value>Όνομα</value>
+  </data>
+  <data name="reg_password.Label" xml:space="preserve">
+    <value>Κωδικός</value>
+  </data>
+  <data name="reg_surname.EmptyMessage" xml:space="preserve">
+    <value>Το επώνυμό σας</value>
+  </data>
+  <data name="reg_surname.Label" xml:space="preserve">
+    <value>Επώνυμο</value>
+  </data>
+  <data name="reg_username.EmptyMessage" xml:space="preserve">
+    <value>Το όνομα χρήστη</value>
+  </data>
+  <data name="reg_username.Label" xml:space="preserve">
+    <value>Όνομα χρήστη</value>
+  </data>
+  <data name="ValidatorRequired.ErrorMessage" xml:space="preserve">
+    <value>Το πεδίο είναι υποχρεωτικό!</value>
+  </data>
+  <data name="adminBtn.Text" xml:space="preserve">
+    <value>Διαχείριση της εφαρμογής</value>
+  </data>
+  <data name="menuStart_Domain.Text" xml:space="preserve">
+    <value>Καλώς ήρθατε</value>
+  </data>
+  <data name="common_Edit.Text" xml:space="preserve">
+    <value>Επεξεργασία</value>
+  </data>
+  <data name="flashPlayerError.Text" xml:space="preserve">
+    <value>Χρειάζεστε Flash Player 8 και ενεργοποιημένη Javascript για να δείτε αυτό το βίντεο.</value>
+  </data>
+  <data name="loginCmdBtn.Text" xml:space="preserve">
+    <value>ΕΙΣΟΔΟΣ</value>
+  </data>
+  <data name="login_password.Label" xml:space="preserve">
+    <value>Κωδικός</value>
+  </data>
+  <data name="login_username.Label" xml:space="preserve">
+    <value>Όνομα χρήστη</value>
+  </data>
+  <data name="reg_intro_Title.Text" xml:space="preserve">
+    <value>Εγγραφή νέου χρήστη</value>
+  </data>
+  <data name="watchVideoPrompt.Text" xml:space="preserve">
+    <value>Δείτε το βίντεο</value>
+  </data>
+  <data name="styleLinePreview.Text" xml:space="preserve">
+    <value>Προεπισκόπηση</value>
+  </data>
+  <data name="styleLineStrokeColor.Text" xml:space="preserve">
+    <value>Χρώμα:</value>
+  </data>
+  <data name="styleLineStrokeOpacity.Text" xml:space="preserve">
+    <value>Αδιαφάνεια:</value>
+  </data>
+  <data name="styleLineStrokeWeight.Text" xml:space="preserve">
+    <value>Πάχος:</value>
+  </data>
+  <data name="styleMarkerApplyAll.Text" xml:space="preserve">
+    <value>Εφαρμογή σε όλα</value>
+  </data>
+  <data name="styleMarkerApplySelected.Text" xml:space="preserve">
+    <value>Εφαρμογή σε επιλεγμένα</value>
+  </data>
+  <data name="styleMarkerIcon.Text" xml:space="preserve">
+    <value>Εικονίδιο:</value>
+  </data>
+  <data name="styleMarkerSize.Text" xml:space="preserve">
+    <value>Μέγεθος:</value>
+  </data>
+  <data name="stylePolygonFillColor.Text" xml:space="preserve">
+    <value>Χρώμα:</value>
+  </data>
+  <data name="stylePolygonFillOpacity.Text" xml:space="preserve">
+    <value>Αδιαφάνεια:</value>
+  </data>
+  <data name="stylePolygonPreview.Text" xml:space="preserve">
+    <value>Προεπισκόπιση</value>
+  </data>
+  <data name="stylePolygonStrokeColor.Text" xml:space="preserve">
+    <value>Χρώμα:</value>
+  </data>
+  <data name="stylePolygonStrokeOpacity.Text" xml:space="preserve">
+    <value>Αδιαφάνεια:</value>
+  </data>
+  <data name="stylePolygonStrokeWeight.Text" xml:space="preserve">
+    <value>Πάχος:</value>
+  </data>
+  <data name="currentMapLabel.Text" xml:space="preserve">
+    <value>Τρέχων χάρτης:</value>
+  </data>
+  <data name="layerControlPanelTitle.Text" xml:space="preserve">
+    <value>Επίπεδα</value>
+  </data>
+  <data name="mapAction_Maps.Text" xml:space="preserve">
+    <value>Χάρτες</value>
+  </data>
+  <data name="mapsPanelTitle.Text" xml:space="preserve">
+    <value>Χάρτες</value>
+  </data>
+  <data name="rotateBackBtn.Text" xml:space="preserve">
+    <value>Προηγούμενο</value>
+  </data>
+  <data name="rotateForwardBtn.Text" xml:space="preserve">
+    <value>Επόμενο</value>
+  </data>
+  <data name="layerShortDescription.Text" xml:space="preserve">
+    <value>Περιγραφή:</value>
+  </data>
+  <data name="mapLayerCount.Text" xml:space="preserve">
+    <value>Αριθμός επιπέδων</value>
+  </data>
+  <data name="mapShortDescription.Text" xml:space="preserve">
+    <value>Περιγραφή:</value>
+  </data>
+  <data name="mapExportBtn.Text" xml:space="preserve">
+    <value>ΕΞΑΓΩΓΗ</value>
+  </data>
+  <data name="mapSelectBtn.Text" xml:space="preserve">
+    <value>ΕΠΙΛΟΓΗ</value>
+  </data>
+  <data name="infoLeftTitle.Text" xml:space="preserve">
+    <value>Επίπεδα</value>
+  </data>
+  <data name="infoRightTitle.Text" xml:space="preserve">
+    <value>Αντικείμενα</value>
+  </data>
+  <data name="mapActions_General.Text" xml:space="preserve">
+    <value>ΠΛΟΗΓΗΣΗ</value>
+  </data>
+  <data name="permaElem.Text" xml:space="preserve">
+    <value>Σύνδεσμος</value>
+  </data>
+  <data name="mapActions_Overview.Text" xml:space="preserve">
+    <value>ΕΠΙΣΚΟΠΗΣΗ</value>
+  </data>
+  <data name="menuAct_Maps.Text" xml:space="preserve">
+    <value>ΟΙ ΧΑΡΤΕΣ ΜΟΥ</value>
+  </data>
+  <data name="menuAct_menu.Text" xml:space="preserve">
+    <value>ΞΕΚΙΝΕΙΣΤΕ</value>
+  </data>
+  <data name="menuAct_tools.Text" xml:space="preserve">
+    <value>ΕΡΓΑΛΕΙΑ</value>
+  </data>
+  <data name="menuAct_Export.Text" xml:space="preserve">
+    <value>ΕΞΑΓΩΓΗ</value>
+  </data>
+  <data name="menuAct_Send.Text" xml:space="preserve">
+    <value>ΑΠΟΣΤΟΛΗ</value>
+  </data>
+  <data name="northText.Text" xml:space="preserve">
+    <value>Β</value>
+  </data>
+  <data name="northTextTip.Title" xml:space="preserve">
+    <value>Βορράς</value>
+  </data>
+  <data name="saveAsLegend.Text" xml:space="preserve">
+    <value>Το υπόμνημα του χάρτη:</value>
+  </data>
+  <data name="saveAsPermalink.Text" xml:space="preserve">
+    <value>Μπορείτε να επανέρθετε σε αυτό τον χάρτη μέσω αυτού του συνδέσμου:</value>
+  </data>
+  <data name="searchDatabaseTitle.Text" xml:space="preserve">
+    <value>ΑΝΑΖΗΤΗΣΕΙΣ</value>
+  </data>
+  <data name="sqlMOD_AND.Text" xml:space="preserve">
+    <value>και</value>
+  </data>
+  <data name="sqlMOD_NOT.Text" xml:space="preserve">
+    <value>και όχι</value>
+  </data>
+  <data name="sqlMOD_OR.Text" xml:space="preserve">
+    <value>ή και</value>
+  </data>
+  <data name="sqlMOD_XOR.Text" xml:space="preserve">
+    <value>ή</value>
+  </data>
+  <data name="sqlOP_EQ.Text" xml:space="preserve">
+    <value>ΙΣΟ ΜΕ</value>
+  </data>
+  <data name="sqlOP_GEQ.Text" xml:space="preserve">
+    <value>ΜΕΓΑΛΥΤΕΡΟ 'Η ΙΣΟ ΜΕ</value>
+  </data>
+  <data name="sqlOP_GT.Text" xml:space="preserve">
+    <value>ΜΕΓΑΛΥΤΕΡΟ ΑΠΟ</value>
+  </data>
+  <data name="sqlOP_LEQ.Text" xml:space="preserve">
+    <value>ΜΙΚΡΟΤΕΡΟ Ή ΙΣΟ ΜΕ</value>
+  </data>
+  <data name="sqlOP_LIKE.Text" xml:space="preserve">
+    <value>ΠΕΡΙΠΟΥ ΣΑΝ</value>
+  </data>
+  <data name="sqlOP_LT.Text" xml:space="preserve">
+    <value>ΜΙΚΡΟΤΕΡΟ ΑΠΟ</value>
+  </data>
+  <data name="sqlOP_NEQ.Text" xml:space="preserve">
+    <value>ΔΙΑΦΟΡΟ ΤΟΥ</value>
+  </data>
+  <data name="sqlMOD_AND_TIP.Title" xml:space="preserve">
+    <value>Τα Α και Β πρέπει να ισχύουν ταυτόχρονα</value>
+  </data>
+  <data name="sqlMOD_NOT_TIP.Title" xml:space="preserve">
+    <value>Πρέπει να ισχύει το Α και όχι το Β</value>
+  </data>
+  <data name="sqlMOD_OR_TIP.Title" xml:space="preserve">
+    <value>Είτε το Α, είτε το Β, είτε και τα δύο.</value>
+  </data>
+  <data name="sqlMOD_XOR_TIP.Title" xml:space="preserve">
+    <value>Είτε το Α, είτε το Β, αλλά όχι και τα δύο.</value>
+  </data>
+  <data name="qBuilderBtnConfirm.Text" xml:space="preserve">
+    <value>Επιβεβαίωση;</value>
+  </data>
+  <data name="qBuilderBtnGo.Text" xml:space="preserve">
+    <value>Αναζήτηση</value>
+  </data>
+  <data name="qBuilderBtnReset.Text" xml:space="preserve">
+    <value>Επαναφορά</value>
+  </data>
+  <data name="qBuilderDescription.Text" xml:space="preserve">
+    <value>Περιγραφή</value>
+  </data>
+  <data name="qBuilderName.Text" xml:space="preserve">
+    <value>Φιλικό όνομα</value>
+  </data>
+  <data name="resultsPanelTitle.Text" xml:space="preserve">
+    <value>Αναζήτηση</value>
+  </data>
+  <data name="historyResults.Text" xml:space="preserve">
+    <value>Ιστορικό</value>
+  </data>
+  <data name="layerGroup1.Text" xml:space="preserve">
+    <value>επίπεδο</value>
+  </data>
+  <data name="layerGroup2.Text" xml:space="preserve">
+    <value>τύπο</value>
+  </data>
+  <data name="scaleLabel.Text" xml:space="preserve">
+    <value>Κλίμακα</value>
+  </data>
+  <data name="labelHorizontal.Text" xml:space="preserve">
+    <value>ΔΙΑΤΑΞΗ 1</value>
+  </data>
+  <data name="labelVertical.Text" xml:space="preserve">
+    <value>ΔΙΑΤΑΞΗ 2</value>
+  </data>
+  <data name="mapCloseDialog.Text" xml:space="preserve">
+    <value>Ακύρωση</value>
+  </data>
+  <data name="mapCreatedDate.Text" xml:space="preserve">
+    <value>Ημ. δημιουργίας</value>
+  </data>
+  <data name="mapDeveloper.Text" xml:space="preserve">
+    <value>Αναπτύχθηκε από</value>
+  </data>
+  <data name="mapLoadBtn.Text" xml:space="preserve">
+    <value>Φόρτωση</value>
+  </data>
+  <data name="mapOwner.Text" xml:space="preserve">
+    <value>Ιδιοκτήτης</value>
+  </data>
+  <data name="mapsPanelTabTitle.Text" xml:space="preserve">
+    <value>Διαθέσιμοι χάρτες εφαρμογής</value>
+  </data>
+  <data name="mapsPropertyTitle.Text" xml:space="preserve">
+    <value>Ιδιότητες</value>
+  </data>
+  <data name="mapUpdateDate.Text" xml:space="preserve">
+    <value>Ημ. ενημέρωσης</value>
+  </data>
+  <data name="menuAct_Save.Text" xml:space="preserve">
+    <value>ΑΠΟΘΗΚΕΥΣΗ</value>
+  </data>
+  <data name="btnCreateNewMap.Text" xml:space="preserve">
+    <value>Νέος</value>
+  </data>
+  <data name="btnRemoveSelectedMap.Text" xml:space="preserve">
+    <value>Διαγραφή</value>
+  </data>
+  <data name="btnShowInfoOnEdit.Title" xml:space="preserve">
+    <value>Εμφάνιση πεδίων</value>
+  </data>
+  <data name="layerGroup3.Text" xml:space="preserve">
+    <value>ομάδα</value>
+  </data>
+  <data name="LayerGroupPrompt.Text" xml:space="preserve">
+    <value>Προβολή ανά</value>
+  </data>
+  <data name="menuAct_buildGraph.Text" xml:space="preserve">
+    <value>ΓΡΑΦΗΜΑΤΑ</value>
+  </data>
+  <data name="lp_Clone1.Text" xml:space="preserve">
+    <value>Δομή &amp; δεδομένα</value>
+  </data>
+  <data name="lp_Clone2.Text" xml:space="preserve">
+    <value>Μόνο δομή</value>
+  </data>
+  <data name="lp_CloneTitle.Text" xml:space="preserve">
+    <value>Αντιγραφή</value>
+  </data>
+  <data name="lp_DescriptionTitle.Text" xml:space="preserve">
+    <value>Περιγραφή</value>
+  </data>
+  <data name="lp_Down.Text" xml:space="preserve">
+    <value>κάτω</value>
+  </data>
+  <data name="lp_GroupTitle.Text" xml:space="preserve">
+    <value>Όρος ομαδοποίησης</value>
+  </data>
+  <data name="lp_KeywordsTitle.Text" xml:space="preserve">
+    <value>Λέξεις κλειδιά</value>
+  </data>
+  <data name="lp_LabelsFields.Text" xml:space="preserve">
+    <value>Από πεδίο</value>
+  </data>
+  <data name="lp_LabelsTitle.Text" xml:space="preserve">
+    <value>Ετικέτες</value>
+  </data>
+  <data name="lp_moveLayerTitle2.Text" xml:space="preserve">
+    <value>βήματα</value>
+  </data>
+  <data name="lp_MoveTitle.Text" xml:space="preserve">
+    <value>Μετακίνηση </value>
+  </data>
+  <data name="lp_moveUp.Text" xml:space="preserve">
+    <value>πάνω</value>
+  </data>
+  <data name="lp_VisibleTitle.Text" xml:space="preserve">
+    <value>Ορατό σε εύρος κλίμακας</value>
+  </data>
+  <data name="lp_WindowTitle.Text" xml:space="preserve">
+    <value>Ιδιότητες επιπέδου</value>
+  </data>
+  <data name="tl_DeleteTip.Title" xml:space="preserve">
+    <value>Αφαίρεση από χάρτη</value>
+  </data>
+  <data name="tl_EditableTip.Title" xml:space="preserve">
+    <value>Επεξεργασία</value>
+  </data>
+  <data name="tl_SelectableTip.Title" xml:space="preserve">
+    <value>Επιλεξιμότητα</value>
+  </data>
+  <data name="tl_StructureTip.Title" xml:space="preserve">
+    <value>Αλλαγή δομής</value>
+  </data>
+  <data name="tl_VisibleTip.Title" xml:space="preserve">
+    <value>Ορατότητα</value>
+  </data>
+  <data name="tl_ZoomTip.Title" xml:space="preserve">
+    <value>Μεγέθυνση στο extent</value>
+  </data>
+  <data name="confirmBoxPrompt.Text" xml:space="preserve">
+    <value>Πρόκειται να</value>
+  </data>
+  <data name="loginCancelBtn.Text" xml:space="preserve">
+    <value>ΑΚΥΡΩΣΗ</value>
+  </data>
+  <data name="menuAct_buildSim.Text" xml:space="preserve">
+    <value>ΠΡΟΣΟΜΟΙΩΣΕΙΣ</value>
+  </data>
+  <data name="chartResults.Text" xml:space="preserve">
+    <value>Γραφήματα</value>
+  </data>
+  <data name="simulationResults.Text" xml:space="preserve">
+    <value>Προσομοιώσεις</value>
+  </data>
+  <data name="lp_LayerTransparency.Text" xml:space="preserve">
+    <value>Διαφάνεια</value>
+  </data>
+  <data name="btnAddLayer.Text" xml:space="preserve">
+    <value>Προσθήκη</value>
+  </data>
+  <data name="btnAddSearch.Text" xml:space="preserve">
+    <value>Νέα</value>
+  </data>
+  <data name="coolBtnOff.Text" xml:space="preserve">
+    <value>Οχι</value>
+  </data>
+  <data name="coolBtnOn.Text" xml:space="preserve">
+    <value>Ναι</value>
+  </data>
+  <data name="help_mode_AddSelect.Title" xml:space="preserve">
+    <value>Προσθέτει στην τρέχουσα επιλογή</value>
+  </data>
+  <data name="help_mode_EditableInfo.Title" xml:space="preserve">
+    <value>Ενεργοποιήστε το για να περνάτε δεδομένα κατά την ψηφιοποίηση</value>
+  </data>
+  <data name="help_mode_Grouping.Title" xml:space="preserve">
+    <value>Με την ομαδοποίηση όλα τα αντικείμενα που ψηφιοποιείτε έχουν τα ίδια στοιχεία βάσης</value>
+  </data>
+  <data name="help_mode_InfoSelect.Title" xml:space="preserve">
+    <value />
+  </data>
+  <data name="help_mode_InfoStore.Title" xml:space="preserve">
+    <value>Αποθηκεύει την επιλογή στις αναζητήσεις</value>
+  </data>
+  <data name="help_mode_ResultsList.Title" xml:space="preserve">
+    <value>Αν είναι απενεργοποιημένο, τα αποτελέσματα εμφανίζονται σε καρτέλες</value>
+  </data>
+  <data name="help_mode_ResultsOnHover.Title" xml:space="preserve">
+    <value>Εάν έχει γίνει επιλογή από τον χάρτη, επιλέγονται τα αποτελέσματα με απλό mouse over, αλλιώς πρέπει να κάνετε κλικ.</value>
+  </data>
+  <data name="help_mode_SubtractSelect.Title" xml:space="preserve">
+    <value>Αφαιρεί από την τρέχουσα επιλογή</value>
+  </data>
+  <data name="help_mode_TopSelect.Title" xml:space="preserve">
+    <value>Επιστρέφει μόνο τα αντικείμενα στην κορυφή</value>
+  </data>
+  <data name="mapRadioSource1.Text" xml:space="preserve">
+    <value>Εφαρμογής</value>
+  </data>
+  <data name="mapRadioSource2.Text" xml:space="preserve">
+    <value>Οι δικοί μου</value>
+  </data>
+  <data name="mapRadioSource3.Text" xml:space="preserve">
+    <value>Ελεύθεροι</value>
+  </data>
+  <data name="mapRadioSourcePrompt.Text" xml:space="preserve">
+    <value>Διαθέσιμοι χάρτες</value>
+  </data>
+  <data name="btnExtractCurrentMap.Text" xml:space="preserve">
+    <value>Εξαγωγή</value>
+  </data>
+  <data name="drawer_EditAdd.Text" xml:space="preserve">
+    <value>Προσθήκη</value>
+  </data>
+  <data name="drawer_EditCopy.Text" xml:space="preserve">
+    <value>Αντιγραφή</value>
+  </data>
+  <data name="drawer_EditDelete.Text" xml:space="preserve">
+    <value>Διαγραφή</value>
+  </data>
+  <data name="drawer_EditPaste.Text" xml:space="preserve">
+    <value>Επικόλληση</value>
+  </data>
+  <data name="drawer_EditPosition.Text" xml:space="preserve">
+    <value>Θέση</value>
+  </data>
+  <data name="drawer_EditRemove.Text" xml:space="preserve">
+    <value>Αφαίρεση</value>
+  </data>
+  <data name="drawer_EditRotation.Text" xml:space="preserve">
+    <value>Γωνία</value>
+  </data>
+  <data name="drawer_EditShape.Text" xml:space="preserve">
+    <value>Σχήμα</value>
+  </data>
+  <data name="drawer_EditSize.Text" xml:space="preserve">
+    <value>Μέγεθος</value>
+  </data>
+  <data name="drawer_SelectInfo.Text" xml:space="preserve">
+    <value>Πληροφορίες</value>
+  </data>
+  <data name="drawer_SelectRecord.Text" xml:space="preserve">
+    <value>Καταγραφή</value>
+  </data>
+  <data name="drawer_SelectTop.Text" xml:space="preserve">
+    <value>Από 1ο επίπ.</value>
+  </data>
+  <data name="resultsModeDynamic.Text" xml:space="preserve">
+    <value>Προεπισκόπηση με mouseover</value>
+  </data>
+  <data name="resultsModeList.Text" xml:space="preserve">
+    <value>Αποτελέσματα σε λίστα</value>
+  </data>
+  <data name="mapControlPanelTitle.Text" xml:space="preserve">
+    <value>Περισσότεροι χάρτες</value>
+  </data>
+  <data name="edit_buttonCancel.Text" xml:space="preserve">
+    <value>ΑΚΥΡΩΣΗ</value>
+  </data>
+  <data name="edit_buttonClear.Text" xml:space="preserve">
+    <value>ΚΑΘΑΡΙΣΜΟΣ</value>
+  </data>
+  <data name="edit_buttonUpdate.Text" xml:space="preserve">
+    <value>ΕΝΗΜΕΡΩΣΗ</value>
+  </data>
+  <data name="edit_fieldLayer.Text" xml:space="preserve">
+    <value>Επίπεδο</value>
+  </data>
+  <data name="edit_fieldRecord.Text" xml:space="preserve">
+    <value>Εγγραφή</value>
+  </data>
+  <data name="edit_fieldTitle" xml:space="preserve">
+    <value>Τώρα επεξεργάζεστε</value>
+  </data>
+  <data name="mapActions_HotSearch.Text" xml:space="preserve">
+    <value>ΦΙΛΤΡΑΡΙΣΜΑ</value>
+  </data>
+  <data name="mapActions_HotSearch_caption.Text" xml:space="preserve">
+    <value>ΑΠΟΤΕΛΕΣΜΑΤΑ</value>
+  </data>
+  <data name="cmd_Logoff.Text" xml:space="preserve">
+    <value>Αποσύνδεση</value>
+  </data>
+  <data name="mediaManagerBtn.Text" xml:space="preserve">
+    <value>Media Manager</value>
+  </data>
+  <data name="rad_uprogress_Cancel.Text" xml:space="preserve">
+    <value>Ακύρωση</value>
+  </data>
+  <data name="rad_uprogress_CurrentFileName.Text" xml:space="preserve">
+    <value>Τρέχων αρχείο:</value>
+  </data>
+  <data name="rad_uprogress_ElapsedTime.Text" xml:space="preserve">
+    <value>Ώρα που διανύθηκε:</value>
+  </data>
+  <data name="rad_uprogress_EstimatedTime.Text" xml:space="preserve">
+    <value>Ώρα που απομένει:</value>
+  </data>
+  <data name="rad_uprogress_Header.Text" xml:space="preserve">
+    <value>Πρόοδος</value>
+  </data>
+  <data name="rad_uprogress_Total.Text" xml:space="preserve">
+    <value>Σύνολο</value>
+  </data>
+  <data name="rad_uprogress_TotalFiles.Text" xml:space="preserve">
+    <value>Συνολικά αρχεία:</value>
+  </data>
+  <data name="rad_uprogress_TransferSpeed.Text" xml:space="preserve">
+    <value>Ταχύτητα:</value>
+  </data>
+  <data name="rad_uprogress_Upload.Text" xml:space="preserve">
+    <value>Ανέβασμα αρχείου:</value>
+  </data>
+  <data name="rad_uprogress_UploadedFiles.Text" xml:space="preserve">
+    <value>Ανεβασμένα αρχεία:</value>
+  </data>
+  <data name="adminPanelBtn.Text" xml:space="preserve">
+    <value>Διαχείριση</value>
+  </data>
+  <data name="help_mode_EditableInfoLabel.Text" xml:space="preserve">
+    <value>Με δεδομένα</value>
+  </data>
+  <data name="help_mode_GroupingLabel.Text" xml:space="preserve">
+    <value>Σε ομάδα</value>
+  </data>
+  <data name="help_mode_SnappingLabel.Text" xml:space="preserve">
+    <value>Snap</value>
+  </data>
+  <data name="lp_HeaderBasic.Text" xml:space="preserve">
+    <value>ΒΑΣΙΚΑ</value>
+  </data>
+  <data name="lp_HeaderLabels.Text" xml:space="preserve">
+    <value>ΕΤΙΚΕΤΕΣ</value>
+  </data>
+  <data name="lp_HeaderMetadata.Text" xml:space="preserve">
+    <value>Μεταδεδομένα</value>
+  </data>
+  <data name="lp_HeaderStyles.Text" xml:space="preserve">
+    <value>Στυλ</value>
+  </data>
+  <data name="lp_HeaderThematic.Text" xml:space="preserve">
+    <value>ΘΕΜΑΤΙΚΟΣ</value>
+  </data>
+  <data name="pageHelp_ChangeMap.Text" xml:space="preserve">
+    <value>Χάρτες</value>
+  </data>
+  <data name="pageHelp_SearchMap.Text" xml:space="preserve">
+    <value>Αναζητήσεις</value>
+  </data>
+  <data name="pageHelp_StartHere.Text" xml:space="preserve">
+    <value>Αυτός ο χάρτης</value>
+  </data>
+  <data name="btnEditMap.Text" xml:space="preserve">
+    <value>Επεξεργασία</value>
+  </data>
+  <data name="btnLayer_Down.Text" xml:space="preserve">
+    <value>Κατέβασμα</value>
+  </data>
+  <data name="btnLayer_New.Text" xml:space="preserve">
+    <value>Νέο</value>
+  </data>
+  <data name="btnLayer_Remove.Text" xml:space="preserve">
+    <value>Αφαίρεση</value>
+  </data>
+  <data name="btnLayer_Up.Text" xml:space="preserve">
+    <value>Ανέβασμα</value>
+  </data>
+  <data name="btnRemoveSearch.Text" xml:space="preserve">
+    <value>Διαγραφή</value>
+  </data>
+  <data name="btnStartHere.Text" xml:space="preserve">
+    <value>Χάρτης</value>
+  </data>
+  <data name="listHeader_Layers.Text" xml:space="preserve">
+    <value>Επίπεδα πληροφορίας</value>
+  </data>
+  <data name="listHeader_Maps.Text" xml:space="preserve">
+    <value>Λίστα χαρτών</value>
+  </data>
+  <data name="listHeader_Search.Text" xml:space="preserve">
+    <value>Οι αναζητήσεις μου</value>
+  </data>
+  <data name="btnLayer_ZoomFull.Text" xml:space="preserve">
+    <value>Zoom fit</value>
+  </data>
+  <data name="infoAnalysisHeader.Text" xml:space="preserve">
+    <value>Φιλτράρισμα αποτελεσμάτων</value>
+  </data>
+  <data name="visibleFromLabel.Text" xml:space="preserve">
+    <value>Από</value>
+  </data>
+  <data name="visibleToLabel.Text" xml:space="preserve">
+    <value>Έως</value>
+  </data>
+  <data name="listHeader_DigitizeTools.Text" xml:space="preserve">
+    <value>Δυνατότητες ψηφιοποίησης</value>
+  </data>
+  <data name="listHeader_SelectionTools.Text" xml:space="preserve">
+    <value>Δυνατότητες επιλογής</value>
+  </data>
+  <data name="btnPlaySearch.Text" xml:space="preserve">
+    <value>Εκτέλεση</value>
+  </data>
+  <data name="editPanelTitle.Text" xml:space="preserve">
+    <value>Επεξεργασία</value>
+  </data>
+  <data name="styleManagerTabLines.Text" xml:space="preserve">
+    <value>Γραμμές</value>
+  </data>
+  <data name="styleManagerTabPoints.Text" xml:space="preserve">
+    <value>Σημεία</value>
+  </data>
+  <data name="styleManagerTabPolygons.Text" xml:space="preserve">
+    <value>Επιφάνειες</value>
+  </data>
+  <data name="styleManager_cancel.Text" xml:space="preserve">
+    <value>Ακύρωση</value>
+  </data>
+  <data name="styleManager_Common_Border.Text" xml:space="preserve">
+    <value>Περίγραμμα</value>
+  </data>
+  <data name="styleManager_Common_Color.Text" xml:space="preserve">
+    <value>Χρώμα</value>
+  </data>
+  <data name="styleManager_Common_Fill.Text" xml:space="preserve">
+    <value>Γέμισμα</value>
+  </data>
+  <data name="styleManager_Common_Opacity.Text" xml:space="preserve">
+    <value>Αδιαφάνεια</value>
+  </data>
+  <data name="styleManager_Common_Size.Text" xml:space="preserve">
+    <value>Μέγεθος</value>
+  </data>
+  <data name="styleManager_Common_Transparency.Text" xml:space="preserve">
+    <value>Διαφάνεια</value>
+  </data>
+  <data name="styleManager_pointGridColumns.Text" xml:space="preserve">
+    <value>Αρ. στηλών: </value>
+  </data>
+  <data name="styleManager_pointGridFamily.Text" xml:space="preserve">
+    <value>Τύπος</value>
+  </data>
+  <data name="styleManager_pointGridSource_CurrentMap.Text" xml:space="preserve">
+    <value>Τρέχων χάρτη</value>
+  </data>
+  <data name="styleManager_pointGridSource_Default.Text" xml:space="preserve">
+    <value>Προκαθορισμένα</value>
+  </data>
+  <data name="styleManager_pointGridSource_From.Text" xml:space="preserve">
+    <value>Από</value>
+  </data>
+  <data name="styleManager_pointGridSource_GPal2.Text" xml:space="preserve">
+    <value>Παλέτα Google 2</value>
+  </data>
+  <data name="styleManager_pointGridSource_GPal3.Text" xml:space="preserve">
+    <value>Παλέτα Google 3</value>
+  </data>
+  <data name="styleManager_pointGridSource_GPal4.Text" xml:space="preserve">
+    <value>Παλέτα Google 4</value>
+  </data>
+  <data name="styleManager_pointGridSource_GPal5.Text" xml:space="preserve">
+    <value>Παλέτα Google 5</value>
+  </data>
+  <data name="styleManager_pointGridSource_Maps.Text" xml:space="preserve">
+    <value>Χάρτες μου</value>
+  </data>
+  <data name="styleManager_pointGridSource_Uploads.Text" xml:space="preserve">
+    <value>Ανεβασμένα αρχεία</value>
+  </data>
+  <data name="styleManager_pointMode_Font.Text" xml:space="preserve">
+    <value>Γραμματοσειρά</value>
+  </data>
+  <data name="styleManager_pointMode_Icons.Text" xml:space="preserve">
+    <value>Τα εικονίδιά μου</value>
+  </data>
+  <data name="styleManager_save.Text" xml:space="preserve">
+    <value>Αποθήκευση</value>
+  </data>
+  <data name="styleManager_saveStyleAsLabel.Text" xml:space="preserve">
+    <value>Αποθήκευση ως</value>
+  </data>
+  <data name="btnSearchNew.Text" xml:space="preserve">
+    <value>Αναζήτηση για προχωρημένους</value>
+  </data>
+  <data name="cmdHelp.Text" xml:space="preserve">
+    <value>Πώς να...</value>
+  </data>
+  <data name="layerSelectionHeaderLabel.Text" xml:space="preserve">
+    <value>Επιλέγετε από:</value>
+  </data>
+  <data name="layerWithinSelectionHeaderLabel.Text" xml:space="preserve">
+    <value>Αναζήτησε</value>
+  </data>
+  <data name="showQueryStatsBtn.Text" xml:space="preserve">
+    <value>Στατιστική ανάλυση</value>
+  </data>
+  <data name="showWithinBtn.Text" xml:space="preserve">
+    <value>Αναζήτηση βάσει αποτελεσμάτων</value>
+  </data>
+  <data name="withinFunctionLabel.Text" xml:space="preserve">
+    <value>της τελευταίας επιλογής</value>
+  </data>
+  <data name="withinFunction_Contained.Text" xml:space="preserve">
+    <value>που περιέχονται εντός</value>
+  </data>
+  <data name="withinSearchGo.Text" xml:space="preserve">
+    <value>Εκτέλεση</value>
+  </data>
+  <data name="btnSearchList.Text" xml:space="preserve">
+    <value>Εμφάνιση προηγούμενων αναζητήσεων</value>
+  </data>
+  <data name="mapFeatureSearchLabel.Text" xml:space="preserve">
+    <value>Αναζήτηση εντός χάρτη</value>
+  </data>
+  <data name="applyLayersBtn.Text" xml:space="preserve">
+    <value>Εφαρμογή αλλαγών</value>
+  </data>
+  <data name="cancelLayersBtn.Text" xml:space="preserve">
+    <value>Ακύρωση</value>
+  </data>
+  <data name="dialogMinimizedContainerTitle.Text" xml:space="preserve">
+    <value>Παράθυρα πληροφορίας</value>
+  </data>
+  <data name="mapChangeBtn.Text" xml:space="preserve">
+    <value>[αλλαγή χάρτη]</value>
+  </data>
+</root>
