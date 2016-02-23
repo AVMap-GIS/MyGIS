@@ -1,0 +1,11 @@
+/*datetime input position and size*/
+
+.cal_button {
+    height: 3em;
+    margin: -1.6em 21.85em;
+}
+.jqxdatetime {
+	position: absolute;
+    margin: -1.3em 0;
+    z-index: 1;
+}
